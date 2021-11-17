@@ -38,10 +38,10 @@ aa varchar(3333),
 refid int
 );
 
-CREATE TABLE refs
+CREATE TABLE references
 (
 refid int,
-doilink varchar(100),
+doi varchar(100),
 searchid int
 );
 
