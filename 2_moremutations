@@ -1,0 +1,7 @@
+python	mutagenesis.py	-ta	AB084929	-m	S292A
+python	mutagenesis.py	-ta	AB084945	-m	S292A
+python	mutagenesis.py	-ta	AB084938	-m	A292S
+python	mutagenesis.py	-ta	AB185217	-m	N83D
+python	mutagenesis.py	-ta	AB185229	-m	N83D
+python	mutagenesis.py	-ta	AB185220	-m	N83D
+python	mutagenesis.py	-ta	AB185225	-m	D83N

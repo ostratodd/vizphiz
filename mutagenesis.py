@@ -5,7 +5,6 @@ Entrez.email = 'oakley@ucsb.edu'
 from skbio import TabularMSA
 from skbio import Protein
 from skbio.alignment import global_pairwise_align_protein
-from skbio.alignment import local_pairwise_align_ssw
 from Bio.Align import substitution_matrices
 
 ap = argparse.ArgumentParser(description='Mutagenesis changes protein sequences with mutations named in the standard way')
@@ -36,13 +35,15 @@ def getAcc(accession):
 #Fetch sequences to manipulate and align
 wt = Protein(getAcc(accession))
 bovine = Protein(getAcc(raccession))
+
+
 substitution_matrix = substitution_matrices.load("BLOSUM45")
 
 ##Simple example for testing
 #wt=Protein("MMMMMMM")
 #bovine=Protein("MMMMMMM")
 
-alignment, score, start_end_positions = local_pairwise_align_ssw(bovine, wt, substitution_matrix=substitution_matrix)
+alignment, score, start_end_positions = global_pairwise_align_protein(bovine, wt, substitution_matrix=substitution_matrix)
 dic = alignment.to_dict()
 aligned_bovine = dic[0]
 aligned_wt = dic[1]
@@ -64,6 +65,7 @@ mutated = aligned_wt #need to copy original sequence and accumulate mutations
 for mutation in mutations:
     if v == 'yes':
         print(mutation)
+        print(alignment)
 
     #check that mutation is formatted properly
     MutationRegex = re.compile(r'([A-Z])(\d+)([A-Z])')
@@ -82,9 +84,11 @@ for mutation in mutations:
     #Count gaps to not count them when finding original site to change
     gaps = aligned_bovine[:mutsite].count('-')
 
-    match = str(aligned_bovine[mutsite+gaps:mutsite+gaps+1])
+    refmatch = str(aligned_bovine[mutsite+gaps:mutsite+gaps+1])
+    match = str(aligned_wt[mutsite+gaps:mutsite+gaps+1])
     if v == 'yes':
-        print("Old AA in sequence " + match)
+        print("AA in reference sequence " + refmatch)
+        print("AA in wt sequence " + match)
         print("Old AA in mutation description " + old)
 
     if match != old :
