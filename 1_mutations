@@ -1,0 +1,21 @@
+python mutagenesis.py -ta JX103830 -m N83D -ra JX103830
+python mutagenesis.py -ta JX103830 -m T158A -ra JX103830
+python mutagenesis.py -ta JX103830 -m F169A -ra JX103830
+python mutagenesis.py -ta NM_001014890 -m D83G
+python mutagenesis.py -ta NM_001014890 -m D83N
+python mutagenesis.py -ta NM_001014890 -m M86E
+python mutagenesis.py -ta NM_001014890 -m E122Q
+python mutagenesis.py -ta NM_001014890 -m E122I
+python mutagenesis.py -ta NM_001014890 -m E134L
+python mutagenesis.py -ta NM_001014890 -m E134Q
+python mutagenesis.py -ta NM_001014890 -m R135L
+python mutagenesis.py -ta NM_001014890 -m H211C
+python mutagenesis.py -ta NM_001014890 -m H211F
+python mutagenesis.py -ta NM_001014890 -m E122I,D83G
+python mutagenesis.py -ta NM_001014890 -m E122I,M86E
+python mutagenesis.py -ta NM_001014890 -m E134L,R135L
+python mutagenesis.py -ta NM_001014890 -m E134R,R135E
+python	mutagenesis.py	-ta	NM_001014890	-m	T97S
+python	mutagenesis.py	-ta	NM_001014890	-m	F116S
+python	mutagenesis.py	-ta	NM_001014890	-m	E122M
+python	mutagenesis.py	-ta	NM_001014890	-m	A164G
