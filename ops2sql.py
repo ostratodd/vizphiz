@@ -17,8 +17,11 @@ for line in Lines:
 
     mycursor = mydb.cursor()
 
-    sql = "INSERT INTO opsins (opsinid, genefamily, genus, species, db, accession, dna, aa, refid) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
-    val = (columns[0], columns[1], columns[2], columns[3], columns[4], columns[5], columns[6], columns[7], columns[8])
+    sql = "INSERT INTO opsins (opsinid, genefamily, genenames, genus, species, db, accession, dna, aa, refid) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    val = (columns[0], columns[1], columns[2], columns[3], columns[4], columns[5], columns[6], columns[7], columns[8], columns[9])
+    print(sql)
+    print(val)
+
     mycursor.execute(sql, val)
 
     mydb.commit()

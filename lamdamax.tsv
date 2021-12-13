@@ -1,0 +1,1323 @@
+1	Acipenser	transmontanus	rod		540	540		microspectrophotometry	adult	30	
+2	Acipenser	transmontanus	cone		464	0		microspectrophotometry	adult	30	
+3	Acipenser	transmontanus	cone		531	0		microspectrophotometry	adult	30	
+4	Acipenser	transmontanus	cone		605	0		microspectrophotometry	adult	30	
+5	Acipenser	medirostris	rod		540	0		microspectrophotometry	adult	43	
+6	Acipenser	medirostris	cone	single	465	0		microspectrophotometry	adult	43	
+7	Acipenser	medirostris	cone	single	538	0		microspectrophotometry	adult	43	
+8	Acipenser	medirostris	cone	single	614	0		microspectrophotometry	adult	43	
+9	Cymatogaster	aggregata	rod		500	0		microspectrophotometry	adult	5	
+10	Cymatogaster	aggregata	cone	single	455	0		microspectrophotometry	adult	5	
+11	Cymatogaster	aggregata	cone	single	528	0		microspectrophotometry	adult	5	
+12	Cymatogaster	aggregata	cone	twin	532	0		microspectrophotometry	adult	5	
+13	Amia	calva	rod		527	0		microspectrophotometry	adult	6	
+14	Amia	calva	cone	single	457	0		microspectrophotometry	adult	6	
+15	Amia	calva	cone	single	556	0		microspectrophotometry	adult	6	
+16	Amia	calva	cone	single	624	0		microspectrophotometry	adult	6	
+17	Amia	calva	cone	double	556	0		microspectrophotometry	adult	6	
+18	Amia	calva	cone	twin	624	0		microspectrophotometry	adult	6	
+19	Gymnothorax	favagineus	rod		488	0		microspectrophotometry	adult	47	
+20	Gymnothorax	favagineus	cone	single	402	0		microspectrophotometry	adult	47	
+21	Gymnothorax	reticularis	rod		486	0		microspectrophotometry	adult	47	
+22	Gymnothorax	reticularis	cone	single	495	0		microspectrophotometry	adult	47	
+23	Rhinomuraena	quaesita	rod		498	0		microspectrophotometry	adult	47	
+24	Rhinomuraena	quaesita	cone	single	494	0		microspectrophotometry	adult	47	
+25	Strophidon	sathete	rod		487	0		microspectrophotometry	adult	47	
+26	Strophidon	sathete	cone	single	510	0		microspectrophotometry	adult	47	
+27	Atherina	boyeri	rod		511	0		microspectrophotometry	adult	18	
+28	Atherina	boyeri	cone	single	570	0		microspectrophotometry	adult	18	
+29	Atherina	boyeri	cone	double	435	0		microspectrophotometry	adult	18	
+30	Atherina	boyeri	cone	twin	530	0		microspectrophotometry	adult	18	
+31	Melanotaenia	maccullochi	rod		509	0		microspectrophotometry	adult	40	
+32	Melanotaenia	maccullochi	cone	single	377	0		microspectrophotometry	adult	40	
+33	Melanotaenia	maccullochi	cone	single	409	0		microspectrophotometry	adult	40	
+34	Melanotaenia	maccullochi	cone	single	443	0		microspectrophotometry	adult	40	
+35	Melanotaenia	maccullochi	cone	single	495	0		microspectrophotometry	adult	40	
+36	Melanotaenia	maccullochi	cone	single	528	0		microspectrophotometry	adult	40	
+37	Melanotaenia	maccullochi	cone	double	495	0		microspectrophotometry	adult	40	
+38	Melanotaenia	maccullochi	cone	double	528	0		microspectrophotometry	adult	40	
+39	Melanotaenia	maccullochi	cone	double	578	0		microspectrophotometry	adult	40	
+40	Marosatherina	ladigesi	rod		507	0		microspectrophotometry	adult	40	
+41	Marosatherina	ladigesi	cone	single	368	0		microspectrophotometry	adult	40	
+42	Marosatherina	ladigesi	cone	single	452	0		microspectrophotometry	adult	40	
+43	Marosatherina	ladigesi	cone	single	461	0		microspectrophotometry	adult	40	
+44	Marosatherina	ladigesi	cone	single	481	0		microspectrophotometry	adult	40	
+45	Marosatherina	ladigesi	cone	single	531	0		microspectrophotometry	adult	40	
+46	Marosatherina	ladigesi	cone	single	557	0		microspectrophotometry	adult	40	
+47	Marosatherina	ladigesi	cone	double	452	0		microspectrophotometry	adult	40	
+48	Marosatherina	ladigesi	cone	double	461	0		microspectrophotometry	adult	40	
+49	Marosatherina	ladigesi	cone	double	531	0		microspectrophotometry	adult	40	
+50	Marosatherina	ladigesi	cone	double	557	0		microspectrophotometry	adult	40	
+51	Synodus	variegatus	rod		493	0		microspectrophotometry	adult	32	
+52	Synodus	variegatus	cone	single	368	0		microspectrophotometry	adult	32	
+53	Synodus	variegatus	cone	double	482	0		microspectrophotometry	adult	32	
+54	Synodus	variegatus	cone	double	503	0		microspectrophotometry	adult	32	
+55	Belone	belone	rod		509	0		microspectrophotometry	adult	40	
+56	Belone	belone	cone	single	422	0		microspectrophotometry	adult	40	
+57	Belone	belone	cone	single	508	0		microspectrophotometry	adult	40	
+58	Belone	belone	cone	twin	508	0		microspectrophotometry	adult	40	
+59	Dermogenys	pusilla	rod		507	0		microspectrophotometry	adult	40	
+60	Dermogenys	pusilla	cone	single	377	0		microspectrophotometry	adult	40	
+61	Dermogenys	pusilla	cone	single	526	0		microspectrophotometry	adult	40	
+62	Dermogenys	pusilla	cone	single	572	0		microspectrophotometry	adult	40	
+63	Dermogenys	pusilla	cone	double	483	0		microspectrophotometry	adult	40	
+64	Dermogenys	pusilla	cone	double	526	0		microspectrophotometry	adult	40	
+65	Dermogenys	pusilla	cone	double	572	0		microspectrophotometry	adult	40	
+66	Dermogenys	pusilla	cone	double	545	0		microspectrophotometry	adult	40	
+67	Myripristis	berndti	rod		495	0		microspectrophotometry	adult	32	
+68	Myripristis	berndti	cone	single	467	0		microspectrophotometry	adult	32	
+69	Myripristis	berndti	cone	twin	513	0		microspectrophotometry	adult	32	
+70	Neoniphon	sammara	rod		502	0		microspectrophotometry	adult	32	
+71	Neoniphon	sammara	cone	single	448	0		microspectrophotometry	adult	32	
+72	Neoniphon	sammara	cone	double	514	0		microspectrophotometry	adult	32	
+73	Neoniphon	sammara	cone	double	506	0		microspectrophotometry	adult	32	
+74	Sargocentron	xantherythrum	rod		490	0		microspectrophotometry	adult	32	
+75	Sargocentron	xantherythrum	cone	single	446	0		microspectrophotometry	adult	32	
+76	Sargocentron	xantherythrum	cone	twin	512	0		microspectrophotometry	adult	32	
+77	Neoceratodus	forsteri	rod		540	0		microspectrophotometry	adult	19	
+78	Neoceratodus	forsteri	cone	single	479	0		microspectrophotometry	adult	19	
+79	Neoceratodus	forsteri	cone	single	558	0		microspectrophotometry	adult	19	
+80	Neoceratodus	forsteri	cone	single	623	0		microspectrophotometry	adult	19	
+81	Astyanax	fasciatus	rod		520	0		microspectrophotometry	adult	37	
+82	Astyanax	fasciatus	cone	single	449	0		microspectrophotometry	adult	37	
+83	Astyanax	fasciatus	cone	single	547	0		microspectrophotometry	adult	37	
+84	Astyanax	fasciatus	cone	single	572	0		microspectrophotometry	adult	37	
+85	Astyanax	fasciatus	cone	double	547	0		microspectrophotometry	adult	37	
+86	Astyanax	fasciatus	cone	double	572	0		microspectrophotometry	adult	37	
+87	Alosa	kessleri	rod		510	0		microspectrophotometry	adult	18	
+88	Alosa	kessleri	cone	single	509	0		microspectrophotometry	adult	18	
+89	Alosa	kessleri	cone	single	557	0		microspectrophotometry	adult	18	
+90	Alosa	kessleri	cone	double	509	0		microspectrophotometry	adult	18	
+91	Alosa	kessleri	cone	double	557	0		microspectrophotometry	adult	18	
+92	Alosa	kessleri	cone	twin	557	0		microspectrophotometry	adult	18	
+93	Clupea	pallasii	rod		501	0		microspectrophotometry	adult	5	
+94	Clupea	pallasii	cone	single	514	0		microspectrophotometry	adult	5	
+95	Clupea	pallasii	cone	double	515	0		microspectrophotometry	adult	5	
+96	Clupea	pallasii	cone	double	534	0		microspectrophotometry	adult	5	
+97	Clupea	pallasii	cone	twin	529	0		microspectrophotometry	adult	5	
+98	Sardinops	melanostictus	rod		502	0		microspectrophotometry	adult	35	
+99	Sardinops	melanostictus	cone	single	393	0		microspectrophotometry	adult	35	
+100	Sardinops	melanostictus	cone	double	493	0		microspectrophotometry	adult	35	
+101	Sardinops	melanostictus	cone	double	522	0		microspectrophotometry	adult	35	
+102	Sardinops	melanostictus	cone	double	542	0		microspectrophotometry	adult	35	
+103	Engraulis	mordax	rod		498	0		microspectrophotometry	adult	5	
+104	Engraulis	mordax	cone	single	530	0		microspectrophotometry	adult	5	
+105	Engraulis	mordax	cone	twin	532	0		microspectrophotometry	adult	5	
+106	Engraulis	encrasicolus	rod		500	0		microspectrophotometry	adult	25	
+107	Engraulis	encrasicolus	cone	single	492	0		microspectrophotometry	adult	25	
+108	Engraulis	encrasicolus	cone	single	500	0		microspectrophotometry	adult	25	
+109	Engraulis	encrasicolus	cone	triple	474	0		microspectrophotometry	adult	25	
+110	Engraulis	encrasicolus	cone	triple	500	0		microspectrophotometry	adult	25	
+111	Engraulis	japonicus	rod		502	0		microspectrophotometry	adult	25	
+112	Engraulis	japonicus	cone	single	492	0		microspectrophotometry	adult	25	
+113	Engraulis	japonicus	cone	single	502	0		microspectrophotometry	adult	25	
+114	Engraulis	japonicus	cone	triple	478	0		microspectrophotometry	adult	25	
+115	Engraulis	japonicus	cone	triple	502	0		microspectrophotometry	adult	25	
+116	Abramis	ballerus	rod		518	0		microspectrophotometry	adult	22	
+117	Abramis	ballerus	cone	single	451	0		microspectrophotometry	adult	22	
+118	Abramis	ballerus	cone	single	537	0		microspectrophotometry	adult	22	
+119	Abramis	ballerus	cone	single	620	0		microspectrophotometry	adult	22	
+120	Abramis	ballerus	cone	double	537	0		microspectrophotometry	adult	22	
+121	Abramis	ballerus	cone	double	620	0		microspectrophotometry	adult	22	
+122	Abramis	brama	rod		537	0		microspectrophotometry	adult	22	
+123	Abramis	brama	cone	single	451	0		microspectrophotometry	adult	22	
+124	Abramis	brama	cone	single	537	0		microspectrophotometry	adult	22	
+125	Abramis	brama	cone	single	620	0		microspectrophotometry	adult	22	
+126	Abramis	brama	cone	double	537	0		microspectrophotometry	adult	22	
+127	Abramis	brama	cone	double	620	0		microspectrophotometry	adult	22	
+128	Alburnus	alburnus	rod		517	0		microspectrophotometry	adult	22	
+129	Alburnus	alburnus	cone	single	440	0		microspectrophotometry	adult	22	
+130	Alburnus	alburnus	cone	single	523	0		microspectrophotometry	adult	22	
+131	Alburnus	alburnus	cone	single	571	0		microspectrophotometry	adult	22	
+132	Blicca	bjoerkna	rod		539	0		microspectrophotometry	adult	22	
+133	Blicca	bjoerkna	cone	single	444	0		microspectrophotometry	adult	22	
+134	Blicca	bjoerkna	cone	single	533	0		microspectrophotometry	adult	22	
+135	Blicca	bjoerkna	cone	single	603	0		microspectrophotometry	adult	22	
+136	Carassius	auratus	rod		521	0		microspectrophotometry	adult	3	
+137	Carassius	auratus	cone	single	360	0		microspectrophotometry	adult	3	
+138	Carassius	auratus	cone	single	452	0		microspectrophotometry	adult	3	
+139	Carassius	auratus	cone	single	532	0		microspectrophotometry	adult	3	
+140	Carassius	auratus	cone	single	614	0		microspectrophotometry	adult	3	
+141	Carassius	auratus	cone	double	532	0		microspectrophotometry	adult	3	
+142	Carassius	auratus	cone	double	614	0		microspectrophotometry	adult	3	
+143	Carassius	carassius	rod		526	0		microspectrophotometry	adult	22	
+144	Carassius	carassius	cone	single	449	0		microspectrophotometry	adult	22	
+145	Carassius	carassius	cone	single	529	0		microspectrophotometry	adult	22	
+146	Carassius	carassius	cone	single	535	0		microspectrophotometry	adult	22	
+147	Carassius	carassius	cone	single	608	0		microspectrophotometry	adult	22	
+148	Carassius	carassius	cone	twin	619	0		microspectrophotometry	adult	22	
+149	Carassius	auratus	rod		522	0		microspectrophotometry	adult	29	
+150	Carassius	auratus	cone	single	455	0		microspectrophotometry	adult	29	
+151	Carassius	auratus	cone	double	530	0		microspectrophotometry	adult	29	
+152	Carassius	auratus	cone	double	625	0		microspectrophotometry	adult	29	
+153	Scardinius	erythrophthalmus	rod		515	0		microspectrophotometry	adult	49	
+154	Scardinius	erythrophthalmus	cone	single	355	0		microspectrophotometry	adult	49	
+155	Scardinius	erythrophthalmus	cone	single	405	0		microspectrophotometry	adult	49	
+156	Scardinius	erythrophthalmus	cone	single	505	0		microspectrophotometry	adult	49	
+157	Scardinius	erythrophthalmus	cone	single	565	0		microspectrophotometry	adult	49	
+158	Scardinius	erythrophthalmus	cone	double	505	0		microspectrophotometry	adult	49	
+159	Scardinius	erythrophthalmus	cone	double	565	0		microspectrophotometry	adult	49	
+160	Tinca	tinca	rod		533	0		microspectrophotometry	adult	29	
+161	Tinca	tinca	cone	single	454	0		microspectrophotometry	adult	29	
+162	Tinca	tinca	cone	single	533	0		microspectrophotometry	adult	29	
+163	Tinca	tinca	cone	single	615	0		microspectrophotometry	adult	29	
+164	Tinca	tinca	cone	double	533	0		microspectrophotometry	adult	29	
+165	Tinca	tinca	cone	double	615	0		microspectrophotometry	adult	29	
+166	Fundulus	heteroclitus	rod		503	0		microspectrophotometry	adult	14	
+167	Fundulus	heteroclitus	cone	single	363	0		microspectrophotometry	adult	14	
+168	Fundulus	heteroclitus	cone	single	400	0		microspectrophotometry	adult	14	
+169	Fundulus	heteroclitus	cone	double	463	0		microspectrophotometry	adult	14	
+170	Fundulus	heteroclitus	cone	double	563	0		microspectrophotometry	adult	14	
+171	Fundulus	heteroclitus	cone	twin	563	0		microspectrophotometry	adult	14	
+172	Lucania	goodei	cone	single	359	0		microspectrophotometry	adult	17	
+173	Lucania	goodei	cone	single	405	0		microspectrophotometry	adult	17	
+174	Lucania	goodei	cone	single	454	0		microspectrophotometry	adult	17	
+175	Lucania	goodei	cone	single	538	0		microspectrophotometry	adult	17	
+176	Lucania	goodei	cone	double	454	0		microspectrophotometry	adult	17	
+177	Lucania	goodei	cone	double	538	0		microspectrophotometry	adult	17	
+178	Lucania	goodei	cone	double	573	0		microspectrophotometry	adult	17	
+179	Poecilia	parae	rod		503	0		microspectrophotometry	adult	21	
+180	Poecilia	parae	cone	single	355	0		microspectrophotometry	adult	21	
+181	Poecilia	parae	cone	single	407	0		microspectrophotometry	adult	21	
+182	Poecilia	parae	cone	double	456	0		microspectrophotometry	adult	21	
+183	Poecilia	parae	cone	double	526	0		microspectrophotometry	adult	21	
+184	Poecilia	parae	cone	double	543	0		microspectrophotometry	adult	21	
+185	Poecilia	parae	cone	twin	543	0		microspectrophotometry	adult	21	
+186	Poecilia	latipinna	rod		503	0		microspectrophotometry	adult	27	
+187	Poecilia	latipinna	cone	single	403	0		microspectrophotometry	adult	27	
+188	Poecilia	latipinna	cone	single	463	0		microspectrophotometry	adult	27	
+189	Poecilia	latipinna	cone	single	551	0		microspectrophotometry	adult	27	
+190	Poecilia	latipinna	cone	single	577	0		microspectrophotometry	adult	27	
+191	Poecilia	latipinna	cone	twin	551	0		microspectrophotometry	adult	27	
+192	Poecilia	latipinna	cone	twin	577	0		microspectrophotometry	adult	27	
+193	Poecilia	mexicana	rod		504	0		microspectrophotometry	adult	27	
+194	Poecilia	mexicana	cone	single	350	0		microspectrophotometry	adult	27	
+195	Poecilia	mexicana	cone	single	402	0		microspectrophotometry	adult	27	
+196	Poecilia	mexicana	cone	double	461	0		microspectrophotometry	adult	27	
+197	Poecilia	mexicana	cone	double	537	0		microspectrophotometry	adult	27	
+198	Poecilia	mexicana	cone	double	563	0		microspectrophotometry	adult	27	
+199	Poecilia	formosa	rod		504	0		microspectrophotometry	adult	27	
+200	Poecilia	formosa	cone	single	352	0		microspectrophotometry	adult	27	
+201	Poecilia	formosa	cone	single	404	0		microspectrophotometry	adult	27	
+202	Poecilia	formosa	cone	double	463	0		microspectrophotometry	adult	27	
+203	Poecilia	formosa	cone	double	560	0		microspectrophotometry	adult	27	
+204	Megalops	atlanticus	rod		500	0		microspectrophotometry	adult	44	
+205	Megalops	atlanticus	cone	single	364	0		microspectrophotometry	adult	44	
+206	Megalops	atlanticus	cone	single	411	0		microspectrophotometry	adult	44	
+207	Megalops	atlanticus	cone	single	451	0		microspectrophotometry	adult	44	
+208	Megalops	atlanticus	cone	single	476	0		microspectrophotometry	adult	44	
+209	Megalops	atlanticus	cone	single	551	0		microspectrophotometry	adult	44	
+210	Gadus	macrocephalus	cone	single	441	0		microspectrophotometry	adult	5	
+211	Gadus	macrocephalus	cone	twin	523	0		microspectrophotometry	adult	5	
+212	Gaidropsarus	mediterraneus	rod		512	0		microspectrophotometry	adult	29	
+213	Gaidropsarus	mediterraneus	cone	single	535	0		microspectrophotometry	adult	29	
+214	Gaidropsarus	mediterraneus	cone	twin	535	0		microspectrophotometry	adult	29	
+215	Microgadus	proximus	rod		497	0		microspectrophotometry	adult	5	
+216	Microgadus	proximus	cone	single	439	0		microspectrophotometry	adult	5	
+217	Microgadus	proximus	cone	single	523	0		microspectrophotometry	adult	5	
+218	Microgadus	proximus	cone	twin	522	0		microspectrophotometry	adult	5	
+219	Theragra	chalcogramma	rod		500	0		microspectrophotometry	adult	5	
+220	Theragra	chalcogramma	cone	single	442	0		microspectrophotometry	adult	5	
+221	Theragra	chalcogramma	cone	twin	516	0		microspectrophotometry	adult	5	
+222	Poecilia	reticulata	rod		503	0		microspectrophotometry	adult	1	
+223	Poecilia	reticulata	cone	single	410	0		microspectrophotometry	adult	1	
+224	Poecilia	reticulata	cone	double	465	0		microspectrophotometry	adult	1	
+225	Poecilia	reticulata	cone	double	473	0		microspectrophotometry	adult	1	
+226	Poecilia	reticulata	cone	twin	573	0		microspectrophotometry	adult	1	
+227	Merluccius	productus	rod		495	0		microspectrophotometry	adult	5	
+228	Merluccius	productus	cone	single	516	0		microspectrophotometry	adult	5	
+229	Merluccius	productus	cone	twin	517	0		microspectrophotometry	adult	5	
+230	Aulorhynchus	flavidus	rod		499	0		microspectrophotometry	adult	5	
+231	Aulorhynchus	flavidus	cone	single	360	0		microspectrophotometry	adult	5	
+232	Aulorhynchus	flavidus	cone	double	496	0		microspectrophotometry	adult	5	
+233	Aulorhynchus	flavidus	cone	double	536	0		microspectrophotometry	adult	5	
+234	Aulostomus	chinensis	rod		494	0		microspectrophotometry	adult	32	
+235	Aulostomus	chinensis	cone	single	421	0		microspectrophotometry	adult	32	
+236	Aulostomus	chinensis	cone	twin	473	0		microspectrophotometry	adult	32	
+237	Gasterosteus	aculeatus	rod		502	0		microspectrophotometry	adult	5	
+238	Gasterosteus	aculeatus	cone	single	362	0		microspectrophotometry	adult	5	
+239	Gasterosteus	aculeatus	cone	single	439	0		microspectrophotometry	adult	5	
+240	Gasterosteus	aculeatus	cone	double	524	0		microspectrophotometry	adult	5	
+241	Gasterosteus	aculeatus	cone	double	576	0		microspectrophotometry	adult	5	
+242	Spinachia	spinachia	rod		510	0		microspectrophotometry	adult	29	
+243	Spinachia	spinachia	cone	single	445	0		microspectrophotometry	adult	29	
+244	Spinachia	spinachia	cone	single	555	0		microspectrophotometry	adult	29	
+245	Spinachia	spinachia	cone	double	532	0		microspectrophotometry	adult	29	
+246	Spinachia	spinachia	cone	double	590	0		microspectrophotometry	adult	29	
+247	Gobiesox	maecmdricus	rod		500	0		microspectrophotometry	adult	5	
+248	Gobiesox	maecmdricus	cone	single	440	0		microspectrophotometry	adult	5	
+249	Gobiesox	maecmdricus	cone	double	526	0		microspectrophotometry	adult	5	
+250	Gobiesox	maecmdricus	cone	double	567	0		microspectrophotometry	adult	5	
+251	Hypomesus	pretiosus	rod		500	0		microspectrophotometry	adult	5	
+252	Hypomesus	pretiosus	cone	single	369	0		microspectrophotometry	adult	5	
+253	Hypomesus	pretiosus	cone	single	461	0		microspectrophotometry	adult	5	
+254	Hypomesus	pretiosus	cone	double	522	0		microspectrophotometry	adult	5	
+255	Hypomesus	pretiosus	cone	double	570	0		microspectrophotometry	adult	5	
+256	Osmerus	dentex	rod		516	0		microspectrophotometry	adult	26	
+257	Osmerus	dentex	cone	single	425	0		microspectrophotometry	adult	26	
+258	Osmerus	dentex	cone	double	514	0		microspectrophotometry	adult	26	
+259	Osmerus	dentex	cone	double	565	0		microspectrophotometry	adult	26	
+260	Spirinchus	thaleichthys	rod		499	0		microspectrophotometry	adult	5	
+261	Spirinchus	thaleichthys	cone	single	364	0		microspectrophotometry	adult	5	
+262	Spirinchus	thaleichthys	cone	single	465	0		microspectrophotometry	adult	5	
+263	Spirinchus	thaleichthys	cone	double	517	0		microspectrophotometry	adult	5	
+264	Spirinchus	thaleichthys	cone	double	572	0		microspectrophotometry	adult	5	
+265	Acanthurus	nigroris	rod		494	0		microspectrophotometry	adult	32	
+266	Acanthurus	nigroris	cone	single	439	0		microspectrophotometry	adult	32	
+267	Acanthurus	nigroris	cone	double	523	0		microspectrophotometry	adult	32	
+268	Acanthurus	nigroris	cone	double	538	0		microspectrophotometry	adult	32	
+269	Acanthurus	triostegus	rod		493	0		microspectrophotometry	adult	32	
+270	Acanthurus	triostegus	cone	single	458	0		microspectrophotometry	adult	32	
+271	Acanthurus	triostegus	cone	twin	518	0		microspectrophotometry	adult	32	
+272	Acanthurus	achilles	rod		496	0		microspectrophotometry	adult	32	
+273	Acanthurus	achilles	cone	twin	501	0		microspectrophotometry	adult	32	
+274	Ctenochaetus	strigosus	rod		486	0		microspectrophotometry	adult	32	
+275	Ctenochaetus	strigosus	cone	single	453	0		microspectrophotometry	adult	32	
+276	Ctenochaetus	strigosus	cone	double	521	0		microspectrophotometry	adult	32	
+277	Ctenochaetus	strigosus	cone	double	548	0		microspectrophotometry	adult	32	
+278	Ctenochaetus	strigosus	cone	twin	501	0		microspectrophotometry	adult	32	
+279	Naso	lituratus	rod		497	0		microspectrophotometry	adult	32	
+280	Naso	lituratus	cone	single	421	0		microspectrophotometry	adult	32	
+281	Naso	lituratus	cone	double	496	0		microspectrophotometry	adult	32	
+282	Naso	lituratus	cone	double	521	0		microspectrophotometry	adult	32	
+283	Naso	unicornis	rod		494	0		microspectrophotometry	adult	32	
+284	Naso	unicornis	cone	single	416	0		microspectrophotometry	adult	32	
+285	Naso	unicornis	cone	double	486	0		microspectrophotometry	adult	32	
+286	Naso	unicornis	cone	double	507	0		microspectrophotometry	adult	32	
+287	Zebrasoma	veliferum	rod		494	0		microspectrophotometry	adult	32	
+288	Zebrasoma	veliferum	cone	single	448	0		microspectrophotometry	adult	32	
+289	Zebrasoma	veliferum	cone	double	511	0		microspectrophotometry	adult	32	
+290	Zebrasoma	veliferum	cone	double	517	0		microspectrophotometry	adult	32	
+291	Zebrasoma	veliferum	cone	twin	523	0		microspectrophotometry	adult	32	
+292	Zebrasoma	flavescens	rod		494	0		microspectrophotometry	adult	32	
+293	Zebrasoma	flavescens	cone	single	446	0		microspectrophotometry	adult	32	
+294	Zebrasoma	flavescens	cone	double	510	0		microspectrophotometry	adult	32	
+295	Zebrasoma	flavescens	cone	double	519	0		microspectrophotometry	adult	32	
+296	Ammodytes	hexapterus	rod		470	0		microspectrophotometry	adult	5	
+297	Ammodytes	hexapterus	cone	single	398	0		microspectrophotometry	adult	5	
+298	Ammodytes	hexapterus	cone	single	524	0		microspectrophotometry	adult	5	
+299	Ammodytes	hexapterus	cone	twin	520	0		microspectrophotometry	adult	5	
+300	Apogon	kallopterus	rod		492	0		microspectrophotometry	adult	32	
+301	Apogon	kallopterus	cone	single	441	0		microspectrophotometry	adult	32	
+302	Apogon	kallopterus	cone	double	494	0		microspectrophotometry	adult	32	
+303	Apogon	kallopterus	cone	double	516	0		microspectrophotometry	adult	32	
+304	Ronquilus	jordani	rod		492	0		microspectrophotometry	adult	5	
+305	Ronquilus	jordani	cone	single	461	0		microspectrophotometry	adult	5	
+306	Ronquilus	jordani	cone	twin	521	0		microspectrophotometry	adult	5	
+307	Lipophyrs	pholis	rod		515	0		microspectrophotometry	adult	29	
+308	Lipophyrs	pholis	cone	single	535	0		microspectrophotometry	adult	29	
+309	Lipophyrs	pholis	cone	double	500	0		microspectrophotometry	adult	29	
+310	Lipophyrs	pholis	cone	double	570	0		microspectrophotometry	adult	29	
+311	Plagiotremus	rhinorhynchos	rod		498	0		microspectrophotometry	adult	9	
+312	Plagiotremus	rhinorhynchos	cone	single	449	0		microspectrophotometry	adult	9	
+313	Plagiotremus	rhinorhynchos	cone	double	520	0		microspectrophotometry	adult	9	
+314	Plagiotremus	rhinorhynchos	cone	double	561	0		microspectrophotometry	adult	9	
+315	Trachurus	mediterraneus	rod		502	0		microspectrophotometry	adult	18	
+316	Trachurus	mediterraneus	cone	single	433	0		microspectrophotometry	adult	18	
+317	Trachurus	mediterraneus	cone	twin	525	0		microspectrophotometry	adult	18	
+318	Spicara	smaris	rod		502	0		microspectrophotometry	adult	18	
+319	Spicara	smaris	cone	single	436	0		microspectrophotometry	adult	18	
+320	Spicara	smaris	cone	twin	522	0		microspectrophotometry	adult	18	
+321	Lepomis	macrochirus	rod		538	0		microspectrophotometry	adult	20	
+322	Lepomis	macrochirus	cone	single	536	0		microspectrophotometry	adult	20	
+323	Lepomis	macrochirus	cone	twin	620	0		microspectrophotometry	adult	20	
+324	Micropterus	salmoides	rod		528	0		microspectrophotometry	adult	34	
+325	Micropterus	salmoides	cone	single	535	0		microspectrophotometry	adult	34	
+326	Micropterus	salmoides	cone	twin	614	0		microspectrophotometry	adult	34	
+327	Chaetodon	kleini	rod		496	0		microspectrophotometry	adult	32	
+328	Chaetodon	kleini	cone	double	496	0		microspectrophotometry	adult	32	
+329	Chaetodon	kleini	cone	double	530	0		microspectrophotometry	adult	32	
+330	Chaetodon	unimaculatus	rod		491	0		microspectrophotometry	adult	32	
+331	Chaetodon	unimaculatus	cone	double	487	0		microspectrophotometry	adult	32	
+332	Chaetodon	unimaculatus	cone	double	530	0		microspectrophotometry	adult	32	
+333	Forcipiger	flavissimus	rod		488	0		microspectrophotometry	adult	32	
+334	Forcipiger	flavissimus	cone	single	431	0		microspectrophotometry	adult	32	
+335	Forcipiger	flavissimus	cone	double	490	0		microspectrophotometry	adult	32	
+336	Forcipiger	flavissimus	cone	double	527	0		microspectrophotometry	adult	32	
+337	Aequidens	pulcher	rod		507	0		microspectrophotometry	adult	29	
+338	Aequidens	pulcher	cone	double	565	0		microspectrophotometry	adult	29	
+339	Aequidens	pulcher	cone	double	605	0		microspectrophotometry	adult	29	
+340	Aequidens	pulcher	cone	twin	605	0		microspectrophotometry	adult	29	
+341	Aulonocara	hueseri	rod		496	0		microspectrophotometry	adult	23	
+342	Aulonocara	hueseri	cone	single	415	0		microspectrophotometry	adult	23	
+343	Aulonocara	hueseri	cone	double	484	0		microspectrophotometry	adult	23	
+344	Aulonocara	hueseri	cone	double	526	0		microspectrophotometry	adult	23	
+345	Copadichromis	borleyi	rod		494	0		microspectrophotometry	adult	23	
+346	Copadichromis	borleyi	cone	single	424	0		microspectrophotometry	adult	23	
+347	Copadichromis	borleyi	cone	double	478	0		microspectrophotometry	adult	23	
+348	Copadichromis	borleyi	cone	double	539	0		microspectrophotometry	adult	23	
+349	Crenicichla	frenata	rod		420	0		microspectrophotometry	adult	48	
+350	Crenicichla	frenata	cone	single	480	0		microspectrophotometry	adult	48	
+351	Crenicichla	frenata	cone	double	547	0		microspectrophotometry	adult	48	
+352	Crenicichla	frenata	cone	double	614	0		microspectrophotometry	adult	48	
+353	Crenicichla	frenata	cone	twin	614	0		microspectrophotometry	adult	48	
+354	Cynotilapia	afra	rod		496	0		microspectrophotometry	adult	23	
+355	Cynotilapia	afra	cone	single	358	0		microspectrophotometry	adult	23	
+356	Cynotilapia	afra	cone	double	472	0		microspectrophotometry	adult	23	
+357	Cynotilapia	afra	cone	double	525	0		microspectrophotometry	adult	23	
+358	Dimidiochromis	compressiceps	rod		498	0		microspectrophotometry	adult	23	
+359	Dimidiochromis	compressiceps	cone	single	447	0		microspectrophotometry	adult	23	
+360	Dimidiochromis	compressiceps	cone	double	533	0		microspectrophotometry	adult	23	
+361	Dimidiochromis	compressiceps	cone	double	567	0		microspectrophotometry	adult	23	
+362	Haplochromis	burtoni	rod		500	0		microspectrophotometry	adult	13	
+363	Haplochromis	burtoni	cone	single	455	0		microspectrophotometry	adult	13	
+364	Haplochromis	burtoni	cone	double	523	0		microspectrophotometry	adult	13	
+365	Haplochromis	burtoni	cone	double	562	0		microspectrophotometry	adult	13	
+366	Haplochromis	pyrrhocephalus	rod		519	0		microspectrophotometry	adult	46	
+367	Haplochromis	pyrrhocephalus	cone	single	462	0		microspectrophotometry	adult	46	
+368	Haplochromis	pyrrhocephalus	cone	double	539	0		microspectrophotometry	adult	46	
+369	Haplochromis	pyrrhocephalus	cone	double	595	0		microspectrophotometry	adult	46	
+370	Haplochromis	ishmaeli	rod		507	0		microspectrophotometry	adult	46	
+371	Haplochromis	ishmaeli	cone	single	456	0		microspectrophotometry	adult	46	
+372	Haplochromis	ishmaeli	cone	double	535	0		microspectrophotometry	adult	46	
+373	Haplochromis	ishmaeli	cone	double	569	0		microspectrophotometry	adult	46	
+374	Haplochromis	piceatus	rod		503	0		microspectrophotometry	adult	46	
+375	Haplochromis	piceatus	cone	single	465	0		microspectrophotometry	adult	46	
+376	Haplochromis	piceatus	cone	double	522	0		microspectrophotometry	adult	46	
+377	Haplochromis	piceatus	cone	double	565	0		microspectrophotometry	adult	46	
+378	Lethrinops	parvidens	rod		498	0		microspectrophotometry	adult	23	
+379	Lethrinops	parvidens	cone	single	426	0		microspectrophotometry	adult	23	
+380	Lethrinops	parvidens	cone	double	514	0		microspectrophotometry	adult	23	
+381	Lethrinops	parvidens	cone	double	563	0		microspectrophotometry	adult	23	
+382	Melanochromis	auratus	rod		497	0		microspectrophotometry	adult	23	
+383	Melanochromis	auratus	cone	single	414	0		microspectrophotometry	adult	23	
+384	Melanochromis	auratus	cone	double	482	0		microspectrophotometry	adult	23	
+385	Melanochromis	auratus	cone	double	525	0		microspectrophotometry	adult	23	
+386	Melanochromis	vermivorus	rod		505	0		microspectrophotometry	adult	38	
+387	Melanochromis	vermivorus	cone	single	418	0		microspectrophotometry	adult	38	
+388	Melanochromis	vermivorus	cone	single	506	0		microspectrophotometry	adult	38	
+389	Melanochromis	vermivorus	cone	single	555	0		microspectrophotometry	adult	38	
+390	Melanochromis	vermivorus	cone	double	485	0		microspectrophotometry	adult	38	
+391	Melanochromis	vermivorus	cone	double	534	0		microspectrophotometry	adult	38	
+392	Metriaclima	zebra	cone	single	368	0		microspectrophotometry	adult	7	
+393	Metriaclima	zebra	cone	double	482	0		microspectrophotometry	adult	7	
+394	Metriaclima	zebra	cone	double	531	0		microspectrophotometry	adult	7	
+395	Metriaclima	barlowi	rod		491	0		microspectrophotometry	adult	23	
+396	Metriaclima	barlowi	cone	single	366	0		microspectrophotometry	adult	23	
+397	Metriaclima	barlowi	cone	double	483	0		microspectrophotometry	adult	23	
+398	Metriaclima	barlowi	cone	double	523	0		microspectrophotometry	adult	23	
+399	Metriaclima	benetos	cone	single	379	0		microspectrophotometry	adult	23	
+400	Metriaclima	benetos	cone	double	489	0		microspectrophotometry	adult	23	
+401	Metriaclima	benetos	cone	double	522	0		microspectrophotometry	adult	23	
+402	Metriaclima	emmiltos	cone	single	383	0		microspectrophotometry	adult	23	
+403	Metriaclima	emmiltos	cone	double	482	0		microspectrophotometry	adult	23	
+404	Metriaclima	emmiltos	cone	double	521	0		microspectrophotometry	adult	23	
+405	Metriaclima	livingstonii	rod		495	0		microspectrophotometry	adult	23	
+406	Metriaclima	livingstonii	cone	single	364	0		microspectrophotometry	adult	23	
+407	Metriaclima	livingstonii	cone	double	473	0		microspectrophotometry	adult	23	
+408	Metriaclima	livingstonii	cone	double	526	0		microspectrophotometry	adult	23	
+409	Metriaclima	melabranchion	rod		495	0		microspectrophotometry	adult	23	
+410	Metriaclima	melabranchion	cone	single	371	0		microspectrophotometry	adult	23	
+411	Metriaclima	melabranchion	cone	double	477	0		microspectrophotometry	adult	23	
+412	Metriaclima	melabranchion	cone	double	515	0		microspectrophotometry	adult	23	
+413	Mylochromis	lateristriga	rod		496	0		microspectrophotometry	adult	23	
+414	Mylochromis	lateristriga	cone	single	419	0		microspectrophotometry	adult	23	
+415	Mylochromis	lateristriga	cone	double	482	0		microspectrophotometry	adult	23	
+416	Mylochromis	lateristriga	cone	double	522	0		microspectrophotometry	adult	23	
+417	Protomelas	taeniolatus	rod		496	0		microspectrophotometry	adult	23	
+418	Protomelas	taeniolatus	cone	single	453	0		microspectrophotometry	adult	23	
+419	Protomelas	taeniolatus	cone	double	527	0		microspectrophotometry	adult	23	
+420	Protomelas	taeniolatus	cone	double	566	0		microspectrophotometry	adult	23	
+421	Pseudotropheus	tropheops	rod		510	0		microspectrophotometry	adult	23	
+422	Pseudotropheus	tropheops	cone	single	371	0		microspectrophotometry	adult	23	
+423	Pseudotropheus	tropheops	cone	double	492	0		microspectrophotometry	adult	23	
+424	Pseudotropheus	tropheops	cone	double	531	0		microspectrophotometry	adult	23	
+425	Pseudotropheus	acei	rod		505	0		microspectrophotometry	adult	38	
+426	Pseudotropheus	acei	cone	single	378	0		microspectrophotometry	adult	38	
+427	Pseudotropheus	acei	cone	double	482	0		microspectrophotometry	adult	38	
+428	Pseudotropheus	acei	cone	double	535	0		microspectrophotometry	adult	38	
+429	Pundamilia	red head	cone	single	456	0		microspectrophotometry	adult	8	
+430	Pundamilia	red head	cone	double	527	0		microspectrophotometry	adult	8	
+431	Pundamilia	red head	cone	double	567	0		microspectrophotometry	adult	8	
+432	Pundamilia	azurea	rod		503	0		microspectrophotometry	adult	8	
+433	Pundamilia	azurea	cone	single	455	0		microspectrophotometry	adult	8	
+434	Pundamilia	azurea	cone	double	526	0		microspectrophotometry	adult	8	
+435	Pundamilia	azurea	cone	double	563	0		microspectrophotometry	adult	8	
+436	Pundamilia	nyererei	rod		505	0		microspectrophotometry	adult	8	
+437	Pundamilia	nyererei	cone	single	451	0		microspectrophotometry	adult	8	
+438	Pundamilia	nyererei	cone	double	535	0		microspectrophotometry	adult	8	
+439	Pundamilia	nyererei	cone	double	562	0		microspectrophotometry	adult	8	
+440	Pundamilia	nyererei	cone	twin	562	0		microspectrophotometry	adult	8	
+441	Pundamilia	luanso	rod		505	0		microspectrophotometry	adult	8	
+442	Pundamilia	luanso	cone	single	455	0		microspectrophotometry	adult	8	
+443	Pundamilia	luanso	cone	double	527	0		microspectrophotometry	adult	8	
+444	Pundamilia	luanso	cone	double	561	0		microspectrophotometry	adult	8	
+445	Pundamilia	luanso	cone	twin	561	0		microspectrophotometry	adult	8	
+446	Pundamilia	pundamilia	rod		506	0		microspectrophotometry	adult	8	
+447	Pundamilia	pundamilia	cone	single	455	0		microspectrophotometry	adult	8	
+448	Pundamilia	pundamilia	cone	double	529	0		microspectrophotometry	adult	8	
+449	Pundamilia	pundamilia	cone	double	563	0		microspectrophotometry	adult	8	
+450	Pundamilia	pundamilia	cone	twin	563	0		microspectrophotometry	adult	8	
+451	Tramitichromis	intermedius	rod		505	0		microspectrophotometry	adult	38	
+452	Tramitichromis	intermedius	cone	single	455	0		microspectrophotometry	adult	38	
+453	Tramitichromis	intermedius	cone	double	531	0		microspectrophotometry	adult	38	
+454	Tramitichromis	intermedius	cone	double	568	0		microspectrophotometry	adult	38	
+455	Tyrannochromis	macrostoma	rod		494	0		microspectrophotometry	adult	23	
+456	Tyrannochromis	macrostoma	cone	single	410	0		microspectrophotometry	adult	23	
+457	Tyrannochromis	macrostoma	cone	double	482	0		microspectrophotometry	adult	23	
+458	Tyrannochromis	macrostoma	cone	double	529	0		microspectrophotometry	adult	23	
+459	Embiotoca	lateralis	rod		499	0		microspectrophotometry	adult	5	
+460	Embiotoca	lateralis	cone	single	459	0		microspectrophotometry	adult	5	
+461	Embiotoca	lateralis	cone	single	534	0		microspectrophotometry	adult	5	
+462	Embiotoca	lateralis	cone	twin	535	0		microspectrophotometry	adult	5	
+463	Embiotoca	jacksoni	rod		505	0		microspectrophotometry	adult	11	
+464	Embiotoca	jacksoni	cone	single	477	0		microspectrophotometry	adult	11	
+465	Embiotoca	jacksoni	cone	twin	534	0		microspectrophotometry	adult	11	
+466	Hypsurus	caryi	rod		506	0		microspectrophotometry	adult	11	
+467	Hypsurus	caryi	cone	single	455	0		microspectrophotometry	adult	11	
+468	Hypsurus	caryi	cone	single	532	0		microspectrophotometry	adult	11	
+469	Hypsurus	caryi	cone	twin	532	0		microspectrophotometry	adult	11	
+470	Micrometrus	minimus	rod		518	0		microspectrophotometry	adult	11	
+471	Micrometrus	minimus	cone	single	470	0		microspectrophotometry	adult	11	
+472	Micrometrus	minimus	cone	single	546	0		microspectrophotometry	adult	11	
+473	Micrometrus	minimus	cone	twin	546	0		microspectrophotometry	adult	11	
+474	Micrometrus	aurora	rod		519	0		microspectrophotometry	adult	11	
+475	Micrometrus	aurora	cone	single	466	0		microspectrophotometry	adult	11	
+476	Micrometrus	aurora	cone	single	538	0		microspectrophotometry	adult	11	
+477	Micrometrus	aurora	cone	twin	538	0		microspectrophotometry	adult	11	
+478	Rhacochilus	vacca	rod		507	0		microspectrophotometry	adult	5	
+479	Rhacochilus	vacca	cone	single	472	0		microspectrophotometry	adult	5	
+480	Rhacochilus	vacca	cone	single	540	0		microspectrophotometry	adult	5	
+481	Rhacochilus	vacca	cone	twin	539	0		microspectrophotometry	adult	5	
+482	Zalembius	rosaceus	rod		494	0		microspectrophotometry	adult	11	
+483	Zalembius	rosaceus	cone	single	470	0		microspectrophotometry	adult	11	
+484	Zalembius	rosaceus	cone	single	527	0		microspectrophotometry	adult	11	
+485	Zalembius	rosaceus	cone	twin	527	0		microspectrophotometry	adult	11	
+486	Asterropteryx	semipunctata	rod		498	0		microspectrophotometry	adult	32	
+487	Asterropteryx	semipunctata	cone	double	531	0		microspectrophotometry	adult	32	
+488	Asterropteryx	semipunctata	cone	double	538	0		microspectrophotometry	adult	32	
+489	Gobius	paganellus	rod		512	0		microspectrophotometry	adult	29	
+490	Gobius	paganellus	cone	single	465	0		microspectrophotometry	adult	29	
+491	Gobius	paganellus	cone	single	565	0		microspectrophotometry	adult	29	
+492	Gobius	paganellus	cone	twin	565	0		microspectrophotometry	adult	29	
+493	Gobiusculus	flavescens	rod		508	0		microspectrophotometry	adult	45	
+494	Gobiusculus	flavescens	cone	single	456	0		microspectrophotometry	adult	45	
+495	Gobiusculus	flavescens	cone	single	531	0		microspectrophotometry	adult	45	
+496	Gobiusculus	flavescens	cone	single	553	0		microspectrophotometry	adult	45	
+497	Gobiusculus	flavescens	cone	double	531	0		microspectrophotometry	adult	45	
+498	Gobiusculus	flavescens	cone	double	553	0		microspectrophotometry	adult	45	
+499	Gobiusculus	flavescens	cone	twin	531	0		microspectrophotometry	adult	45	
+500	Pomatoschistus	minutus	rod		508	0		microspectrophotometry	adult	22	
+501	Pomatoschistus	minutus	cone	single	447	0		microspectrophotometry	adult	22	
+502	Pomatoschistus	minutus	cone	single	548	0		microspectrophotometry	adult	22	
+503	Pomatoschistus	minutus	cone	twin	527	0		microspectrophotometry	adult	22	
+504	Tetrapturus	audax	cone	single	535	0		microspectrophotometry	adult	16	
+505	Tetrapturus	audax	cone	single	609	0		microspectrophotometry	adult	16	
+506	Kuhlia	sandvicensis	rod		491	0		microspectrophotometry	adult	32	
+507	Kuhlia	sandvicensis	cone	single	436	0		microspectrophotometry	adult	32	
+508	Kuhlia	sandvicensis	cone	double	488	0		microspectrophotometry	adult	32	
+509	Kuhlia	sandvicensis	cone	double	531	0		microspectrophotometry	adult	32	
+510	Bodianus	bilunnulatus	rod		485	0		microspectrophotometry	adult	32	
+511	Bodianus	bilunnulatus	cone	double	526	0		microspectrophotometry	adult	32	
+512	Bodianus	bilunnulatus	cone	double	545	0		microspectrophotometry	adult	32	
+513	Symphodus	melops	rod		520	0		microspectrophotometry	adult	29	
+514	Symphodus	melops	cone	single	505	0		microspectrophotometry	adult	29	
+515	Symphodus	melops	cone	single	555	0		microspectrophotometry	adult	29	
+516	Symphodus	melops	cone	double	525	0		microspectrophotometry	adult	29	
+517	Symphodus	melops	cone	double	555	0		microspectrophotometry	adult	29	
+518	Lutjanus	adetii	rod		496	0		microspectrophotometry	adult	33	
+519	Lutjanus	adetii	cone	single	443	0		microspectrophotometry	adult	33	
+520	Lutjanus	adetii	cone	double	511	0		microspectrophotometry	adult	33	
+521	Lutjanus	adetii	cone	double	526	0		microspectrophotometry	adult	33	
+522	Lutjanus	argentimaculatus	cone	double	536	0		microspectrophotometry	adult	33	
+523	Lutjanus	argentimaculatus	cone	double	575	0		microspectrophotometry	adult	33	
+524	Lutjanus	bohar	rod		497	0		microspectrophotometry	adult	33	
+525	Lutjanus	bohar	cone	single	424	0		microspectrophotometry	adult	33	
+526	Lutjanus	bohar	cone	double	494	0		microspectrophotometry	adult	33	
+527	Lutjanus	bohar	cone	double	518	0		microspectrophotometry	adult	33	
+528	Lutjanus	carponotatus	rod		499	0		microspectrophotometry	adult	33	
+529	Lutjanus	carponotatus	cone	single	454	0		microspectrophotometry	adult	33	
+530	Lutjanus	carponotatus	cone	double	519	0		microspectrophotometry	adult	33	
+531	Lutjanus	carponotatus	cone	double	552	0		microspectrophotometry	adult	33	
+532	Lutjanus	erythropterus	rod		496	0		microspectrophotometry	adult	33	
+533	Lutjanus	erythropterus	cone	single	446	0		microspectrophotometry	adult	33	
+534	Lutjanus	erythropterus	cone	double	527	0		microspectrophotometry	adult	33	
+535	Lutjanus	erythropterus	cone	double	540	0		microspectrophotometry	adult	33	
+536	Lutjanus	kasmira	cone	single	430	0		microspectrophotometry	adult	33	
+537	Lutjanus	kasmira	cone	double	487	0		microspectrophotometry	adult	33	
+538	Lutjanus	kasmira	cone	double	518	0		microspectrophotometry	adult	33	
+539	Lutjanus	malabaricus	rod		494	0		microspectrophotometry	adult	33	
+540	Lutjanus	malabaricus	cone	single	408	0		microspectrophotometry	adult	33	
+541	Lutjanus	malabaricus	cone	single	442	0		microspectrophotometry	adult	33	
+542	Lutjanus	malabaricus	cone	double	529	0		microspectrophotometry	adult	33	
+543	Lutjanus	malabaricus	cone	double	541	0		microspectrophotometry	adult	33	
+544	Lutjanus	quinquelineatus	rod		499	0		microspectrophotometry	adult	33	
+545	Lutjanus	quinquelineatus	cone	single	444	0		microspectrophotometry	adult	33	
+546	Lutjanus	quinquelineatus	cone	double	520	0		microspectrophotometry	adult	33	
+547	Lutjanus	quinquelineatus	cone	double	540	0		microspectrophotometry	adult	33	
+548	Lutjanus	russellii	rod		499	0		microspectrophotometry	adult	33	
+549	Lutjanus	russellii	cone	single	451	0		microspectrophotometry	adult	33	
+550	Lutjanus	russellii	cone	double	530	0		microspectrophotometry	adult	33	
+551	Lutjanus	russellii	cone	double	557	0		microspectrophotometry	adult	33	
+552	Lutjanus	sebae	rod		494	0		microspectrophotometry	adult	33	
+553	Lutjanus	sebae	cone	single	430	0		microspectrophotometry	adult	33	
+554	Lutjanus	sebae	cone	double	521	0		microspectrophotometry	adult	33	
+555	Lutjanus	sebae	cone	double	539	0		microspectrophotometry	adult	33	
+556	Lutjanus	johnii	rod		498	0		microspectrophotometry	adult	33	
+557	Lutjanus	johnii	cone	double	543	0		microspectrophotometry	adult	33	
+558	Lutjanus	johnii	cone	double	567	0		microspectrophotometry	adult	33	
+559	Mulloidichthys	flavolineatus	rod		486	0		microspectrophotometry	adult	32	
+560	Mulloidichthys	flavolineatus	cone	single	366	0		microspectrophotometry	adult	32	
+561	Mulloidichthys	flavolineatus	cone	double	480	0		microspectrophotometry	adult	32	
+562	Mulloidichthys	flavolineatus	cone	double	523	0		microspectrophotometry	adult	32	
+563	Mullus	barbatus	rod		497	0		microspectrophotometry	adult	18	
+564	Mullus	barbatus	cone	single	380	0		microspectrophotometry	adult	18	
+565	Mullus	barbatus	cone	single	491	0		microspectrophotometry	adult	18	
+566	Mullus	barbatus	cone	single	533	0		microspectrophotometry	adult	18	
+567	Mullus	barbatus	cone	double	491	0		microspectrophotometry	adult	18	
+568	Mullus	barbatus	cone	double	533	0		microspectrophotometry	adult	18	
+569	Mullus	barbatus	cone	twin	533	0		microspectrophotometry	adult	18	
+570	Parupeneus	multifasceatus	rod		494	0		microspectrophotometry	adult	32	
+571	Parupeneus	multifasceatus	cone	double	486	0		microspectrophotometry	adult	32	
+572	Parupeneus	multifasceatus	cone	double	516	0		microspectrophotometry	adult	32	
+573	Parupeneus	multifasceatus	cone	twin	515	0		microspectrophotometry	adult	32	
+574	Dissostichus	mawsoni	rod		504	0		microspectrophotometry	adult	39	
+575	Dissostichus	mawsoni	cone	single	414	0		microspectrophotometry	adult	39	
+576	Dissostichus	mawsoni	cone	single	490	0		microspectrophotometry	adult	39	
+577	Dissostichus	mawsoni	cone	twin	490	0		microspectrophotometry	adult	39	
+578	Pagothenia	borchgrevinki	rod		499	0		microspectrophotometry	adult	39	
+579	Pagothenia	borchgrevinki	cone	single	489	0		microspectrophotometry	adult	39	
+580	Pagothenia	borchgrevinki	cone	twin	489	0		microspectrophotometry	adult	39	
+581	Trematomus	bernacchii	rod		502	0		microspectrophotometry	adult	39	
+582	Trematomus	bernacchii	cone	single	416	0		microspectrophotometry	adult	39	
+583	Trematomus	bernacchii	cone	single	490	0		microspectrophotometry	adult	39	
+584	Trematomus	bernacchii	cone	twin	490	0		microspectrophotometry	adult	39	
+585	Trematomus	hansoni	rod		501	0		microspectrophotometry	adult	39	
+586	Trematomus	hansoni	cone	single	418	0		microspectrophotometry	adult	39	
+587	Trematomus	hansoni	cone	single	490	0		microspectrophotometry	adult	39	
+588	Trematomus	hansoni	cone	twin	490	0		microspectrophotometry	adult	39	
+589	Trematomus	loennbergii	rod		500	0		microspectrophotometry	adult	39	
+590	Trematomus	loennbergii	cone	single	426	0		microspectrophotometry	adult	39	
+591	Trematomus	loennbergii	cone	single	490	0		microspectrophotometry	adult	39	
+592	Trematomus	loennbergii	cone	twin	490	0		microspectrophotometry	adult	39	
+593	Perca	fluviatilis	rod		540	0		microspectrophotometry	adult	29	
+594	Perca	fluviatilis	cone	single	535	0		microspectrophotometry	adult	29	
+595	Perca	fluviatilis	cone	twin	615	0		microspectrophotometry	adult	29	
+596	Sander	lucioperca	rod		524	0		microspectrophotometry	adult	22	
+597	Sander	lucioperca	cone	single	530	0		microspectrophotometry	adult	22	
+598	Sander	lucioperca	cone	twin	598	0		microspectrophotometry	adult	22	
+599	Apodichthys	flavidus	rod		504	0		microspectrophotometry	adult	5	
+600	Apodichthys	flavidus	cone	single	363	0		microspectrophotometry	adult	5	
+601	Apodichthys	flavidus	cone	single	441	0		microspectrophotometry	adult	5	
+602	Apodichthys	flavidus	cone	double	529	0		microspectrophotometry	adult	5	
+603	Apodichthys	flavidus	cone	double	567	0		microspectrophotometry	adult	5	
+604	Pholis	omata	rod		498	0		microspectrophotometry	adult	5	
+605	Pholis	omata	cone	single	444	0		microspectrophotometry	adult	5	
+606	Pholis	omata	cone	single	528	0		microspectrophotometry	adult	5	
+607	Pholis	omata	cone	single	560	0		microspectrophotometry	adult	5	
+608	Pholis	omata	cone	double	526	0		microspectrophotometry	adult	5	
+609	Pholis	omata	cone	double	561	0		microspectrophotometry	adult	5	
+610	Pholis	laeta	rod		504	0		microspectrophotometry	adult	5	
+611	Pholis	laeta	cone	single	449	0		microspectrophotometry	adult	5	
+612	Pholis	laeta	cone	double	527	0		microspectrophotometry	adult	5	
+613	Pholis	laeta	cone	double	562	0		microspectrophotometry	adult	5	
+614	Abudefduf	abdominalis	rod		492	0		microspectrophotometry	adult	32	
+615	Abudefduf	abdominalis	cone	single	347	0		microspectrophotometry	adult	32	
+616	Abudefduf	abdominalis	cone	single	464	0		microspectrophotometry	adult	32	
+617	Abudefduf	abdominalis	cone	double	457	0		microspectrophotometry	adult	32	
+618	Abudefduf	abdominalis	cone	double	519	0		microspectrophotometry	adult	32	
+619	Chromis	hanui	rod		477	0		microspectrophotometry	adult	32	
+620	Chromis	hanui	cone	single	355	0		microspectrophotometry	adult	32	
+621	Chromis	hanui	cone	single	483	0		microspectrophotometry	adult	32	
+622	Chromis	hanui	cone	double	470	0		microspectrophotometry	adult	32	
+623	Chromis	hanui	cone	double	514	0		microspectrophotometry	adult	32	
+624	Chromis	ovalis	rod		492	0		microspectrophotometry	adult	32	
+625	Chromis	ovalis	cone	single	404	0		microspectrophotometry	adult	32	
+626	Chromis	ovalis	cone	double	473	0		microspectrophotometry	adult	32	
+627	Chromis	ovalis	cone	double	518	0		microspectrophotometry	adult	32	
+628	Chromis	vanderbilti	rod		498	0		microspectrophotometry	adult	32	
+629	Chromis	vanderbilti	cone	double	462	0		microspectrophotometry	adult	32	
+630	Chromis	vanderbilti	cone	double	522	0		microspectrophotometry	adult	32	
+631	Chromis	verater	rod		480	0		microspectrophotometry	adult	32	
+632	Chromis	verater	cone	single	410	0		microspectrophotometry	adult	32	
+633	Chromis	verater	cone	double	471	0		microspectrophotometry	adult	32	
+634	Chromis	verater	cone	double	514	0		microspectrophotometry	adult	32	
+635	Dascyllus	albisella	rod		490	0		microspectrophotometry	adult	32	
+636	Dascyllus	albisella	cone	single	386	0		microspectrophotometry	adult	32	
+637	Dascyllus	albisella	cone	single	483	0		microspectrophotometry	adult	32	
+638	Dascyllus	albisella	cone	double	470	0		microspectrophotometry	adult	32	
+639	Dascyllus	albisella	cone	double	514	0		microspectrophotometry	adult	32	
+640	Plectroglyphidodon	johnstonianus	rod		495	0		microspectrophotometry	adult	32	
+641	Plectroglyphidodon	johnstonianus	cone	double	474	0		microspectrophotometry	adult	32	
+642	Plectroglyphidodon	johnstonianus	cone	double	518	0		microspectrophotometry	adult	32	
+643	Pomacentrus	melanochir	rod		501	0		microspectrophotometry	adult	29	
+644	Pomacentrus	melanochir	cone	single	502	0		microspectrophotometry	adult	29	
+645	Pomacentrus	melanochir	cone	double	502	0		microspectrophotometry	adult	29	
+646	Pomacentrus	melanochir	cone	double	560	0		microspectrophotometry	adult	29	
+647	Pomacentrus	melanochir	cone	twin	502	0		microspectrophotometry	adult	29	
+648	Stegastes	fasciolatus	rod		495	0		microspectrophotometry	adult	32	
+649	Stegastes	fasciolatus	cone	single	363	0		microspectrophotometry	adult	32	
+650	Stegastes	fasciolatus	cone	double	470	0		microspectrophotometry	adult	32	
+651	Stegastes	fasciolatus	cone	double	528	0		microspectrophotometry	adult	32	
+652	Thunnus	albacares	rod		483	0		microspectrophotometry	adult	31	
+653	Thunnus	albacares	cone	single	426	0		microspectrophotometry	adult	31	
+654	Thunnus	albacares	cone	twin	485	0		microspectrophotometry	adult	31	
+655	Acanthopagrus	butcheri	rod		509	0		microspectrophotometry	adult	41	
+656	Acanthopagrus	butcheri	cone	single	476	0		microspectrophotometry	adult	41	
+657	Acanthopagrus	butcheri	cone	double	545	0		microspectrophotometry	adult	41	
+658	Acanthopagrus	butcheri	cone	double	575	0		microspectrophotometry	adult	41	
+659	Diplodus	annularis	rod		505	0		microspectrophotometry	adult	18	
+660	Diplodus	annularis	cone	single	458	0		microspectrophotometry	adult	18	
+661	Diplodus	annularis	cone	twin	537	0		microspectrophotometry	adult	18	
+662	Sphyraena	barracuda	rod		498	0		microspectrophotometry	adult	32	
+663	Sphyraena	barracuda	cone	single	455	0		microspectrophotometry	adult	32	
+664	Sphyraena	barracuda	cone	twin	531	0		microspectrophotometry	adult	32	
+665	Acantholumpenus	mackayi	rod		502	0		microspectrophotometry	adult	24	
+666	Acantholumpenus	mackayi	cone	single	450	0		microspectrophotometry	adult	24	
+667	Acantholumpenus	mackayi	cone	twin	519	0		microspectrophotometry	adult	24	
+668	Anoplarchus	purpurescens	rod		502	0		microspectrophotometry	adult	5	
+669	Anoplarchus	purpurescens	cone	single	444	0		microspectrophotometry	adult	5	
+670	Anoplarchus	purpurescens	cone	double	523	0		microspectrophotometry	adult	5	
+671	Anoplarchus	purpurescens	cone	double	562	0		microspectrophotometry	adult	5	
+672	Chirolophis	japonicus	rod		502	0		microspectrophotometry	adult	24	
+673	Chirolophis	japonicus	cone	single	455	0		microspectrophotometry	adult	24	
+674	Chirolophis	japonicus	cone	double	520	0		microspectrophotometry	adult	24	
+675	Chirolophis	japonicus	cone	double	550	0		microspectrophotometry	adult	24	
+676	Ernogrammus	hexagrammus	rod		506	0		microspectrophotometry	adult	24	
+677	Ernogrammus	hexagrammus	cone	single	445	0		microspectrophotometry	adult	24	
+678	Ernogrammus	hexagrammus	cone	double	515	0		microspectrophotometry	adult	24	
+679	Ernogrammus	hexagrammus	cone	double	548	0		microspectrophotometry	adult	24	
+680	Lumpenus	sagitta	rod		496	0		microspectrophotometry	adult	5	
+681	Lumpenus	sagitta	cone	single	434	0		microspectrophotometry	adult	5	
+682	Lumpenus	sagitta	cone	single	520	0		microspectrophotometry	adult	5	
+683	Lumpenus	sagitta	cone	twin	520	0		microspectrophotometry	adult	5	
+684	Opisthocentrus	ocellatus	rod		504	0		microspectrophotometry	adult	24	
+685	Opisthocentrus	ocellatus	cone	single	442	0		microspectrophotometry	adult	24	
+686	Opisthocentrus	ocellatus	cone	double	521	0		microspectrophotometry	adult	24	
+687	Opisthocentrus	ocellatus	cone	double	557	0		microspectrophotometry	adult	24	
+688	Pholidapus	dybowsky	rod		522	0		microspectrophotometry	adult	24	
+689	Pholidapus	dybowsky	cone	single	465	0		microspectrophotometry	adult	24	
+690	Pholidapus	dybowsky	cone	double	546	0		microspectrophotometry	adult	24	
+691	Pholidapus	dybowsky	cone	double	555	0		microspectrophotometry	adult	24	
+692	Pholidapus	dybowsky	cone	double	578	0		microspectrophotometry	adult	24	
+693	Pholidapus	dybowsky	cone	double	605	0		microspectrophotometry	adult	24	
+694	Phytichthys	chirus	rod		522	0		microspectrophotometry	adult	5	
+695	Phytichthys	chirus	cone	single	445	0		microspectrophotometry	adult	5	
+696	Phytichthys	chirus	cone	double	548	0		microspectrophotometry	adult	5	
+697	Phytichthys	chirus	cone	double	609	0		microspectrophotometry	adult	5	
+698	Stichaeopsis	nana	rod		522	0		microspectrophotometry	adult	24	
+699	Stichaeopsis	nana	cone	single	525	0		microspectrophotometry	adult	24	
+700	Stichaeopsis	nana	cone	double	540	0		microspectrophotometry	adult	24	
+701	Stichaeopsis	nana	cone	double	600	0		microspectrophotometry	adult	24	
+702	Stichaeus	grigorjewi	rod		502	0		microspectrophotometry	adult	24	
+703	Stichaeus	grigorjewi	cone	single	450	0		microspectrophotometry	adult	24	
+704	Stichaeus	grigorjewi	cone	twin	517	0		microspectrophotometry	adult	24	
+705	Stichaeus	nozawae	rod		502	0		microspectrophotometry	adult	24	
+706	Stichaeus	nozawae	cone	single	450	0		microspectrophotometry	adult	24	
+707	Stichaeus	nozawae	cone	twin	518	0		microspectrophotometry	adult	24	
+708	Xiphister	mucosus	rod		504	0		microspectrophotometry	adult	5	
+709	Xiphister	mucosus	cone	single	443	0		microspectrophotometry	adult	5	
+710	Xiphister	mucosus	cone	double	520	0		microspectrophotometry	adult	5	
+711	Xiphister	mucosus	cone	double	559	0		microspectrophotometry	adult	5	
+712	Xiphister	atropurpureus	rod		503	0		microspectrophotometry	adult	5	
+713	Xiphister	atropurpureus	cone	single	449	0		microspectrophotometry	adult	5	
+714	Xiphister	atropurpureus	cone	single	521	0		microspectrophotometry	adult	5	
+715	Xiphister	atropurpureus	cone	single	562	0		microspectrophotometry	adult	5	
+716	Xiphister	atropurpureus	cone	double	520	0		microspectrophotometry	adult	5	
+717	Xiphister	atropurpureus	cone	double	559	0		microspectrophotometry	adult	5	
+718	Peprilus	simillimus	rod		496	0		microspectrophotometry	adult	5	
+719	Peprilus	simillimus	cone	single	437	0		microspectrophotometry	adult	5	
+720	Peprilus	simillimus	cone	single	523	0		microspectrophotometry	adult	5	
+721	Peprilus	simillimus	cone	twin	524	0		microspectrophotometry	adult	5	
+722	Trichodon	trichodon	rod		503	0		microspectrophotometry	adult	5	
+723	Trichodon	trichodon	cone	single	364	0		microspectrophotometry	adult	5	
+724	Trichodon	trichodon	cone	double	519	0		microspectrophotometry	adult	5	
+725	Trichodon	trichodon	cone	double	561	0		microspectrophotometry	adult	5	
+726	Trichodon	trichodon	cone	twin	520	0		microspectrophotometry	adult	5	
+727	Zanclus	cornutus	rod		492	0		microspectrophotometry	adult	32	
+728	Zanclus	cornutus	cone	single	447	0		microspectrophotometry	adult	32	
+729	Zanclus	cornutus	cone	twin	517	0		microspectrophotometry	adult	32	
+730	Lycodes	pacificus	rod		483	0		microspectrophotometry	adult	5	
+731	Lycodes	pacificus	cone	single	433	0		microspectrophotometry	adult	5	
+732	Lycodes	pacificus	cone	single	521	0		microspectrophotometry	adult	5	
+733	Lycodes	pacificus	cone	twin	512	0		microspectrophotometry	adult	5	
+734	Zoarces	viviparus	rod		513	0		microspectrophotometry	adult	22	
+735	Zoarces	viviparus	cone	single	437	0		microspectrophotometry	adult	22	
+736	Zoarces	viviparus	cone	single	552	0		microspectrophotometry	adult	22	
+737	Zoarces	viviparus	cone	twin	552	0		microspectrophotometry	adult	22	
+738	Geotria	australis	rod		499	0		microspectrophotometry	adult	10	
+739	Geotria	australis	cone	single	515	0		microspectrophotometry	adult	10	
+740	Geotria	australis	cone	single	616	0		microspectrophotometry	adult	10	
+741	Citharichthys	sordidus	rod		489	0		microspectrophotometry	adult	5	
+742	Citharichthys	sordidus	cone	single	440	0		microspectrophotometry	adult	5	
+743	Citharichthys	sordidus	cone	twin	523	0		microspectrophotometry	adult	5	
+744	Hippoglossoides	herzensteini	rod		500	0		microspectrophotometry	adult	24	
+745	Hippoglossoides	herzensteini	cone	single	457	0		microspectrophotometry	adult	24	
+746	Hippoglossoides	herzensteini	cone	twin	521	0		microspectrophotometry	adult	24	
+747	Hippoglossoides	elassodon	rod		495	0		microspectrophotometry	adult	5	
+748	Hippoglossoides	elassodon	cone	single	412	0		microspectrophotometry	adult	5	
+749	Hippoglossoides	elassodon	cone	twin	511	0		microspectrophotometry	adult	5	
+750	Isopsetta	isolepis	rod		492	0		microspectrophotometry	adult	5	
+751	Isopsetta	isolepis	cone	single	444	0		microspectrophotometry	adult	5	
+752	Isopsetta	isolepis	cone	twin	527	0		microspectrophotometry	adult	5	
+753	Lepidopsetta	bilineata	rod		492	0		microspectrophotometry	adult	5	
+754	Lepidopsetta	bilineata	cone	single	444	0		microspectrophotometry	adult	5	
+755	Lepidopsetta	bilineata	cone	twin	526	0		microspectrophotometry	adult	5	
+756	Lepidopsetta	polyxystra	rod		493	0		microspectrophotometry	adult	5	
+757	Lepidopsetta	polyxystra	cone	single	438	0		microspectrophotometry	adult	5	
+758	Lepidopsetta	polyxystra	cone	twin	525	0		microspectrophotometry	adult	5	
+759	Limanda	limanda	rod		502	0		microspectrophotometry	adult	29	
+760	Limanda	limanda	cone	single	475	0		microspectrophotometry	adult	29	
+761	Limanda	limanda	cone	twin	527	0		microspectrophotometry	adult	29	
+762	Lyopsetta	exilis	rod		482	0		microspectrophotometry	adult	5	
+763	Lyopsetta	exilis	cone	single	424	0		microspectrophotometry	adult	5	
+764	Lyopsetta	exilis	cone	twin	509	0		microspectrophotometry	adult	5	
+765	Microstomus	kitt	rod		502	0		microspectrophotometry	adult	29	
+766	Microstomus	kitt	cone	single	465	0		microspectrophotometry	adult	29	
+767	Microstomus	kitt	cone	twin	525	0		microspectrophotometry	adult	29	
+768	Parophrys	vetulus	rod		498	0		microspectrophotometry	adult	5	
+769	Parophrys	vetulus	cone	single	437	0		microspectrophotometry	adult	5	
+770	Parophrys	vetulus	cone	twin	525	0		microspectrophotometry	adult	5	
+771	Platichthys	stellatus	rod		508	0		microspectrophotometry	adult	5	
+772	Platichthys	stellatus	cone	single	439	0		microspectrophotometry	adult	5	
+773	Platichthys	stellatus	cone	double	532	0		microspectrophotometry	adult	5	
+774	Platichthys	stellatus	cone	double	551	0		microspectrophotometry	adult	5	
+775	Platichthys	stellatus	cone	twin	531	0		microspectrophotometry	adult	5	
+776	Platichthys	flesus	rod		510	0		microspectrophotometry	adult	22	
+777	Platichthys	flesus	cone	single	455	0		microspectrophotometry	adult	22	
+778	Platichthys	flesus	cone	single	533	0		microspectrophotometry	adult	22	
+779	Platichthys	flesus	cone	twin	537	0		microspectrophotometry	adult	22	
+780	Pleuronectes	asper	rod		503	0		microspectrophotometry	adult	24	
+781	Pleuronectes	asper	cone	single	454	0		microspectrophotometry	adult	24	
+782	Pleuronectes	asper	cone	twin	523	0		microspectrophotometry	adult	24	
+783	Pleuronectes	herzensteini	rod		500	0		microspectrophotometry	adult	24	
+784	Pleuronectes	herzensteini	cone	single	450	0		microspectrophotometry	adult	24	
+785	Pleuronectes	herzensteini	cone	twin	523	0		microspectrophotometry	adult	24	
+786	Pleuronectes	obscurus	rod		525	0		microspectrophotometry	adult	24	
+787	Pleuronectes	obscurus	cone	single	465	0		microspectrophotometry	adult	24	
+788	Pleuronectes	obscurus	cone	twin	528	0		microspectrophotometry	adult	24	
+789	Pleuronectes	platessa	rod		515	0		microspectrophotometry	adult	29	
+790	Pleuronectes	platessa	cone	single	450	0		microspectrophotometry	adult	29	
+791	Pleuronectes	platessa	cone	single	529	0		microspectrophotometry	adult	29	
+792	Pleuronectes	platessa	cone	twin	529	0		microspectrophotometry	adult	29	
+793	Pseudopleuronectes	americanus	rod		506	0		microspectrophotometry	adult	12	
+794	Pseudopleuronectes	americanus	cone	single	457	0		microspectrophotometry	adult	12	
+795	Pseudopleuronectes	americanus	cone	double	531	0		microspectrophotometry	adult	12	
+796	Pseudopleuronectes	americanus	cone	double	547	0		microspectrophotometry	adult	12	
+797	Oncorhynchus	keta	rod		524	0		microspectrophotometry	adult	15	
+798	Oncorhynchus	keta	cone	single	439	0		microspectrophotometry	adult	15	
+799	Oncorhynchus	keta	cone	double	528	0		microspectrophotometry	adult	15	
+800	Oncorhynchus	keta	cone	double	599	0		microspectrophotometry	adult	15	
+801	Oncorhynchus	kisutch	rod		531	0		microspectrophotometry	adult	15	
+802	Oncorhynchus	kisutch	cone	single	446	0		microspectrophotometry	adult	15	
+803	Oncorhynchus	kisutch	cone	double	507	0		microspectrophotometry	adult	15	
+804	Oncorhynchus	kisutch	cone	double	553	0		microspectrophotometry	adult	15	
+805	Oncorhynchus	tshawytscha	rod		524	0		microspectrophotometry	adult	15	
+806	Oncorhynchus	tshawytscha	cone	single	441	0		microspectrophotometry	adult	15	
+807	Oncorhynchus	tshawytscha	cone	double	536	0		microspectrophotometry	adult	15	
+808	Oncorhynchus	tshawytscha	cone	double	582	0		microspectrophotometry	adult	15	
+809	Salmo	trutta	rod		532	0		microspectrophotometry	adult	2	
+810	Salmo	trutta	cone	single	441	0		microspectrophotometry	adult	2	
+811	Salmo	trutta	cone	double	535	0		microspectrophotometry	adult	2	
+812	Salmo	trutta	cone	double	600	0		microspectrophotometry	adult	2	
+813	Salmo	irideus	rod		512	0		microspectrophotometry	adult	28	
+814	Salmo	irideus	cone	single	453	0		microspectrophotometry	adult	28	
+815	Salmo	irideus	cone	single	530	0		microspectrophotometry	adult	28	
+816	Salmo	irideus	cone	double	498	0		microspectrophotometry	adult	28	
+817	Salmo	irideus	cone	double	530	0		microspectrophotometry	adult	28	
+818	Abyssocottus	korotneffi	rod		481	0		microspectrophotometry	adult	4	
+819	Abyssocottus	korotneffi	cone	single	494	0		microspectrophotometry	adult	4	
+820	Cottinella	boulengeri	rod		482	0		microspectrophotometry	adult	4	
+821	Cottinella	boulengeri	cone	single	496	0		microspectrophotometry	adult	4	
+822	Limnocottus	eurystomus	rod		489	0		microspectrophotometry	adult	4	
+823	Limnocottus	eurystomus	cone	single	427	0		microspectrophotometry	adult	4	
+824	Limnocottus	eurystomus	cone	twin	512	0		microspectrophotometry	adult	4	
+825	Limnocottus	griseus	rod		485	0		microspectrophotometry	adult	4	
+826	Limnocottus	griseus	cone	single	431	0		microspectrophotometry	adult	4	
+827	Limnocottus	griseus	cone	twin	503	0		microspectrophotometry	adult	4	
+828	Procottus	jettelesii	rod		505	0		microspectrophotometry	adult	4	
+829	Procottus	jettelesii	cone	single	448	0		microspectrophotometry	adult	4	
+830	Procottus	jettelesii	cone	twin	521	0		microspectrophotometry	adult	4	
+831	Agonopsis	vulsa	cone	single	440	0		microspectrophotometry	adult	5	
+832	Agonopsis	vulsa	cone	double	516	0		microspectrophotometry	adult	5	
+833	Agonopsis	vulsa	cone	double	559	0		microspectrophotometry	adult	5	
+834	Agonopsis	vulsa	cone	twin	517	0		microspectrophotometry	adult	5	
+835	Bothragonus	swani	rod		500	0		microspectrophotometry	adult	5	
+836	Bothragonus	swani	cone	single	436	0		microspectrophotometry	adult	5	
+837	Bothragonus	swani	cone	double	514	0		microspectrophotometry	adult	5	
+838	Bothragonus	swani	cone	double	567	0		microspectrophotometry	adult	5	
+839	Bothragonus	swani	cone	twin	514	0		microspectrophotometry	adult	5	
+840	Podothecus	acipenserinus	rod		500	0		microspectrophotometry	adult	5	
+841	Podothecus	acipenserinus	cone	single	438	0		microspectrophotometry	adult	5	
+842	Podothecus	acipenserinus	cone	double	520	0		microspectrophotometry	adult	5	
+843	Podothecus	acipenserinus	cone	double	569	0		microspectrophotometry	adult	5	
+844	Podothecus	acipenserinus	cone	twin	519	0		microspectrophotometry	adult	5	
+845	Artedius	fenestrates	rod		498	0		microspectrophotometry	adult	5	
+846	Artedius	fenestrates	cone	single	449	0		microspectrophotometry	adult	5	
+847	Artedius	fenestrates	cone	double	522	0		microspectrophotometry	adult	5	
+848	Artedius	fenestrates	cone	double	561	0		microspectrophotometry	adult	5	
+849	Artedius	harringtoni	rod		501	0		microspectrophotometry	adult	5	
+850	Artedius	harringtoni	cone	single	455	0		microspectrophotometry	adult	5	
+851	Artedius	harringtoni	cone	double	518	0		microspectrophotometry	adult	5	
+852	Artedius	harringtoni	cone	double	558	0		microspectrophotometry	adult	5	
+853	Artedius	meanyi	rod		496	0		microspectrophotometry	adult	5	
+854	Artedius	meanyi	cone	single	451	0		microspectrophotometry	adult	5	
+855	Artedius	meanyi	cone	single	518	0		microspectrophotometry	adult	5	
+856	Artedius	meanyi	cone	twin	518	0		microspectrophotometry	adult	5	
+857	Ascelichthys	rhodorus	rod		501	0		microspectrophotometry	adult	5	
+858	Ascelichthys	rhodorus	cone	single	444	0		microspectrophotometry	adult	5	
+859	Ascelichthys	rhodorus	cone	double	520	0		microspectrophotometry	adult	5	
+860	Ascelichthys	rhodorus	cone	double	564	0		microspectrophotometry	adult	5	
+861	Bero	elegans	rod		507	0		microspectrophotometry	adult	24	
+862	Bero	elegans	cone	single	452	0		microspectrophotometry	adult	24	
+863	Bero	elegans	cone	double	527	0		microspectrophotometry	adult	24	
+864	Bero	elegans	cone	double	562	0		microspectrophotometry	adult	24	
+865	Clinocottus	globiceps	rod		523	0		microspectrophotometry	adult	5	
+866	Clinocottus	globiceps	cone	single	443	0		microspectrophotometry	adult	5	
+867	Clinocottus	globiceps	cone	double	549	0		microspectrophotometry	adult	5	
+868	Clinocottus	globiceps	cone	double	617	0		microspectrophotometry	adult	5	
+869	Enophrys	bison	rod		501	0		microspectrophotometry	adult	5	
+870	Enophrys	bison	cone	single	437	0		microspectrophotometry	adult	5	
+871	Enophrys	bison	cone	double	523	0		microspectrophotometry	adult	5	
+872	Enophrys	bison	cone	double	565	0		microspectrophotometry	adult	5	
+873	Enophrys	diceraus	rod		500	0		microspectrophotometry	adult	24	
+874	Enophrys	diceraus	cone	single	428	0		microspectrophotometry	adult	24	
+875	Enophrys	diceraus	cone	double	513	0		microspectrophotometry	adult	24	
+876	Enophrys	diceraus	cone	double	555	0		microspectrophotometry	adult	24	
+877	Gymnocanthus	pistilliger	rod		501	0		microspectrophotometry	adult	24	
+878	Gymnocanthus	pistilliger	cone	single	446	0		microspectrophotometry	adult	24	
+879	Gymnocanthus	pistilliger	cone	double	523	0		microspectrophotometry	adult	24	
+880	Gymnocanthus	pistilliger	cone	double	549	0		microspectrophotometry	adult	24	
+881	Gymnocanthus	intermedius	rod		504	0		microspectrophotometry	adult	24	
+882	Gymnocanthus	intermedius	cone	single	448	0		microspectrophotometry	adult	24	
+883	Gymnocanthus	intermedius	cone	double	516	0		microspectrophotometry	adult	24	
+884	Gymnocanthus	intermedius	cone	double	530	0		microspectrophotometry	adult	24	
+885	Hemilepidotus	hemilepidotus	rod		501	0		microspectrophotometry	adult	5	
+886	Hemilepidotus	hemilepidotus	cone	single	481	0		microspectrophotometry	adult	5	
+887	Hemilepidotus	hemilepidotus	cone	double	513	0		microspectrophotometry	adult	5	
+888	Hemilepidotus	hemilepidotus	cone	double	567	0		microspectrophotometry	adult	5	
+889	Hemilepidotus	hemilepidotus	cone	twin	514	0		microspectrophotometry	adult	5	
+890	Icelinus	borealis	rod		495	0		microspectrophotometry	adult	5	
+891	Icelinus	borealis	cone	single	442	0		microspectrophotometry	adult	5	
+892	Icelinus	borealis	cone	twin	516	0		microspectrophotometry	adult	5	
+893	Jordania	zonope	rod		500	0		microspectrophotometry	adult	5	
+894	Jordania	zonope	cone	single	432	0		microspectrophotometry	adult	5	
+895	Jordania	zonope	cone	twin	521	0		microspectrophotometry	adult	5	
+896	Leptocottus	armatus	rod		510	0		microspectrophotometry	adult	5	
+897	Leptocottus	armatus	cone	single	432	0		microspectrophotometry	adult	5	
+898	Leptocottus	armatus	cone	twin	521	0		microspectrophotometry	adult	5	
+899	Megalocottus	platycephalus	rod		514	0		microspectrophotometry	adult	24	
+900	Megalocottus	platycephalus	cone	single	435	0		microspectrophotometry	adult	24	
+901	Megalocottus	platycephalus	cone	double	510	0		microspectrophotometry	adult	24	
+902	Megalocottus	platycephalus	cone	double	542	0		microspectrophotometry	adult	24	
+903	Microcottus	sellaris	rod		505	0		microspectrophotometry	adult	24	
+904	Microcottus	sellaris	cone	single	435	0		microspectrophotometry	adult	24	
+905	Microcottus	sellaris	cone	double	510	0		microspectrophotometry	adult	24	
+906	Microcottus	sellaris	cone	double	520	0		microspectrophotometry	adult	24	
+907	Microcottus	sellaris	cone	double	542	0		microspectrophotometry	adult	24	
+908	Myoxocephalus	scorpius	rod		506	0		microspectrophotometry	adult	4	
+909	Myoxocephalus	scorpius	cone	single	453	0		microspectrophotometry	adult	4	
+910	Myoxocephalus	scorpius	cone	double	520	0		microspectrophotometry	adult	4	
+911	Myoxocephalus	scorpius	cone	double	553	0		microspectrophotometry	adult	4	
+912	Myoxocephalus	potyacanthocephalus	rod		500	0		microspectrophotometry	adult	5	
+913	Myoxocephalus	potyacanthocephalus	cone	single	443	0		microspectrophotometry	adult	5	
+914	Myoxocephalus	potyacanthocephalus	cone	single	518	0		microspectrophotometry	adult	5	
+915	Myoxocephalus	potyacanthocephalus	cone	double	521	0		microspectrophotometry	adult	5	
+916	Myoxocephalus	potyacanthocephalus	cone	double	556	0		microspectrophotometry	adult	5	
+917	Myoxocephalus	stelleri	rod		506	0		microspectrophotometry	adult	24	
+918	Myoxocephalus	stelleri	cone	single	448	0		microspectrophotometry	adult	24	
+919	Myoxocephalus	stelleri	cone	double	525	0		microspectrophotometry	adult	24	
+920	Myoxocephalus	stelleri	cone	double	565	0		microspectrophotometry	adult	24	
+921	Myoxocephalus	brandti	rod		506	0		microspectrophotometry	adult	24	
+922	Myoxocephalus	brandti	cone	single	453	0		microspectrophotometry	adult	24	
+923	Myoxocephalus	brandti	cone	double	523	0		microspectrophotometry	adult	24	
+924	Myoxocephalus	brandti	cone	double	546	0		microspectrophotometry	adult	24	
+925	Myoxocephalus	brandti	cone	double	565	0		microspectrophotometry	adult	24	
+926	Myoxocephalus	jack	rod		507	0		microspectrophotometry	adult	24	
+927	Myoxocephalus	jack	cone	single	455	0		microspectrophotometry	adult	24	
+928	Myoxocephalus	jack	cone	double	520	0		microspectrophotometry	adult	24	
+929	Myoxocephalus	jack	cone	double	526	0		microspectrophotometry	adult	24	
+930	Oligocottus	maculosus	rod		520	0		microspectrophotometry	adult	5	
+931	Oligocottus	maculosus	cone	single	447	0		microspectrophotometry	adult	5	
+932	Oligocottus	maculosus	cone	double	559	0		microspectrophotometry	adult	5	
+933	Oligocottus	maculosus	cone	double	620	0		microspectrophotometry	adult	5	
+934	Scorpaenichthys	marmoratus	rod		500	0		microspectrophotometry	adult	5	
+935	Scorpaenichthys	marmoratus	cone	single	443	0		microspectrophotometry	adult	5	
+936	Scorpaenichthys	marmoratus	cone	double	523	0		microspectrophotometry	adult	5	
+937	Scorpaenichthys	marmoratus	cone	double	565	0		microspectrophotometry	adult	5	
+938	Taurulus	bubalis	rod		507	0		microspectrophotometry	adult	4	
+939	Taurulus	bubalis	cone	single	460	0		microspectrophotometry	adult	4	
+940	Taurulus	bubalis	cone	double	523	0		microspectrophotometry	adult	4	
+941	Taurulus	bubalis	cone	double	561	0		microspectrophotometry	adult	4	
+942	Triglops	pingelii	rod		485	0		microspectrophotometry	adult	5	
+943	Triglops	pingelii	cone	single	435	0		microspectrophotometry	adult	5	
+944	Triglops	pingelii	cone	twin	520	0		microspectrophotometry	adult	5	
+945	Triglopsis	quadricornis	rod		512	0		microspectrophotometry	adult	22	
+946	Triglopsis	quadricornis	cone	single	450	0		microspectrophotometry	adult	22	
+947	Triglopsis	quadricornis	cone	double	523	0		microspectrophotometry	adult	22	
+948	Triglopsis	quadricornis	cone	double	556	0		microspectrophotometry	adult	22	
+949	Batrachocottus	baicalensis	rod		509	0		microspectrophotometry	adult	4	
+950	Batrachocottus	baicalensis	cone	single	450	0		microspectrophotometry	adult	4	
+951	Batrachocottus	baicalensis	cone	twin	521	0		microspectrophotometry	adult	4	
+952	Batrachocottus	multiradiatus	rod		489	0		microspectrophotometry	adult	4	
+953	Batrachocottus	multiradiatus	cone	single	447	0		microspectrophotometry	adult	4	
+954	Batrachocottus	multiradiatus	cone	twin	517	0		microspectrophotometry	adult	4	
+955	Batrachocottus	nikolskii	rod		488	0		microspectrophotometry	adult	4	
+956	Batrachocottus	nikolskii	cone	single	428	0		microspectrophotometry	adult	4	
+957	Batrachocottus	nikolskii	cone	twin	511	0		microspectrophotometry	adult	4	
+958	Cottocomephorus	inermis	rod		494	0		microspectrophotometry	adult	4	
+959	Cottocomephorus	inermis	cone	single	450	0		microspectrophotometry	adult	4	
+960	Cottocomephorus	inermis	cone	twin	520	0		microspectrophotometry	adult	4	
+961	Cottocomephorus	grewingkii	rod		503	0		microspectrophotometry	adult	4	
+962	Cottocomephorus	grewingkii	cone	single	449	0		microspectrophotometry	adult	4	
+963	Cottocomephorus	grewingkii	cone	twin	523	0		microspectrophotometry	adult	4	
+964	Leocottus	kesslerii	rod		516	0		microspectrophotometry	adult	4	
+965	Leocottus	kesslerii	cone	single	449	0		microspectrophotometry	adult	4	
+966	Leocottus	kesslerii	cone	double	525	0		microspectrophotometry	adult	4	
+967	Leocottus	kesslerii	cone	double	546	0		microspectrophotometry	adult	4	
+968	Paracottus	knerii	rod		516	0		microspectrophotometry	adult	4	
+969	Paracottus	knerii	cone	single	450	0		microspectrophotometry	adult	4	
+970	Paracottus	knerii	cone	double	523	0		microspectrophotometry	adult	4	
+971	Paracottus	knerii	cone	double	521	0		microspectrophotometry	adult	4	
+972	Eumicrotremus	orbis	rod		494	0		microspectrophotometry	adult	5	
+973	Eumicrotremus	orbis	cone	single	439	0		microspectrophotometry	adult	5	
+974	Eumicrotremus	orbis	cone	double	521	0		microspectrophotometry	adult	5	
+975	Eumicrotremus	orbis	cone	double	567	0		microspectrophotometry	adult	5	
+976	Eumicrotremus	orbis	cone	twin	520	0		microspectrophotometry	adult	5	
+977	Blepsias	cirrhosus	rod		500	0		microspectrophotometry	adult	24	
+978	Blepsias	cirrhosus	cone	single	457	0		microspectrophotometry	adult	24	
+979	Blepsias	cirrhosus	cone	double	540	0		microspectrophotometry	adult	24	
+980	Blepsias	cirrhosus	cone	double	600	0		microspectrophotometry	adult	24	
+981	Hemitripterus	villosus	rod		503	0		microspectrophotometry	adult	24	
+982	Hemitripterus	villosus	cone	single	454	0		microspectrophotometry	adult	24	
+983	Hemitripterus	villosus	cone	double	518	0		microspectrophotometry	adult	24	
+984	Hemitripterus	villosus	cone	triple	560	0		microspectrophotometry	adult	24	
+985	Hemitripterus	villosus	cone	triple	518	0		microspectrophotometry	adult	24	
+986	Nautichthys	oculofasciatus	rod		501	0		microspectrophotometry	adult	5	
+987	Nautichthys	oculofasciatus	cone	single	452	0		microspectrophotometry	adult	5	
+988	Nautichthys	oculofasciatus	cone	single	513	0		microspectrophotometry	adult	5	
+989	Nautichthys	oculofasciatus	cone	twin	513	0		microspectrophotometry	adult	5	
+990	Hexagrammos	decagrammus	rod		497	0		microspectrophotometry	adult	5	
+991	Hexagrammos	decagrammus	cone	single	461	0		microspectrophotometry	adult	5	
+992	Hexagrammos	decagrammus	cone	double	524	0		microspectrophotometry	adult	5	
+993	Hexagrammos	decagrammus	cone	double	566	0		microspectrophotometry	adult	5	
+994	Hexagrammos	decagrammus	cone	twin	528	0		microspectrophotometry	adult	5	
+995	Hexagrammos	octogrammus	rod		523	0		microspectrophotometry	adult	24	
+996	Hexagrammos	octogrammus	cone	single	422	0		microspectrophotometry	adult	24	
+997	Hexagrammos	octogrammus	cone	double	552	0		microspectrophotometry	adult	24	
+998	Hexagrammos	octogrammus	cone	double	615	0		microspectrophotometry	adult	24	
+999	Hexagrammos	stelleri	rod		502	0		microspectrophotometry	adult	24	
+1000	Hexagrammos	stelleri	cone	single	480	0		microspectrophotometry	adult	24	
+1001	Hexagrammos	stelleri	cone	double	525	0		microspectrophotometry	adult	24	
+1002	Hexagrammos	stelleri	cone	double	530	0		microspectrophotometry	adult	24	
+1003	Hexagrammos	stelleri	cone	double	554	0		microspectrophotometry	adult	24	
+1004	Hexagrammos	stelleri	cone	double	552	0		microspectrophotometry	adult	24	
+1005	Ophiodon	elongatus	rod		499	0		microspectrophotometry	adult	5	
+1006	Ophiodon	elongatus	cone	single	461	0		microspectrophotometry	adult	5	
+1007	Ophiodon	elongatus	cone	single	523	0		microspectrophotometry	adult	5	
+1008	Ophiodon	elongatus	cone	double	560	0		microspectrophotometry	adult	5	
+1009	Ophiodon	elongatus	cone	double	565	0		microspectrophotometry	adult	5	
+1010	Ophiodon	elongatus	cone	twin	521	0		microspectrophotometry	adult	5	
+1011	Pleurogrammus	azonus	rod		504	0		microspectrophotometry	adult	24	
+1012	Pleurogrammus	azonus	cone	single	467	0		microspectrophotometry	adult	24	
+1013	Pleurogrammus	azonus	cone	twin	513	0		microspectrophotometry	adult	24	
+1014	Liparis	dennyi	rod		494	0		microspectrophotometry	adult	5	
+1015	Liparis	dennyi	cone	twin	522	0		microspectrophotometry	adult	5	
+1016	Liparis	pulchellus	rod		490	0		microspectrophotometry	adult	5	
+1017	Liparis	pulchellus	cone	single	524	0		microspectrophotometry	adult	5	
+1018	Liparis	florae	rod		495	0		microspectrophotometry	adult	5	
+1019	Liparis	florae	cone	single	440	0		microspectrophotometry	adult	5	
+1020	Liparis	florae	cone	twin	527	0		microspectrophotometry	adult	5	
+1021	Liparis	greeni	rod		495	0		microspectrophotometry	adult	5	
+1022	Liparis	greeni	cone	single	435	0		microspectrophotometry	adult	5	
+1023	Liparis	greeni	cone	twin	527	0		microspectrophotometry	adult	5	
+1024	Dasycottus	setiger	rod		485	0		microspectrophotometry	adult	5	
+1025	Dasycottus	setiger	cone	single	446	0		microspectrophotometry	adult	5	
+1026	Dasycottus	setiger	cone	twin	517	0		microspectrophotometry	adult	5	
+1027	Gilbertidia	sigalutes	rod		496	0		microspectrophotometry	adult	5	
+1028	Gilbertidia	sigalutes	cone	single	454	0		microspectrophotometry	adult	5	
+1029	Gilbertidia	sigalutes	cone	single	519	0		microspectrophotometry	adult	5	
+1030	Gilbertidia	sigalutes	cone	twin	520	0		microspectrophotometry	adult	5	
+1031	Psychrobites	paradoxus	rod		483	0		microspectrophotometry	adult	5	
+1032	Psychrobites	paradoxus	cone	single	441	0		microspectrophotometry	adult	5	
+1033	Psychrobites	paradoxus	cone	single	522	0		microspectrophotometry	adult	5	
+1034	Psychrobites	paradoxus	cone	single	564	0		microspectrophotometry	adult	5	
+1035	Psychrobites	paradoxus	cone	double	522	0		microspectrophotometry	adult	5	
+1036	Psychrobites	paradoxus	cone	double	564	0		microspectrophotometry	adult	5	
+1037	Psychrobites	paradoxus	cone	twin	521	0		microspectrophotometry	adult	5	
+1038	Rhamphocottus	richardsonii	rod		493	0		microspectrophotometry	adult	5	
+1039	Rhamphocottus	richardsonii	cone	single	452	0		microspectrophotometry	adult	5	
+1040	Rhamphocottus	richardsonii	cone	double	522	0		microspectrophotometry	adult	5	
+1041	Rhamphocottus	richardsonii	cone	double	559	0		microspectrophotometry	adult	5	
+1042	Rhamphocottus	richardsonii	cone	twin	522	0		microspectrophotometry	adult	5	
+1043	Dendrochirus	zebra	rod		501	0		microspectrophotometry	adult	29	
+1044	Dendrochirus	zebra	cone	single	440	0		microspectrophotometry	adult	29	
+1045	Dendrochirus	zebra	cone	twin	513	0		microspectrophotometry	adult	29	
+1046	Scorpaena	porcus	rod		506	0		microspectrophotometry	adult	18	
+1047	Scorpaena	porcus	cone	single	455	0		microspectrophotometry	adult	18	
+1048	Scorpaena	porcus	cone	twin	530	0		microspectrophotometry	adult	18	
+1049	Sebastes	auriculatus	rod		498	0		microspectrophotometry	adult	5	
+1050	Sebastes	auriculatus	cone	single	445	0		microspectrophotometry	adult	5	
+1051	Sebastes	auriculatus	cone	twin	521	0		microspectrophotometry	adult	5	
+1052	Sebastes	caurinus	rod		496	0		microspectrophotometry	adult	5	
+1053	Sebastes	caurinus	cone	single	447	0		microspectrophotometry	adult	5	
+1054	Sebastes	caurinus	cone	double	520	0		microspectrophotometry	adult	5	
+1055	Sebastes	caurinus	cone	double	534	0		microspectrophotometry	adult	5	
+1056	Sebastes	caurinus	cone	twin	524	0		microspectrophotometry	adult	5	
+1057	Sebastes	maliger	cone	single	432	0		microspectrophotometry	adult	5	
+1058	Sebastes	maliger	cone	double	522	0		microspectrophotometry	adult	5	
+1059	Sebastes	maliger	cone	double	535	0		microspectrophotometry	adult	5	
+1060	Sebastes	empaeus	rod		493	0		microspectrophotometry	adult	5	
+1061	Sebastes	empaeus	cone	single	421	0		microspectrophotometry	adult	5	
+1062	Sebastes	empaeus	cone	single	443	0		microspectrophotometry	adult	5	
+1063	Sebastes	empaeus	cone	twin	523	0		microspectrophotometry	adult	5	
+1064	Chelidonichthys	lucernus	rod		502	0		microspectrophotometry	adult	29	
+1065	Chelidonichthys	lucernus	cone	single	460	0		microspectrophotometry	adult	29	
+1066	Chelidonichthys	lucernus	cone	twin	530	0		microspectrophotometry	adult	29	
+1067	Eutrigla	gurnardus	rod		502	0		microspectrophotometry	adult	29	
+1068	Eutrigla	gurnardus	cone	single	460	0		microspectrophotometry	adult	29	
+1069	Eutrigla	gurnardus	cone	twin	520	0		microspectrophotometry	adult	29	
+1070	Ictalurus	catus	rod		541	0		microspectrophotometry	adult	42	
+1071	Ictalurus	catus	cone	single	447	0		microspectrophotometry	adult	42	
+1072	Ictalurus	catus	cone	double	509	0		microspectrophotometry	adult	42	
+1073	Ictalurus	catus	cone	double	516	0		microspectrophotometry	adult	42	
+1074	Ictalurus	melas	rod		541	0		microspectrophotometry	adult	42	
+1075	Ictalurus	melas	cone	single	536	0		microspectrophotometry	adult	42	
+1076	Ictalurus	melas	cone	single	505	0		microspectrophotometry	adult	42	
+1077	Ictalurus	punctatus	rod		542	0		microspectrophotometry	adult	42	
+1078	Ictalurus	punctatus	cone	single	536	0		microspectrophotometry	adult	42	
+1079	Ictalurus	punctatus	cone	single	607	0		microspectrophotometry	adult	42	
+1080	Hippocampus	subelongatus	rod		500	0		microspectrophotometry	adult	36	
+1081	Hippocampus	subelongatus	cone	single	467	0		microspectrophotometry	adult	36	
+1082	Hippocampus	subelongatus	cone	double	522	0		microspectrophotometry	adult	36	
+1083	Hippocampus	subelongatus	cone	double	537	0		microspectrophotometry	adult	36	
+1084	Hippocampus	subelongatus	cone	double	560	0		microspectrophotometry	adult	36	
+1085	Hippocampus	subelongatus	cone	twin	522	0		microspectrophotometry	adult	36	
+1086	Hippocampus	subelongatus	cone	twin	537	0		microspectrophotometry	adult	36	
+1087	Hippocampus	barbouri	rod		499	0		microspectrophotometry	adult	36	
+1088	Hippocampus	barbouri	cone	single	429	0		microspectrophotometry	adult	36	
+1089	Hippocampus	barbouri	cone	single	460	0		microspectrophotometry	adult	36	
+1090	Hippocampus	barbouri	cone	twin	521	0		microspectrophotometry	adult	36	
+1091	Hippocampus	barbouri	cone	twin	537	0		microspectrophotometry	adult	36	
+1092	Hippocampus	barbouri	cone	twin	558	0		microspectrophotometry	adult	36	
+1093	Stigmatopora	argus	rod		502	0		microspectrophotometry	adult	36	
+1094	Stigmatopora	argus	cone	single	457	0		microspectrophotometry	adult	36	
+1095	Stigmatopora	argus	cone	double	519	0		microspectrophotometry	adult	36	
+1096	Stigmatopora	argus	cone	double	537	0		microspectrophotometry	adult	36	
+1097	Stigmatopora	argus	cone	double	579	0		microspectrophotometry	adult	36	
+1098	Stigmatopora	argus	cone	twin	519	0		microspectrophotometry	adult	36	
+1099	Stigmatopora	argus	cone	twin	537	0		microspectrophotometry	adult	36	
+1100	Sygnathus	leptorhynchus	rod		499	0		microspectrophotometry	adult	5	
+1101	Sygnathus	leptorhynchus	cone	single	404	0		microspectrophotometry	adult	5	
+1102	Sygnathus	leptorhynchus	cone	single	440	0		microspectrophotometry	adult	5	
+1103	Sygnathus	leptorhynchus	cone	double	524	0		microspectrophotometry	adult	5	
+1104	Sygnathus	leptorhynchus	cone	double	569	0		microspectrophotometry	adult	5	
+1105	Canthidermis	maculatus	rod		486	0		microspectrophotometry	adult	32	
+1106	Canthidermis	maculatus	cone	single	407	0		microspectrophotometry	adult	32	
+1107	Canthidermis	maculatus	cone	single	493	0		microspectrophotometry	adult	32	
+1108	Canthidermis	maculatus	cone	double	479	0		microspectrophotometry	adult	32	
+1109	Canthidermis	maculatus	cone	double	522	0		microspectrophotometry	adult	32	
+1110	Sufflamen	bursa	rod		487	0		microspectrophotometry	adult	32	
+1111	Sufflamen	bursa	cone	single	404	0		microspectrophotometry	adult	32	
+1112	Sufflamen	bursa	cone	twin	503	0		microspectrophotometry	adult	32	
+1113	Pergavor	spilosoma	rod		494	0		microspectrophotometry	adult	32	
+1114	Pergavor	spilosoma	cone	single	398	0		microspectrophotometry	adult	32	
+1115	Pergavor	spilosoma	cone	double	492	0		microspectrophotometry	adult	32	
+1116	Pergavor	spilosoma	cone	double	510	0		microspectrophotometry	adult	32	
+1117	Pergavor	aspricaudus	rod		492	0		microspectrophotometry	adult	32	
+1118	Pergavor	aspricaudus	cone	single	404	0		microspectrophotometry	adult	32	
+1119	Pergavor	aspricaudus	cone	double	476	0		microspectrophotometry	adult	32	
+1120	Pergavor	aspricaudus	cone	double	516	0		microspectrophotometry	adult	32	
+1121	Ostracion	meleagris	rod		495	0		microspectrophotometry	adult	32	
+1122	Ostracion	meleagris	cone	single	416	0		microspectrophotometry	adult	32	
+1123	Ostracion	meleagris	cone	single	471	0		microspectrophotometry	adult	32	
+1124	Ostracion	meleagris	cone	double	479	0		microspectrophotometry	adult	32	
+1125	Ostracion	meleagris	cone	double	520	0		microspectrophotometry	adult	32	
+1126	Ostracion	meleagris	cone	twin	497	0		microspectrophotometry	adult	32	
+1127	Arothron	meleagris	rod		493	0		microspectrophotometry	adult	32	
+1128	Arothron	meleagris	cone	single	439	0		microspectrophotometry	adult	32	
+1129	Arothron	meleagris	cone	double	507	0		microspectrophotometry	adult	32	
+1130	Arothron	meleagris	cone	double	525	0		microspectrophotometry	adult	32	
+1131	Cavia	porcellus	rod		500	0		microspectrophotometry	adult 	106	
+1132	Cavia	porcellus	cone?	single?	530	0		microspectrophotometry	adult	106	
+1133	Cavia	porcellus	cone?	single?	400	0		microspectrophotometry	adult	106	
+1134	Serinus	canaria	rod		506	0		microspectrophotometry	adult	51	
+1135	Serinus	canaria	cone	single	569	0		microspectrophotometry	adult	51	
+1136	Serinus	canaria	cone	single	505	0		microspectrophotometry	adult	51	
+1137	Serinus	canaria	cone	single	442	0		microspectrophotometry	adult	51	
+1138	Serinus	canaria	cone	single	366	0		microspectrophotometry	adult	51	
+1139	Serinus	canaria	cone	double	569	0		microspectrophotometry	adult	51	
+1140	Dasyatis	fluviorum	rod		500	0		microspectrophotometry	adult	52	
+1141	Dasyatis	fluviorum	cone	single	475	0		microspectrophotometry	adult	52	
+1142	Dasyatis	fluviorum	cone	single	566	0		microspectrophotometry	adult	52	
+1143	Himantura	fai	rod		503	0		microspectrophotometry	adult	52	
+1144	Himantura	fai	cone	single	475	0		microspectrophotometry	adult	52	
+1145	Himantura	fai	cone	single	557	0		microspectrophotometry	adult	52	
+1146	Neotrygon	kuhlii	rod		497	0		microspectrophotometry	adult	52	
+1147	Neotrygon	kuhlii	rod		498	0		microspectrophotometry	immature	52	
+1148	Neotrygon	kuhlii	cone	single	476	0		microspectrophotometry	adult	52	
+1149	Neotrygon	kuhlii	cone	single	552	0		microspectrophotometry	adult	52	
+1150	Taeniura	lymma	rod		500	0		microspectrophotometry	adult	52	
+1151	Taeniura	lymma	cone	single	479	0		microspectrophotometry	adult	52	
+1152	Taeniura	lymma	cone	single	557	0		microspectrophotometry	adult	52	
+1153	Gymnura	australis	rod		500	0		microspectrophotometry	adult	52	
+1154	Gymnura	australis	cone	single	467	0		microspectrophotometry	adult	52	
+1155	Gymnura	australis	cone	single	556	0		microspectrophotometry	adult	52	
+1156	Aetobatus	narinari	rod		502	0		microspectrophotometry	adult	52	
+1157	Aetobatus	narinari	cone	single	450	0		microspectrophotometry	adult	52	
+1158	Aetobatus	narinari	cone	single	552	0		microspectrophotometry	adult	52	
+1159	Aptychotrema	rostrata	rod		498	0		microspectrophotometry	adult	52	
+1160	Aptychotrema	rostrata	rod		492	0		microspectrophotometry	immature	52	
+1161	Aptychotrema	rostrata	cone	single	459	0		microspectrophotometry	adult	52	
+1162	Aptychotrema	rostrata	cone	single	553	0		microspectrophotometry	adult	52	
+1163	Aptychotrema	vincentiana	rod		500	0		microspectrophotometry	adult	52	
+1164	Aptychotrema	vincentiana	rod		501	0		microspectrophotometry	immature	52	
+1165	Aptychotrema	vincentiana	cone	single	460	0		microspectrophotometry	adult	52	
+1166	Aptychotrema	vincentiana	cone	single	557	0		microspectrophotometry	adult	52	
+1167	Glaucostegus	typus	rod		504	0		microspectrophotometry	adult	52	
+1168	Glaucostegus	typus	rod		504	0		microspectrophotometry	immature	52	
+1169	Glaucostegus	typus	cone	single	477	0		microspectrophotometry	adult	52	
+1170	Glaucostegus	typus	cone	single	561	0		microspectrophotometry	adult	52	
+1171	Trygonorrhina	fasciata	rod		499	0		microspectrophotometry	adult	52	
+1172	Trygonorrhina	fasciata	cone	single	470	0		microspectrophotometry	adult	52	
+1173	Trygonorrhina	fasciata	cone	single	568	0		microspectrophotometry	adult	52	
+1174	Rhinobatos	lentiginosus	rod		496	0		microspectrophotometry	adult	52	
+1175	Rhinobatos	lentiginosus	rod		499	0		microspectrophotometry	immature	52	
+1176	Rhinoptera	bonasus	rod		500	0		microspectrophotometry	adult	52	
+1177	Rhinoptera	bonasus	cone	single	470	0		microspectrophotometry	adult	52	
+1178	Rhinoptera	bonasus	cone	single	551	0		microspectrophotometry	adult	52	
+1179	Rhynchobatus	australiae	rod		500	0		microspectrophotometry	adult	52	
+1180	Rhynchobatus	australiae	cone	single	475	0		microspectrophotometry	adult	52	
+1181	Rhynchobatus	australiae	cone	single	555	0		microspectrophotometry	adult	52	
+1182	Trygonoptera	testacea	rod		498	0		microspectrophotometry	adult	52	
+1183	Trygonoptera	testacea	cone	single	481	0		microspectrophotometry	adult	52	
+1184	Trygonoptera	testacea	cone	single	557	0		microspectrophotometry	adult	52	
+1185	Urobatis	jamaicensis	rod		499	0		microspectrophotometry	adult	52	
+1186	Urobatis	jamaicensis	cone	single	475	0		microspectrophotometry	adult	52	
+1187	Urobatis	jamaicensis	cone	single	562	0		microspectrophotometry	adult	52	
+1188	Carcharhinus	amboinensis	rod		507	0		microspectrophotometry	adult	52	
+1189	Carcharhinus	amboinensis	cone	single	534	0		microspectrophotometry	adult	52	
+1190	Carcharhinus	amblyrhynchos	rod		504	0		microspectrophotometry	adult	52	
+1191	Carcharhinus	leucas	rod		518	0		microspectrophotometry	adult	52	
+1192	Carcharhinus	leucas	cone	single	554	0		microspectrophotometry	adult	52	
+1193	Carcharhinus	limbatus	rod		506	0		microspectrophotometry	adult	52	
+1194	Carcharhinus	limbatus	cone	single	532	0		microspectrophotometry	adult	52	
+1195	Carcharhinus	melanopterus	rod		505	0		microspectrophotometry	adult	52	
+1196	Carcharhinus	melanopterus	rod		507	0		microspectrophotometry	immature	52	
+1197	Carcharhinus	melanopterus	cone	single	528	0		microspectrophotometry	adult	52	
+1198	Carcharhinus	obscurus	rod		502	0		microspectrophotometry	adult	52	
+1199	Rhizoprionodon	taylori	rod		508	0		microspectrophotometry	adult	52	
+1200	Rhizoprionodon	taylori	cone	single	533	0		microspectrophotometry	adult	52	
+1201	Chiloscyllium	punctatum	rod		500	0		microspectrophotometry	adult	52	
+1202	Chiloscyllium	punctatum	cone	single	532	0		microspectrophotometry	adult	52	
+1203	Orectolobus	maculatus	rod		484	0		microspectrophotometry	adult	52	
+1204	Orectolobus	maculatus	cone	single	553	0		microspectrophotometry	adult	52	
+1205	Orectolobus	ornatus	rod		498	0		microspectrophotometry	adult	52	
+1206	Orectolobus	ornatus	cone	single	561	0		microspectrophotometry	adult	52	
+1207	Oncorhynchus	mykiss	cone	single	386	0		microspectrophotometry	juvenile (alevin stage)	53	
+1208	Oncorhynchus	mykiss	cone	double	498	0		microspectrophotometry	juvenile (alevin stage)	53	
+1209	Oncorhynchus	mykiss	cone	double	563	0		microspectrophotometry	juvenile (alevin stage)	53	
+1210	Ctenophorus	decresii	cone	single	569	0		microspectrophotometry	adult	55	
+1211	Ctenophorus	decresii	cone	single	491	0		microspectrophotometry	adult	55	
+1212	Ctenophorus	decresii	cone	single	436	0		microspectrophotometry	adult	55	
+1213	Ctenophorus	decresii	cone	single	507	0		microspectrophotometry	adult	55	
+1214	Ctenophorus	ornatus	cone	single	440	0		microspectrophotometry	adult	55	
+1215	Ctenophorus	ornatus	cone	single	493	0		microspectrophotometry	adult	55	
+1216	Ctenophorus	ornatus	cone	single	571	0		microspectrophotometry	adult	55	
+1217	Alouatta	sp.	cone	single	530	0		microspectrophotometry	adult	56	
+1218	Alouatta	sp.	cone	single	558	0		microspectrophotometry	adult	56	
+1219	Alouatta	sp.	rod		500	0		microspectrophotometry	adult	56	
+1220	Oncorhynchus	kisutch	cone	single	380	0		microspectrophotometry	juvenile	57	development altered with T4 hormone 
+1221	Oncorhynchus	kisutch	cone	single	455	0		microspectrophotometry	juvenile	57	development altered withT4 hormone 
+1222	Oncorhynchus	kisutch	cone	single	405	0		microspectrophotometry	juvenile	57	development altered with T4 hormone 
+1223	Oncorhynchus	mykiss	cone	single	434	0		microspectrophotometry	juvenile (smolt stage)	58	
+1224	Oncorhynchus	mykiss	cone	double	521	0		microspectrophotometry	juvenile (smolt stage)	58	
+1225	Oncorhynchus	mykiss	cone	double	564	0		microspectrophotometry	juvenile (smolt stage)	58	
+1226	Oncorhynchus	mykiss	rod		509	0		microspectrophotometry	juvenile (smolt stage)	58	
+1227	Oncorhynchus	mykiss	cone	single	382	0		microspectrophotometry	juvenile (alevin stage)	58	
+1228	Oncorhynchus	mykiss	cone	double	500	0		microspectrophotometry	juvenile (alevin stage)	58	
+1229	Oncorhynchus	mykiss	cone	double	563	0		microspectrophotometry	juvenile (alevin stage)	58	
+1230	Oncorhynchus	mykiss	rod		508	0		microspectrophotometry	juvenile (alevin stage)	58	
+1231	Danio	rerio	cone	single	361	0		microspectrophotometry	juvenile	58	
+1232	Danio	rerio	cone	single	417	0		microspectrophotometry	juvenile	58	
+1233	Danio	rerio	cone	double	483	0		microspectrophotometry	juvenile	58	
+1234	Danio	rerio	cone	double	566	0		microspectrophotometry	juvenile	58	
+1235	Danio	rerio	rod		501	0		microspectrophotometry	juvenile	58	
+1236	Lampetra	fluviatilis	rod		515	0		microspectrophotometry	adult	59	
+1237	Lampetra	fluviatilis	cone	single	555	0		microspectrophotometry	adult	59	
+1238	Lampetra	fluviatilis	cone	single	610	0		microspectrophotometry	adult	59	
+1239	Eigenmannia	virescens	rod		524	0		microspectrophotometry	adult	60	
+1240	Eigenmannia	virescens	cone	single	608	0		microspectrophotometry	adult	60	
+1241	Gasterosteus	acuelatus	cone	single	373	0		microspectrophotometry	adult	61	avg from 5 lakes in British Columbia
+1242	Gasterosteus	acuelatus	cone	single	449	0		microspectrophotometry	adult	61	avg from 5 lakes in British Columbia
+1243	Gasterosteus	acuelatus	cone	double	528	0		microspectrophotometry	adult	61	avg from 5 lakes in British Columbia
+1244	Gasterosteus	acuelatus	cone	double	603	0		microspectrophotometry	adult	61	avg from 5 lakes in British Columbia
+1245	Gasterosteus	acuelatus	rod		524	0		microspectrophotometry	adult	61	avg from 5 lakes in British Columbia
+1246	Pseudotropheus	acei	cone	single	378	0		microspectrophotometry	adult	62	
+1247	Pseudotropheus	acei	cone	single	415	0		microspectrophotometry	adult	62	
+1248	Pseudotropheus	acei	cone	single	452	0		microspectrophotometry	adult	62	
+1249	Pseudotropheus	acei	rod		505	0		microspectrophotometry	adult	62	
+1250	Pseudotropheus	acei	cone	double	482	0		microspectrophotometry	adult	62	
+1251	Pseudotropheus	acei	cone	double	506	0		microspectrophotometry	adult	62	
+1252	Pseudotropheus	acei	cone	double	535	0		microspectrophotometry	adult	62	
+1253	Pseudotropheus	acei	cone	single	476	0		microspectrophotometry	adult	62	
+1254	Pseudotropheus	acei	cone	single	505	0		microspectrophotometry	adult	62	
+1255	Pseudotropheus	acei	cone	single	534	0		microspectrophotometry	adult	62	
+1256	Pseudotropheus	acei	cone	single	566	0		microspectrophotometry	adult	62	
+1257	Melanochromis	vermivorus	rod		505	0		microspectrophotometry	adult	62	
+1258	Melanochromis	vermivorus	cone	single	418	0		microspectrophotometry	adult	62	
+1259	Melanochromis	vermivorus	cone	double	485	0		microspectrophotometry	adult	62	
+1260	Melanochromis	vermivorus	cone	double	503	0		microspectrophotometry	adult	62	
+1261	Melanochromis	vermivorus	cone	double	535	0		microspectrophotometry	adult	62	
+1262	Melanochromis	vermivorus	cone	single	506	0		microspectrophotometry	adult	62	
+1263	Melanochromis	vermivorus	cone	single	555	0		microspectrophotometry	adult	62	
+1264	Tramitichromis	intermedius	rod		506	0		microspectrophotometry	adult	62	
+1265	Tramitichromis	intermedius	cone	single	455	0		microspectrophotometry	adult	62	
+1266	Tramitichromis	intermedius	cone	double	532	0		microspectrophotometry	adult	62	
+1267	Tramitichromis	intermedius	cone	double	569	0		microspectrophotometry	adult	62	
+1268	Tramitichromis	intermedius	cone	single	534	0		microspectrophotometry	adult	62	
+1269	Poecilia	reticulata cumana	cone		359	0		microspectrophotometry	adult	66	
+1270	Poecilia	reticulata cumana	cone		406	0		microspectrophotometry	adult	66	
+1271	Poecilia	reticulata cumana	cone		465	0		microspectrophotometry	adult	66	
+1272	Poecilia	reticulata cumana	cone		525	0		microspectrophotometry	adult	66	
+1273	Poecilia	reticulata cumana	cone		541	0		microspectrophotometry	adult	66	
+1274	Poecilia	reticulata cumana	cone		560	0		microspectrophotometry	adult	66	
+1275	Poecilia	reticulata cumana	rod		503	0		microspectrophotometry	adult	66	
+1276	Poecilia	reticulata trinidad	rod		501	0		microspectrophotometry	adult	115	
+1277	Poecilia	reticulata trinidad	cone		408	0		microspectrophotometry	adult	115	
+1278	Poecilia	reticulata trinidad	cone		464	0		microspectrophotometry	adult	115	
+1279	Poecilia	reticulata trinidad	cone		533	0		microspectrophotometry	adult	115	
+1280	Poecilia	reticulata trinidad	cone		543	0		microspectrophotometry	adult	115	
+1281	Poecilia	reticulata trinidad	cone		572	0		microspectrophotometry	adult	115	
+1282	Neoniphon	sammara	rod		502	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1283	Neoniphon	argenteus	rod		502	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1284	Neoniphon	aurolineatus	rod		481	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1285	Sargocentron	punctatissimum	rod		494	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1286	Sargocentron	microstoma	rod		494	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1287	Sargocentron	diadema	rod		491	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1288	Sargocentron	xantherythrum	rod		486	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1289	Sargocentron	spiniferum	rod		490	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1290	Sargocentron	tiere	rod		490	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1291	Myripristis	violacea	rod		499	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1292	Myripristis	berndti	rod		493	0		microspectrophotometry	unknown	160	Cites thesis: Toller, W. W. 1996. Rhodopsin evolution in the Holocentridae (Pisces: Beryciformes). Doctoral dissertation, University Southern California, Los Angeles.
+1293	Photostomias	guernei	rod		483	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1294	Chauliodus	danae	rod		484	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1295	Chauliodus	sloani	rod		485	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1296	Idiacanthus	fasciola	rod		485	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1297	Stomias	boa	rod		489	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1298	Ichthyocossus	ovatus	rod		489	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1299	Vinciguerria	nimbaria	rod		477	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1300	Argyropelecus	aculeatus	rod		477	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1301	Argyropelecus	gigas	rod		477	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1302	Gonostoma	bathyphilium	rod		481	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1303	Gonostoma	elongatum	rod		483	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1304	Diaphus	rafinesquei	rod		489	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1305	Bolinichthys	indicus	rod		489	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1306	Ceratoscopelus	warmingii	rod		488	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1307	Lampanyctus	alatus	rod		485	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1308	Benthosema	suborbitale	rod		487	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1309	Phycis	blennoides	rod		494	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1310	Coryphaenoides	guntheri	rod		479	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1311	Bassozetus	compresis	rod		476	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1312	Cataetyx	laticeps	rod		468	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1313	Conocara	salmonea	rod		480	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1314	Alepocephalus	bairdii	rod		476	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1315	Anoplogaster	cornuta	rod		485	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1316	Hoplostethus	mediteranus	rod		479	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1317	Bathysaurus	ferox	rod		481	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1318	Bathysaurus	mollis	rod		479	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1319	Aristostomias	tittmani	rod		523	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1320	Aristostomias	tittmani	rod		551	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1321	Aristostomias	tittmani	rod		581	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1322	Malacosteus	niger	rod		517	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
+1323	Malacosteus	niger	rod		542	0		microspectrophotometry	unknown	162	Compiled from other sources (Table 1): Douglas pers com; four publications by Douglas and/or Partridge
