@@ -1,0 +1,3 @@
+python downloadSQL2.py > rh1_12-13-21.fas
+mafft rh1_12-13-21.fas > rh1_12-13-21_ALN.fas
+iqtree -s rh1_12-13-21_ALN.fas
