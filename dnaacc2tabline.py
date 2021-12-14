@@ -26,6 +26,8 @@ for line in Lines:
     print(species, end='\t')
     print("NCBI", end='\t')
     print(id, end='\t')
+# Comment one of next two lines to print or to not print DNA right now
     print(dna, end='\t')
+#    print(end='\t')
     print(aa, end='\n')
 #    print(" ")

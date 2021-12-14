@@ -1,0 +1,127 @@
+1	Tachyglossus	aculeatus	JX103830		497.9	1.1	HEK293T	1D4 antibody		116	none
+2	Tachyglossus	aculeatus	JX103830_N83D	N83D	503.8	1.5	HEK293T	1D4 antibody		116	
+3	Tachyglossus	aculeatus	JX103830_T158A	T158A	498	1.3	HEK293T	1D4 antibody		116	
+4	Tachyglossus	aculeatus	JX103830_F169A	F169A	499.4	0.1	HEK293T	1D4 antibody		116	
+5	Bos	taurus	NM_001014890.2		500	0	HEK293T	1D4 antibody		116	
+6	Bos	taurus	NM_001014890.2		498	0	HEK293S	cell membranes		117	
+7	Bos	taurus	NM_001014890_D83G	D83G	499.5	0	HEK293S	cell membranes		117	
+8	Bos	taurus	NM_001014890_D83N	D83N	489.5	0	HEK293S	cell membranes		117	
+9	Bos	taurus	NM_001014890_M86E	M86E	492.5	0	HEK293S	cell membranes		117	
+10	Bos	taurus	NM_001014890_E122Q	E122Q	481	0	HEK293S	cell membranes		117	
+11	Bos	taurus	NM_001014890_E122I	E122I	496	0	HEK293S	cell membranes		117	
+12	Bos	taurus	NM_001014890_E134L	E134L	497	0	HEK293S	cell membranes		117	
+13	Bos	taurus	NM_001014890_E134Q	E134Q	495.5	0	HEK293S	cell membranes		117	
+14	Bos	taurus	NM_001014890_R135L	R135L	499	0	HEK293S	cell membranes		117	
+15	Bos	taurus	NM_001014890_H211C	H211C	493	0	HEK293S	cell membranes		117	
+16	Bos	taurus	NM_001014890_H211F	H211F	493.5	0	HEK293S	cell membranes		117	
+17	Bos	taurus	NM_001014890_E122I_D83G	E122I, D83G	496.5	0	HEK293S	cell membranes		117	
+18	Bos	taurus	NM_001014890_E122I_M86E	E122I, M86E	491	0	HEK293S	cell membranes		117	
+19	Bos	taurus	NM_001014890_E134L_R135L	E134L, R135L	497.5	0	HEK293S	cell membranes		117	
+20	Bos	taurus	NM_001014890_E134R_R135E	E134R, R135E	496	0	HEK293S	cell membranes		117	
+21	Rod_ancestor	pigmentc	pigmentc_A292S	A292S	489	0	COS1		dark	128	
+22	Rod_ancestor	pigmentd	pigmentd_A292S	A292S	502	0	COS1		dark	128	
+23	Rod_ancestor	pigmentg	pigmentg_A292S	A292S	491	0	COS1		difference	128	
+24	Rod_ancestor	pigmenta	pigmenta_D83N	D83N	498	0	COS1		dark	128	
+25	Rod_ancestor	pigmente	pigmente_D83N	D83N	479	0	COS1		dark	128	
+26	Rod_ancestor	pigmenta	pigmenta_D83N_A292S	D83N, A292S	488	0	COS1		difference	128	
+27	Rod_ancestor	pigmentg	pigmentg_D83N_A292S	D83N, A292S	486	0	COS1		dark	128	
+28	Rod_ancestor	pigmenth	pigmenth_D83N_A292S	D83N, A292S	482	0	COS1		difference	128	
+29	Rod_ancestor	pigmenti	pigmenti_D83N_A292S	D83N, A292S	482	0	COS1		dark	128	
+30	Rod_ancestor	pigmenta	pigmenta_D83N_I214T	D83N, I214T	497	0	COS1		dark	128	
+31	Rod_ancestor	pigmentf	pigmentf_D83N_M183F_M253L_F261Y_T289G_A292I_M317I	D83N, M183F, M253L, F261Y, T289G, A292I, M317I	526	0	COS1		difference	128	Supplement says mutation is S292I -- but 292 is A in pigmentf. Changing to A292I
+32	Rod_ancestor	pigmentb	pigmentb_E122I	E122I	501	0	COS1		dark	128	
+33	Rod_ancestor	pigmentb	pigmentb_E122I_F261Y	E122I, F261Y	507	0	COS1		dark	128	
+34	Rod_ancestor	pigmentf	pigmentf_E122M_A292S	E122M, A292S	484	0	COS1		dark	128	
+35	Rod_ancestor	pigmentf	pigmentf_E122M_F261Y	E122M, F261Y	504	0	COS1		dark	128	
+36	Rod_ancestor	pigmentf	pigmentf_E122M_F261Y_A292S	E122M, F261Y, A292S	490	0	COS1		dark	128	
+37	Rod_ancestor	pigmentf	pigmentf_E122Q	E122Q	489	0	COS1		difference	128	
+38	Rod_ancestor	pigmenta	pigmenta_E122Q_A292S	E122Q, A292S	478	0	COS1		difference	128	
+39	Rod_ancestor	pigmentb	pigmentb_F261Y	F261Y	511	0	COS1		dark	128	
+40	Rod_ancestor	pigmenti	pigmenti_F261Y	F261Y	503	0	COS1		dark	128	
+41	Rod_ancestor	pigmentd	pigmentd_N195A_A292S	N195A, A292S	488	0	COS1		dark	128	
+42	Sebastolobus	altivelis	DQ490124_N83D	N83D	491	0	COS1		dark	128	THORNYHEAD
+43	Chauliodus	macouni	EU407250.1_N83D	N83D	492	0	COS1		difference	128	VIPERFISH
+44	Lepidopus	fitchi	EU407253.1_N83D	N83D	490	0	COS1		difference	128	SCABBARD-B
+45	Sebastolobus	altivelis	DQ490124_N83D_S292A	N83D, S292A	501	0	COS1		dark	128	THORNYHEAD
+46	Chauliodus	macouni	EU407250.1_N83D_S292A	N83D, S292A	504	0	COS1		difference	128	VIPERFISH
+47	Lepidopus	fitchi	EU407253.1_N83D_S292A	N83D, S292A	495	0	COS1		difference	128	SCABBARD-B
+48	Rod_ancestor	pigmentd	pigmentd_P194R_A292S	P194R, A292S	488	0	COS1		dark	128	
+49	Rod_ancestor	pigmentd	pigmentd_P194R_N195A	P194R, N195A	501	0	COS1		dark	128	
+50	Rod_ancestor	pigmentd	pigmentd_P194R_N195A_A292S	P194R, N195A, A292S	488	0	COS1		dark	128	
+51	Stenobrachius	leucopsarus	EU407251_Q122E	Q122E	499	0	COS1		dark	128	LAMPFISH
+52	Conger	myriaster	AB043817.1_S292A	S292A	498	0	COS1		dark	128	CONGER-A
+53	Sebastolobus	altivelis	DQ490124_S292A	S292A	494	0	COS1		dark	128	THORNYHEAD
+54	Chauliodus	macouni	EU407250.1_S292A	S292A	501	0	COS1		difference	128	VIPERFISH
+55	Lepidopus	fitchi	EU407253.1_S292A	S292A	490	0	COS1		dark	128	SCABBARD-B
+56	Lepidopus	fitchi	EU407252.1_Y261F	Y261F	502	0	COS1		difference	128	SCABBARD-A
+57	Rod_ancestor	pigmenth	pigmenth_Y96V_Y102F	Y96V, Y102F	494	0	COS1		dark	128	
+58	Conger	myriaster	AB043817.1		486	0	COS1		dark	128	CONGER-A
+59	Tursiops	truncatus	AF055456		488	0	COS1		difference	128	DOLPHIN
+60	Latimeria	chalumnae	AH007712.2		482	0	COS1		difference	128	COELACANTH
+61	Loxodonta	africana	AY686752.1		496	0	COS1		dark	128	ELEPHANT
+62	Sebastolobus	altivelis	DQ490124		483	0	COS1		dark	128	THORNYHEAD
+63	Aristostomias	scintillans	EU407248.1		526	0	COS1		dark	128	LOOSEJAW
+64	Chauliodus	macouni	EU407250.1		489	0	COS1		difference	128	VIPERFISH
+65	Stenobrachius	leucopsarus	EU407251.1		492	0	COS1		difference	128	LAMPFISH
+66	Lepidopus	fitchi	EU407252.1		507	0	COS1		dark	128	SCABBARD-A
+67	Lepidopus	fitchi	EU407253.1		486	0	COS1		dark	128	SCABBARD-B
+68	Anolis	carolinensis	L31503		491	0	COS1		dark	128	CHAMELEON
+69	Anguilla	japonica	LC464070.1		479	0	COS1		dark	128	EEL-B
+70	Astyanax	mexicanus	U12328.1		504	0	COS1		dark	128	CAVEFISH
+71	Rod_ancestor	pigmenta	pigmenta		501	0	COS1		dark	128	
+72	Rod_ancestor	pigmentb	pigmentb		501	0	COS1		dark	128	
+73	Rod_ancestor	pigmentc	pigmentc		501	0	COS1		dark	128	
+74	Rod_ancestor	pigmentd	pigmentd		501	0	COS1		dark	128	
+75	Rod_ancestor	pigmente	pigmente		482	0	COS1		dark	128	
+76	Rod_ancestor	pigmentf	pigmentf		502	0	COS1		dark	128	
+77	Rod_ancestor	pigmentg	pigmentg		501	0	COS1		dark	128	
+78	Rod_ancestor	pigmenth	pigmenth		502	0	COS1		dark	128	
+79	Rod_ancestor	pigmenti	pigmenti		496	0	COS1		dark	128	
+80	Rod_ancestor	pigmentj	pigmentj		485	0	COS1		difference	128	
+81	Rod_ancestor	pigmentk	pigmentk		486	0	COS1		difference	128	
+82	Bos	taurus	NM_001014890_T97S	T97S	500	0	COS1		dark	160	
+83	Bos	taurus	NM_001014890_F116S	F116S	500	0	COS1		dark	160	
+84	Bos	taurus	NM_001014890_E122M	E122M	493	0	COS1		dark	160	
+85	Bos	taurus	NM_001014890_A164G	A164G	500	0	COS1		dark	160	
+86	Altolamprologus	calvus	AB458132.1		498	1		anti-FLAG M2	difference	163	
+87	Aulonocara	“copper”	AB185214.1		495	1		anti-FLAG M2	difference	163	
+88	Aulonocara	stuartgranti	AB084924.1		499	2		anti-FLAG M2	difference	163	
+89	Baileychromis	centropomoides	AB185217.1		492	1		anti-FLAG M2	difference	163	
+90	Bathybates	fasciatus	AB185218.1		501	1		anti-FLAG M2	difference	163	
+91	Benthochromis	tricoti	AB084927.1		488	2		anti-FLAG M2	difference	163	
+92	Cyphotilapia	frontosa	AB084929.1		487	2		anti-FLAG M2	difference	163	
+93	Cyprichromis	leptosoma	AB084930.1		498	0		anti-FLAG M2	difference	163	
+94	Dimidiochromis	compressiceps	AB084931.1		502	3		anti-FLAG M2	difference	163	
+95	Diplotaxodon	macrops	AB185220.1		500	1		anti-FLAG M2	difference	163	
+96	Gnathochromis	permaxillaris	AB084932.1		497	2		anti-FLAG M2	difference	163	
+97	Greenwoodochromis	bellcrossi	AB185221.1		488	2		anti-FLAG M2	difference	163	
+98	Haplochromis	sp.	AB084933.1		501	2		anti-FLAG M2	difference	163	
+99	Haplotaxodon	microlepis	AB458142.1		504	1		anti-FLAG M2	difference	163	
+100	Hemibates	stenosoma	AB185222.1		496	2		anti-FLAG M2	difference	163	
+101	Labidochromis	caeruleus	AB084934.1		500	0		anti-FLAG M2	difference	163	
+102	Limnochromis	staneri	AB185225.1		498	3		anti-FLAG M2	difference	163	
+103	Oreochromis	niloticus	AB084938.1		505	1		anti-FLAG M2	difference	163	
+104	Pallidochromis	tokolosh	AB185229.1		500	1		anti-FLAG M2	difference	163	
+105	Plecodus	elaviae	AB185230.1		490	2		anti-FLAG M2	difference	163	Perissodus synonym name used in paper
+106	Pseudotropheus	sp.	GQ422475.1		498	2		anti-FLAG M2	difference	163	
+107	Spathodus	erythrodon	AB084941.1		502	2		anti-FLAG M2	difference	163	
+108	Trematocara	unimaculatum	AB185238.1		484	1		anti-FLAG M2	difference	163	
+109	Trematocara	macrostoma	AB084945.1		488	1		anti-FLAG M2	difference	163	
+110	Tropheus	duboisi	AB084946.1		501	1		anti-FLAG M2	difference	163	
+111	Xenotilapia	nigrolabiata	AB458130.1		488	0		anti-FLAG M2	difference	163	
+112	Xenotilapia	caudafasciata	AB458131.1		491	1		anti-FLAG M2	difference	163	
+113	Xenotilapia	ochrogenys	AB084947.1		503	0		anti-FLAG M2	difference	163	
+114	Cyphotilapia	frontosa	AB084929_S292A	S292A	498	2		anti-FLAG M2	difference	163	
+115	Trematocara	macrostoma	AB084945_S292A	S292A	500	1		anti-FLAG M2	difference	163	
+116	Oreochromis	niloticus	AB084938_A292S	A292S	491	2		anti-FLAG M2	difference	163	
+117	Baileychromis	centropomoides	AB185217_N83D	N83D	500	2		anti-FLAG M2	difference	163	
+118	Pallidochromis	tokolosh	AB185229_N83D	N83D	503	2		anti-FLAG M2	difference	163	
+119	Diplotaxodon	macrops	AB185220_N83D	N83D	502	2		anti-FLAG M2	difference	163	
+120	Limnochromis	staneri	AB185225_D83N	D83N	494	1		anti-FLAG M2	difference	163	
+121	Cyprichromis 	leptosoma	AB458118.1		500	2		anti-FLAG M2	difference	164	
+122	Paracyprichromis	brieni_chipwa	AB458120.1		491	1		anti-FLAG M2	difference	164	
+123	Xenotilapia	papilio	AB457996.1		497	3		anti-FLAG M2	difference	164	
+124	Paracyprichromis	brieni_kasenga	AB458121.1		494	1		anti-FLAG M2	difference	164	
+125	Neolamprologus	ventralis	AB458138.1		493	1		anti-FLAG M2	difference	164	
+126	Paracyprichromis	nigripinnis	AB458122.1		492	2		anti-FLAG M2	difference	164	
+127	Cyprichromis	pavo	AB458119.1		489	1		anti-FLAG M2	difference	164	
