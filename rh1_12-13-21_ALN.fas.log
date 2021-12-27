@@ -1,0 +1,488 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    eemb-micro-room.eemb.ucsb.edu (AVX2, FMA3, 64 GB RAM)
+Command: iqtree -s rh1_12-13-21_ALN.fas
+Seed:    886470 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec 13 17:27:25 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file rh1_12-13-21_ALN.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 175 sequences with 356 columns, 300 distinct patterns
+185 parsimony-informative, 40 singleton sites, 131 constant sites
+                                                                                                                            Gap/Ambiguity  Composition  p-value
+   1  Acipenser_transmontanus_KC250344.1_540.00000                                                                                 74.44%    passed     93.09%
+   2  Amia_calva_AF137208.1_527.00000                                                                                              19.66%    passed     99.99%
+   3  Gymnothorax_favagineus_HQ444181.1_488.00000                                                                                  12.92%    passed     99.99%
+   4  Gymnothorax_reticularis_HQ444182.1_486.00000                                                                                 12.92%    passed     99.98%
+   5  Rhinomuraena_quaesita_HQ444180.1_498.00000                                                                                   12.92%    passed     99.99%
+   6  Strophidon_sathete_HQ444183.1_487.00000                                                                                      12.92%    passed     99.99%
+   7  Atherina_boyeri_JF309697.1_511.00000                                                                                         26.40%    passed     99.98%
+   8  Belone_belone_AY141268.1_509.00000                                                                                           31.46%    passed     98.86%
+   9  Myripristis_berndti_U57538.1_495.00000                                                                                        1.97%    passed     99.98%
+  10  Neoniphon_sammara_U57536.1_502.00000                                                                                          1.40%    passed    100.00%
+  11  Sargocentron_xantherythrum_U57546.1_490.00000                                                                                 2.25%    passed    100.00%
+  12  Neoceratodus_forsteri_EF526295.1_540.00000                                                                                    0.56%    passed     96.27%
+  13  Sardinops_melanostictus_LC007931.1_502.00000                                                                                  1.40%    passed     99.87%
+  14  Engraulis_mordax_KT201125.1_498.00000                                                                                        25.00%    passed     98.38%
+  15  Engraulis_encrasicolus_KT201123.1_500.00000                                                                                  22.47%    passed     96.60%
+  16  Engraulis_japonicus_AB731902.1_502.00000                                                                                      1.12%    passed     99.48%
+  17  Carassius_auratus_L11863.1_521.00000                                                                                          0.56%    passed     99.97%
+  18  Carassius_auratus_L11863.1_522.00000                                                                                          0.56%    passed     99.97%
+  19  Dimidiochromis_compressiceps_AB084931.1_498.00000                                                                            13.48%    passed    100.00%
+  20  Melanochromis_vermivorus_GQ422472.1_505.00000                                                                                 0.56%    passed    100.00%
+  21  Pseudotropheus_acei_GQ422475.1_505.00000                                                                                      0.56%    passed    100.00%
+  22  Pundamilia_pundamilia_AY673739.1_506.00000                                                                                    0.56%    passed     99.99%
+  23  Tramitichromis_intermedius_GQ422473.1_505.00000                                                                               0.56%    passed    100.00%
+  24  Pomatoschistus_minutus_FN430594.1_508.00000                                                                                   1.12%    passed    100.00%
+  25  Dissostichus_mawsoni_DQ498794.1_504.00000                                                                                    29.49%    passed     87.29%
+  26  Pagothenia_borchgrevinki_DQ498791.1_499.00000                                                                                28.93%    passed     96.15%
+  27  Acanthopagrus_butcheri_DQ354577.1_509.00000                                                                                  25.56%    passed     99.56%
+  28  Geotria_australis_AY366493.1_499.00000                                                                                        0.84%    passed     66.37%
+  29  Pseudopleuronectes_americanus_AY631036.1_506.00000                                                                            1.12%    passed     99.96%
+  30  Oncorhynchus_keta_AY214141.1_524.00000                                                                                        0.56%    passed     99.95%
+  31  Oncorhynchus_kisutch_AY214146.1_531.00000                                                                                     0.56%    passed     99.94%
+  32  Oncorhynchus_tshawytscha_AY214136.1_524.00000                                                                                 0.56%    passed     99.85%
+  33  Batrachocottus_nikolskii_U97268.1_488.00000                                                                                  18.82%    passed     86.74%
+  34  Cottocomephorus_inermis_U97266.1_494.00000                                                                                   18.82%    passed     99.69%
+  35  Leocottus_kesslerii_L42953.1_516.00000                                                                                       18.82%    passed     98.31%
+  36  Ictalurus_punctatus_AF028016.1_542.00000                                                                                     14.61%    passed     99.93%
+  37  Tramitichromis_intermedius_GQ422473.1_506.00000                                                                               0.56%    passed    100.00%
+  38  Neoniphon_argenteus_U57540.1_502.00000                                                                                        2.25%    passed    100.00%
+  39  Neoniphon_aurolineatus_U57541.1_481.00000                                                                                     2.53%    passed     99.93%
+  40  Sargocentron_punctatissimum_U57543.1_494.00000                                                                                2.25%    passed     99.99%
+  41  Sargocentron_microstoma_U57542.1_494.00000                                                                                    2.25%    passed    100.00%
+  42  Sargocentron_diadema_U57537.1_491.00000                                                                                       1.40%    passed    100.00%
+  43  Sargocentron_xantherythrum_U57546.1_486.00000                                                                                 2.25%    passed    100.00%
+  44  Sargocentron_spiniferum_U57544.1_490.00000                                                                                    2.53%    passed    100.00%
+  45  Sargocentron_tiere_U57545.1_490.00000                                                                                         2.53%    passed    100.00%
+  46  Myripristis_violacea_U57539.1_499.00000                                                                                       1.97%    passed     99.99%
+  47  Myripristis_berndti_U57538.1_493.00000                                                                                        1.97%    passed     99.98%
+  48  Tachyglossus_aculeatus_JX103830_497.90000                                                                                     0.84%    passed     95.55%
+  49  Tachyglossus_aculeatus_JX103830_N83D_503.80000                                                                                0.84%    passed     92.74%
+  50  Tachyglossus_aculeatus_JX103830_T158A_498.00000                                                                               0.84%    passed     96.23%
+  51  Tachyglossus_aculeatus_JX103830_F169A_499.40000                                                                               0.84%    passed     95.72%
+  52  Bos_taurus_NM_001014890.2_500.00000                                                                                           2.25%    passed     97.74%
+  53  Bos_taurus_NM_001014890.2_498.00000                                                                                           2.25%    passed     97.74%
+  54  Bos_taurus_NM_001014890_D83G_499.50000                                                                                        2.25%    passed     99.10%
+  55  Bos_taurus_NM_001014890_D83N_489.50000                                                                                        2.25%    passed     98.91%
+  56  Bos_taurus_NM_001014890_M86E_492.50000                                                                                        2.25%    passed     97.86%
+  57  Bos_taurus_NM_001014890_E122Q_481.00000                                                                                       2.25%    passed     95.39%
+  58  Bos_taurus_NM_001014890_E122I_496.00000                                                                                       2.25%    passed     97.48%
+  59  Bos_taurus_NM_001014890_E134L_497.00000                                                                                       2.25%    passed     97.42%
+  60  Bos_taurus_NM_001014890_E134Q_495.50000                                                                                       2.25%    passed     95.39%
+  61  Bos_taurus_NM_001014890_R135L_499.00000                                                                                       2.25%    passed     96.28%
+  62  Bos_taurus_NM_001014890_H211C_493.00000                                                                                       2.25%    passed     97.92%
+  63  Bos_taurus_NM_001014890_H211F_493.50000                                                                                       2.25%    passed     97.21%
+  64  Bos_taurus_NM_001014890_E122I_D83G_496.50000                                                                                  2.25%    passed     98.97%
+  65  Bos_taurus_NM_001014890_E122I_M86E_491.00000                                                                                  2.25%    passed     97.77%
+  66  Bos_taurus_NM_001014890_E134L_R135L_497.50000                                                                                 2.25%    passed     95.65%
+  67  Bos_taurus_NM_001014890_E134R_R135E_496.00000                                                                                 2.25%    passed     97.74%
+  68  Rod_ancestor_pigmentc_A292S_pigmentc_A292S_489.00000                                                                          6.74%    passed    100.00%
+  69  Rod_ancestor_pigmentd_A292S_pigmentd_A292S_502.00000                                                                          6.74%    passed     99.97%
+  70  Rod_ancestor_pigmentg_A292S_pigmentg_A292S_491.00000                                                                          6.74%    passed     99.98%
+  71  Rod_ancestor_pigmenta_D83N_pigmenta_D83N_498.00000                                                                            6.74%    passed     99.63%
+  72  Rod_ancestor_pigmente_D83N_pigmente_D83N_479.00000                                                                            6.74%    passed     99.64%
+  73  Rod_ancestor_pigmenta_D83N_A292S_pigmenta_D83N_A292S_488.00000                                                                6.74%    passed     99.71%
+  74  Rod_ancestor_pigmentg_D83N_A292S_pigmentg_D83N_A292S_486.00000                                                                6.74%    passed     99.89%
+  75  Rod_ancestor_pigmenth_D83N_A292S_pigmenth_D83N_A292S_482.00000                                                                6.74%    passed     99.97%
+  76  Rod_ancestor_pigmenti_D83N_A292S_pigmenti_D83N_A292S_482.00000                                                                6.74%    passed    100.00%
+  77  Rod_ancestor_pigmenta_D83N_I214T_pigmenta_D83N_I214T_497.00000                                                                6.74%    passed     99.66%
+  78  Rod_ancestor_pigmentf_D83N_M183F_M253L_F261Y_T289G_A292I_M317I_pigmentf_D83N_M183F_M253L_F261Y_T289G_A292I_M317I_526.00000    6.74%    passed     99.35%
+  79  Rod_ancestor_pigmentb_E122I_pigmentb_E122I_501.00000                                                                          6.74%    passed    100.00%
+  80  Rod_ancestor_pigmentb_E122I_F261Y_pigmentb_E122I_F261Y_507.00000                                                              6.74%    passed    100.00%
+  81  Rod_ancestor_pigmentf_E122M_A292S_pigmentf_E122M_A292S_484.00000                                                              6.74%    passed     99.99%
+  82  Rod_ancestor_pigmentf_E122M_F261Y_pigmentf_E122M_F261Y_504.00000                                                              6.74%    passed     99.98%
+  83  Rod_ancestor_pigmentf_E122M_F261Y_A292S_pigmentf_E122M_F261Y_A292S_490.00000                                                  6.74%    passed     99.98%
+  84  Rod_ancestor_pigmentf_E122Q_pigmentf_E122Q_489.00000                                                                          6.74%    passed     99.99%
+  85  Rod_ancestor_pigmenta_E122Q_A292S_pigmenta_E122Q_A292S_478.00000                                                              6.74%    passed     99.27%
+  86  Rod_ancestor_pigmentb_F261Y_pigmentb_F261Y_511.00000                                                                          6.74%    passed     99.99%
+  87  Rod_ancestor_pigmenti_F261Y_pigmenti_F261Y_503.00000                                                                          6.74%    passed    100.00%
+  88  Rod_ancestor_pigmentd_N195A_A292S_pigmentd_N195A_A292S_488.00000                                                              6.74%    passed     99.98%
+  89  Sebastolobus_altivelis_DQ490124_N83D_491.00000                                                                                1.12%    passed     99.43%
+  90  Chauliodus_macouni_EU407250.1_N83D_492.00000                                                                                  1.12%    passed     99.96%
+  91  Lepidopus_fitchi_EU407253.1_N83D_490.00000                                                                                    1.69%    passed     99.97%
+  92  Sebastolobus_altivelis_DQ490124_N83D_S292A_501.00000                                                                          1.12%    passed     99.68%
+  93  Chauliodus_macouni_EU407250.1_N83D_S292A_504.00000                                                                            1.12%    passed     99.97%
+  94  Lepidopus_fitchi_EU407253.1_N83D_S292A_495.00000                                                                              1.69%    passed     99.96%
+  95  Rod_ancestor_pigmentd_P194R_A292S_pigmentd_P194R_A292S_488.00000                                                              6.74%    passed     99.98%
+  96  Rod_ancestor_pigmentd_P194R_N195A_pigmentd_P194R_N195A_501.00000                                                              6.74%    passed     99.98%
+  97  Rod_ancestor_pigmentd_P194R_N195A_A292S_pigmentd_P194R_N195A_A292S_488.00000                                                  6.74%    passed     99.99%
+  98  Stenobrachius_leucopsarus_EU407251_Q122E_499.00000                                                                            3.09%    passed     99.94%
+  99  Conger_myriaster_AB043817.1_S292A_498.00000                                                                                   0.56%    passed     99.91%
+ 100  Sebastolobus_altivelis_DQ490124_S292A_494.00000                                                                               1.12%    passed     99.77%
+ 101  Chauliodus_macouni_EU407250.1_S292A_501.00000                                                                                 1.12%    passed     99.95%
+ 102  Lepidopus_fitchi_EU407253.1_S292A_490.00000                                                                                   1.69%    passed     99.94%
+ 103  Lepidopus_fitchi_EU407252.1_Y261F_502.00000                                                                                   1.69%    passed     99.99%
+ 104  Rod_ancestor_pigmenth_Y96V_Y102F_pigmenth_Y96V_Y102F_494.00000                                                                6.74%    passed    100.00%
+ 105  Conger_myriaster_AB043817.1_486.00000                                                                                         0.56%    passed     99.75%
+ 106  Tursiops_truncatus_AF055456_488.00000                                                                                         2.25%    passed     99.68%
+ 107  Latimeria_chalumnae_AH007712.2_482.00000                                                                                      0.28%    passed     39.01%
+ 108  Loxodonta_africana_AY686752.1_496.00000                                                                                       2.25%    passed     99.49%
+ 109  Sebastolobus_altivelis_DQ490124_483.00000                                                                                     1.12%    passed     99.57%
+ 110  Aristostomias_scintillans_EU407248.1_526.00000                                                                                2.81%    passed     99.99%
+ 111  Chauliodus_macouni_EU407250.1_489.00000                                                                                       1.12%    passed     99.92%
+ 112  Stenobrachius_leucopsarus_EU407251.1_492.00000                                                                                3.09%    passed     99.89%
+ 113  Lepidopus_fitchi_EU407252.1_507.00000                                                                                         1.69%    passed     99.99%
+ 114  Lepidopus_fitchi_EU407253.1_486.00000                                                                                         1.69%    passed     99.95%
+ 115  Anolis_carolinensis_L31503_491.00000                                                                                          1.12%    passed     99.09%
+ 116  Anguilla_japonica_LC464070.1_479.00000                                                                                        1.12%    passed     99.57%
+ 117  Astyanax_mexicanus_U12328.1_504.00000                                                                                         1.12%    passed     99.92%
+ 118  Rod_ancestor_pigmenta_pigmenta_501.00000                                                                                      0.56%    passed     99.45%
+ 119  Rod_ancestor_pigmentb_pigmentb_501.00000                                                                                      0.56%    passed     99.99%
+ 120  Rod_ancestor_pigmentc_pigmentc_501.00000                                                                                      0.56%    passed     99.95%
+ 121  Rod_ancestor_pigmentd_pigmentd_501.00000                                                                                      0.56%    passed     99.89%
+ 122  Rod_ancestor_pigmente_pigmente_482.00000                                                                                      1.12%    passed     99.78%
+ 123  Rod_ancestor_pigmentf_pigmentf_502.00000                                                                                      0.56%    passed    100.00%
+ 124  Rod_ancestor_pigmentg_pigmentg_501.00000                                                                                      0.56%    passed    100.00%
+ 125  Rod_ancestor_pigmenth_pigmenth_502.00000                                                                                      0.56%    passed    100.00%
+ 126  Rod_ancestor_pigmenti_pigmenti_496.00000                                                                                      1.69%    passed     99.99%
+ 127  Rod_ancestor_pigmentj_pigmentj_485.00000                                                                                      1.12%    passed     99.99%
+ 128  Rod_ancestor_pigmenti_pigmentk_486.00000                                                                                      1.12%    passed     99.99%
+ 129  Bos_taurus_NM_001014890_T97S_500.00000                                                                                        2.25%    passed     98.53%
+ 130  Bos_taurus_NM_001014890_F116S_500.00000                                                                                       2.25%    passed     98.34%
+ 131  Bos_taurus_NM_001014890_E122M_493.00000                                                                                       2.25%    passed     97.24%
+ 132  Bos_taurus_NM_001014890_A164G_500.00000                                                                                       2.25%    passed     97.69%
+ 133  Altolamprologus_calvus_AB458132.1_498.00000                                                                                   0.56%    passed    100.00%
+ 134  Aulonocara_sp._AB185214.1_495.00000                                                                                          13.48%    passed     99.96%
+ 135  Altolamprologus_calvus_AB084924.1_499.00000                                                                                  13.48%    passed     99.93%
+ 136  Baileychromis_centropomoides_AB185217.1_492.00000                                                                            13.48%    passed     99.92%
+ 137  Bathybates_fasciatus_AB185218.1_501.00000                                                                                    13.48%    passed     99.99%
+ 138  Benthochromis_tricoti_AB084927.1_488.00000                                                                                   13.48%    passed     99.95%
+ 139  Cyphotilapia_frontosa_AB084929.1_487.00000                                                                                   13.48%    passed     99.99%
+ 140  Cyprichromis_leptosoma_AB084930.1_498.00000                                                                                  13.48%    passed     99.92%
+ 141  Dimidiochromis_compressiceps_AB084931.1_502.00000                                                                            13.48%    passed    100.00%
+ 142  Diplotaxodon_macrops_AB185220.1_500.00000                                                                                    13.76%    passed     99.99%
+ 143  Gnathochromis_permaxillaris_AB084932.1_497.00000                                                                             13.48%    passed     99.99%
+ 144  Greenwoodochromis_bellcrossi_AB185221.1_488.00000                                                                            13.48%    passed     99.99%
+ 145  Haplochromis_sp._AB084933.1_501.00000                                                                                        13.48%    passed     99.87%
+ 146  Haplotaxodon_microlepis_AB458142.1_504.00000                                                                                  0.56%    passed    100.00%
+ 147  Hemibates_stenosoma_AB185222.1_496.00000                                                                                     13.48%    passed     99.99%
+ 148  Labidochromis_caeruleus_AB084934.1_500.00000                                                                                 13.48%    passed     99.99%
+ 149  Limnochromis_staneri_AB185225.1_498.00000                                                                                    13.48%    passed     99.99%
+ 150  Oreochromis_niloticus_AB084938.1_505.00000                                                                                   13.48%    passed     99.98%
+ 151  Pallidochromis_tokolosh_AB185229.1_500.00000                                                                                 13.48%    passed     99.99%
+ 152  Perissodus_elaviae_AB185230.1_490.00000                                                                                      13.48%    passed     99.99%
+ 153  Pseudotropheus_sp._GQ422475.1_498.00000                                                                                       0.56%    passed    100.00%
+ 154  Pseudotropheus_acei_GQ422475.1_498.00000                                                                                      0.56%    passed    100.00%
+ 155  Spathodus_erythrodon_AB084941.1_502.00000                                                                                    13.48%    passed    100.00%
+ 156  Trematocara_unimaculatum_AB185238.1_484.00000                                                                                13.48%    passed    100.00%
+ 157  Trematocara_macrostoma_AB084945.1_488.00000                                                                                  13.48%    passed    100.00%
+ 158  Tropheus_duboisi_AB084946.1_501.00000                                                                                        13.48%    passed     99.99%
+ 159  Xenotilapia_nigrolabiata_AB458130.1_488.00000                                                                                 0.56%    passed     99.99%
+ 160  Xenotilapia_caudafasciata_AB458131.1_491.00000                                                                                0.56%    passed     99.99%
+ 161  Xenotilapia_ochrogenys_AB084947.1_503.00000                                                                                  13.48%    passed     99.99%
+ 162  Cyphotilapia_frontosa_AB084929_S292A_498.00000                                                                               13.48%    passed     99.95%
+ 163  Trematocara_macrostoma_AB084945_S292A_500.00000                                                                              13.48%    passed    100.00%
+ 164  Oreochromis_niloticus_AB084938_A292S_491.00000                                                                               13.48%    passed     99.99%
+ 165  Baileychromis_centropomoides_AB185217_N83D_500.00000                                                                         13.48%    passed     99.98%
+ 166  Pallidochromis_tokolosh_AB185229_N83D_503.00000                                                                              13.48%    passed    100.00%
+ 167  Diplotaxodon_macrops_AB185220_N83D_502.00000                                                                                 13.76%    passed    100.00%
+ 168  Limnochromis_staneri_AB185225_D83N_494.00000                                                                                 13.48%    passed     99.97%
+ 169  Cyprichromis_leptosoma_AB458118.1_500.00000                                                                                   0.56%    passed    100.00%
+ 170  Paracyprichromis_brieni_AB458120.1_491.00000                                                                                  0.56%    passed    100.00%
+ 171  Xenotilapia_papilio_AB457996.1_497.00000                                                                                     13.48%    passed     99.96%
+ 172  Paracyprichromis_brieni_AB458121.1_494.00000                                                                                  0.56%    passed    100.00%
+ 173  Neolamprologus_ventralis_AB458138.1_493.00000                                                                                 0.56%    passed    100.00%
+ 174  Paracyprichromis_nigripinnis_AB458122.1_492.00000                                                                             0.56%    passed    100.00%
+ 175  Cyprichromis_pavo_AB458119.1_489.00000                                                                                        0.56%    passed    100.00%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                         6.56%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Myripristis_berndti_U57538.1_493.00000 is identical to Myripristis_berndti_U57538.1_495.00000 but kept for subsequent analysis
+NOTE: Sargocentron_xantherythrum_U57546.1_486.00000 is identical to Sargocentron_xantherythrum_U57546.1_490.00000 but kept for subsequent analysis
+NOTE: Carassius_auratus_L11863.1_522.00000 is identical to Carassius_auratus_L11863.1_521.00000 but kept for subsequent analysis
+NOTE: Dimidiochromis_compressiceps_AB084931.1_502.00000 is identical to Dimidiochromis_compressiceps_AB084931.1_498.00000 but kept for subsequent analysis
+NOTE: Pseudotropheus_acei_GQ422475.1_505.00000 is identical to Melanochromis_vermivorus_GQ422472.1_505.00000 but kept for subsequent analysis
+NOTE: Tramitichromis_intermedius_GQ422473.1_506.00000 is identical to Tramitichromis_intermedius_GQ422473.1_505.00000 but kept for subsequent analysis
+NOTE: Bos_taurus_NM_001014890.2_498.00000 is identical to Bos_taurus_NM_001014890.2_500.00000 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pseudotropheus_sp._GQ422475.1_498.00000 (identical to Melanochromis_vermivorus_GQ422472.1_505.00000) is ignored but added at the end
+NOTE: Pseudotropheus_acei_GQ422475.1_498.00000 (identical to Melanochromis_vermivorus_GQ422472.1_505.00000) is ignored but added at the end
+Alignment was printed to rh1_12-13-21_ALN.fas.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to rh1_12-13-21_ALN.fas.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.025 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -8862.018
+Optimal log-likelihood: -8861.856
+Proportion of invariable sites: 0.179
+Gamma shape alpha: 0.634
+Parameters optimization took 1 rounds (0.749 sec)
+Time for fast ML tree search: 2.813 seconds
+
+NOTE: ModelFinder requires 85 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 356) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            9561.088     343 19808.176    39473.510    21137.278
+  2  LG+I          9221.912     344 19131.825    40710.007    20464.801
+  3  LG+G4         8863.123     344 18414.247    39992.429    19747.223
+  4  LG+I+G4       8861.600     345 18413.200    42287.200    19750.051
+  5  LG+R2         8933.197     345 18556.393    42430.393    19893.244
+  6  LG+R3         8857.794     347 18409.587    48598.587    19754.188
+  7  LG+R4         8857.566     349 18413.131    59129.798    19765.482
+ 16  LG+F+G4       8804.219     363 18334.438    282598.438   19741.038
+ 17  LG+F+I+G4     8802.446     364 18332.892    284052.892   19743.367
+ 19  LG+F+R3       8802.641     366 18337.282    286981.282   19755.506
+ 29  WAG+G4        8938.432     344 18564.864    40143.046    19897.840
+ 30  WAG+I+G4      8936.605     345 18563.210    42437.210    19900.061
+ 32  WAG+R3        8933.596     347 18561.193    48750.193    19905.794
+ 42  WAG+F+G4      8859.732     363 18445.464    282709.464   19852.063
+ 43  WAG+F+I+G4    8857.702     364 18443.404    284163.404   19853.878
+ 45  WAG+F+R3      8857.063     366 18446.126    287090.126   19864.351
+ 55  JTT+G4        8938.722     344 18565.444    40143.625    19898.420
+ 56  JTT+I+G4      8936.625     345 18563.249    42437.249    19900.101
+ 58  JTT+R3        8931.425     347 18556.849    48745.849    19901.450
+ 68  JTT+F+G4      8874.818     363 18475.636    282739.636   19882.236
+ 69  JTT+F+I+G4    8873.337     364 18474.674    284194.674   19885.149
+ 71  JTT+F+R3      8872.376     366 18476.753    287120.753   19894.977
+ 81  JTTDCMut+G4   8938.401     344 18564.803    40142.984    19897.779
+ 82  JTTDCMut+I+G4 8936.532     345 18563.065    42437.065    19899.916
+ 84  JTTDCMut+R3   8931.571     347 18557.142    48746.142    19901.743
+ 94  JTTDCMut+F+G4 8871.893     363 18469.787    282733.787   19876.387
+ 95  JTTDCMut+F+I+G4 8870.477     364 18468.953    284188.953   19879.428
+ 97  JTTDCMut+F+R3 8869.571     366 18471.141    287115.141   19889.366
+107  DCMut+G4      9084.413     344 18856.826    40435.008    20189.802
+108  DCMut+I+G4    9082.577     345 18855.154    42729.154    20192.005
+110  DCMut+R3      9080.960     347 18855.919    49044.919    20200.520
+120  DCMut+F+G4    8950.094     363 18626.188    282890.188   20032.787
+121  DCMut+F+I+G4  8949.211     364 18626.422    284346.422   20036.896
+123  DCMut+F+R3    8948.627     366 18629.255    287273.255   20047.480
+133  VT+G4         8968.231     344 18624.462    40202.643    19957.438
+134  VT+I+G4       8966.816     345 18623.632    42497.632    19960.483
+136  VT+R3         8961.643     347 18617.286    48806.286    19961.887
+146  VT+F+G4       8897.684     363 18521.369    282785.369   19927.968
+147  VT+F+I+G4     8895.123     364 18518.247    284238.247   19928.721
+149  VT+F+R3       8893.411     366 18518.822    287162.822   19937.047
+159  PMB+G4        8997.113     344 18682.226    40260.408    20015.202
+160  PMB+I+G4      8995.332     345 18680.665    42554.665    20017.516
+162  PMB+R3        8992.955     347 18679.909    48868.909    20024.510
+172  PMB+F+G4      8960.719     363 18647.438    282911.438   20054.038
+173  PMB+F+I+G4    8958.830     364 18645.659    284365.659   20056.134
+175  PMB+F+R3      8959.487     366 18650.974    287294.974   20069.199
+185  Blosum62+G4   8999.798     344 18687.595    40265.777    20020.572
+186  Blosum62+I+G4 8998.331     345 18686.662    42560.662    20023.513
+188  Blosum62+R3   8996.152     347 18686.304    48875.304    20030.905
+198  Blosum62+F+G4 8955.042     363 18636.085    282900.085   20042.684
+199  Blosum62+F+I+G4 8953.200     364 18634.399    284354.399   20044.874
+201  Blosum62+F+R3 8952.700     366 18637.399    287281.399   20055.624
+211  Dayhoff+G4    9079.423     344 18846.846    40425.028    20179.822
+212  Dayhoff+I+G4  9077.676     345 18845.353    42719.353    20182.204
+214  Dayhoff+R3    9075.735     347 18845.470    49034.470    20190.071
+224  Dayhoff+F+G4  8944.978     363 18615.956    282879.956   20022.556
+225  Dayhoff+F+I+G4 8944.300     364 18616.599    284336.599   20027.074
+227  Dayhoff+F+R3  8943.496     366 18618.993    287262.993   20037.217
+237  mtREV+G4      9108.122     344 18904.244    40482.426    20237.221
+238  mtREV+I+G4    9103.185     345 18896.369    42770.369    20233.220
+240  mtREV+R3      9108.753     347 18911.506    49100.506    20256.107
+250  mtREV+F+G4    8953.881     363 18633.763    282897.763   20040.363
+251  mtREV+F+I+G4  8949.787     364 18627.573    284347.573   20038.048
+253  mtREV+F+R3    8954.778     366 18641.557    287285.557   20059.781
+263  mtART+G4      8992.717     344 18673.433    40251.615    20006.409
+264  mtART+I+G4    8974.642     345 18639.284    42513.284    19976.136
+266  mtART+R3      8986.767     347 18667.535    48856.535    20012.136
+276  mtART+F+G4    8961.324     363 18648.647    282912.647   20055.247
+277  mtART+F+I+G4  8943.919     364 18615.838    284335.838   20026.313
+279  mtART+F+R3    8955.299     366 18642.599    287286.599   20060.824
+289  mtZOA+G4      8850.904     344 18389.809    39967.991    19722.785
+290  mtZOA+I+G4    8837.187     345 18364.375    42238.375    19701.226
+292  mtZOA+R3      8844.900     347 18383.801    48572.801    19728.402
+302  mtZOA+F+G4    8848.871     363 18423.742    282687.742   19830.341
+303  mtZOA+F+I+G4  8839.858     364 18407.717    284127.717   19818.192
+305  mtZOA+F+R3    8849.821     366 18431.641    287075.641   19849.866
+315  mtMet+G4      8959.314     344 18606.629    40184.810    19939.605
+316  mtMet+I+G4    8954.106     345 18598.212    42472.212    19935.063
+318  mtMet+R3      8958.595     347 18611.190    48800.190    19955.791
+328  mtMet+F+G4    8910.250     363 18546.501    282810.501   19953.101
+329  mtMet+F+I+G4  8905.336     364 18538.673    284258.673   19949.148
+331  mtMet+F+R3    8911.108     366 18554.216    287198.216   19972.441
+341  mtVer+G4      9116.958     344 18921.916    40500.098    20254.893
+342  mtVer+I+G4    9106.899     345 18903.798    42777.798    20240.649
+344  mtVer+R3      9112.743     347 18919.485    49108.485    20264.086
+354  mtVer+F+G4    9018.585     363 18763.170    283027.170   20169.770
+355  mtVer+F+I+G4  9010.681     364 18749.363    284469.363   20159.838
+357  mtVer+F+R3    9015.011     366 18762.021    287406.021   20180.246
+367  mtInv+G4      8955.659     344 18599.317    40177.499    19932.293
+368  mtInv+I+G4    8953.560     345 18597.121    42471.121    19933.972
+370  mtInv+R3      8955.343     347 18604.686    48793.686    19949.287
+380  mtInv+F+G4    8852.090     363 18430.181    282694.181   19836.780
+381  mtInv+F+I+G4  8852.267     364 18432.535    284152.535   19843.010
+383  mtInv+F+R3    8851.551     366 18435.101    287079.101   19853.326
+393  mtMAM+G4      9311.398     344 19310.797    40888.979    20643.773
+394  mtMAM+I+G4    9292.928     345 19275.856    43149.856    20612.707
+396  mtMAM+R3      9306.931     347 19307.861    49496.861    20652.462
+406  mtMAM+F+G4    9209.597     363 19145.194    283409.194   20551.794
+407  mtMAM+F+I+G4  9192.593     364 19113.186    284833.186   20523.661
+409  mtMAM+F+R3    9201.259     366 19134.518    287778.518   20552.743
+419  HIVb+G4       9258.117     344 19204.235    40782.416    20537.211
+420  HIVb+I+G4     9256.101     345 19202.201    43076.201    20539.052
+422  HIVb+R3       9254.243     347 19202.487    49391.487    20547.088
+432  HIVb+F+G4     9171.929     363 19069.858    283333.858   20476.457
+433  HIVb+F+I+G4   9165.668     364 19059.335    284779.335   20469.810
+435  HIVb+F+R3     9167.352     366 19066.703    287710.703   20484.928
+445  HIVw+G4       9676.422     344 20040.844    41619.026    21373.821
+446  HIVw+I+G4     9670.905     345 20031.810    43905.810    21368.661
+448  HIVw+R3       9673.374     347 20040.747    50229.747    21385.348
+458  HIVw+F+G4     9505.887     363 19737.774    284001.774   21144.374
+459  HIVw+F+I+G4   9497.342     364 19722.685    285442.685   21133.159
+461  HIVw+F+R3     9503.397     366 19738.793    288382.793   21157.018
+471  FLU+G4        9160.973     344 19009.946    40588.128    20342.922
+472  FLU+I+G4      9157.422     345 19004.845    42878.845    20341.696
+474  FLU+R3        9162.089     347 19018.177    49207.177    20362.778
+484  FLU+F+G4      9088.534     363 18903.067    283167.067   20309.667
+485  FLU+F+I+G4    9070.725     364 18869.451    284589.451   20279.926
+487  FLU+F+R3      9069.652     366 18871.304    287515.304   20289.529
+497  rtREV+G4      9038.940     344 18765.879    40344.061    20098.855
+498  rtREV+I+G4    9038.174     345 18766.349    42640.349    20103.200
+500  rtREV+R3      9033.481     347 18760.962    48949.962    20105.563
+510  rtREV+F+G4    8914.826     363 18555.651    282819.651   19962.251
+511  rtREV+F+I+G4  8913.747     364 18555.493    284275.493   19965.968
+513  rtREV+F+R3    8913.865     366 18559.731    287203.731   19977.955
+523  cpREV+G4      8926.671     344 18541.343    40119.524    19874.319
+524  cpREV+I+G4    8925.213     345 18540.425    42414.425    19877.276
+526  cpREV+R3      8921.469     347 18536.938    48725.938    19881.539
+536  cpREV+F+G4    8849.203     363 18424.407    282688.407   19831.007
+537  cpREV+F+I+G4  8848.111     364 18424.221    284144.221   19834.696
+539  cpREV+F+R3    8844.769     366 18421.539    287065.539   19839.764
+Akaike Information Criterion:           LG+F+I+G4
+Corrected Akaike Information Criterion: LG
+Bayesian Information Criterion:         mtZOA+I+G4
+Best-fit model: mtZOA+I+G4 chosen according to BIC
+
+All model information printed to rh1_12-13-21_ALN.fas.model.gz
+CPU time for ModelFinder: 460.491 seconds (0h:7m:40s)
+Wall-clock time for ModelFinder: 468.033 seconds (0h:7m:48s)
+
+NOTE: 34 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.794 / Estimate: 0.000, 0.474 / LogL: -8850.930
+Init pinv, alpha: 0.041, 0.794 / Estimate: 0.224, 0.794 / LogL: -8837.193
+Init pinv, alpha: 0.082, 0.794 / Estimate: 0.225, 0.795 / LogL: -8837.181
+Init pinv, alpha: 0.123, 0.794 / Estimate: 0.225, 0.795 / LogL: -8837.187
+Init pinv, alpha: 0.164, 0.794 / Estimate: 0.224, 0.793 / LogL: -8837.202
+Init pinv, alpha: 0.204, 0.794 / Estimate: 0.226, 0.796 / LogL: -8837.178
+Init pinv, alpha: 0.245, 0.794 / Estimate: 0.240, 0.815 / LogL: -8837.160
+Init pinv, alpha: 0.286, 0.794 / Estimate: 0.240, 0.811 / LogL: -8837.162
+Init pinv, alpha: 0.327, 0.794 / Estimate: 0.242, 0.815 / LogL: -8837.179
+Init pinv, alpha: 0.368, 0.794 / Estimate: 0.240, 0.812 / LogL: -8837.170
+Optimal pinv,alpha: 0.240, 0.815 / LogL: -8837.160
+
+Parameters optimization took 20.726 sec
+Computing ML distances based on estimated model parameters... 2.348 sec
+Computing BIONJ tree...
+0.015 seconds
+Log-likelihood of BIONJ tree: -8885.318
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.616 second
+Computing log-likelihood of 98 initial trees ... 7.212 seconds
+Current best score: -8837.160
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8826.488
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -8779.405
+Iteration 10 / LogL: -8803.444 / Time: 0h:1m:6s
+Iteration 20 / LogL: -8802.355 / Time: 0h:1m:39s
+Finish initializing candidate tree set (20)
+Current best tree score: -8779.405 / CPU time: 75.448
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -8776.745
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -8772.454
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -8770.556
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -8767.277
+Iteration 30 / LogL: -8767.277 / Time: 0h:2m:11s (0h:7m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -8765.083
+Iteration 40 / LogL: -8779.036 / Time: 0h:2m:41s (0h:6m:49s left)
+Iteration 50 / LogL: -8766.910 / Time: 0h:3m:11s (0h:5m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -8763.682
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -8757.028
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -8755.675
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -8752.253
+Iteration 60 / LogL: -8766.367 / Time: 0h:3m:45s (0h:6m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 65: -8751.733
+Iteration 70 / LogL: -8756.932 / Time: 0h:4m:20s (0h:5m:58s left)
+Iteration 80 / LogL: -8762.600 / Time: 0h:4m:52s (0h:5m:15s left)
+Iteration 90 / LogL: -8761.504 / Time: 0h:5m:23s (0h:4m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -8748.801
+Iteration 100 / LogL: -8753.007 / Time: 0h:5m:53s (0h:5m:32s left)
+Iteration 110 / LogL: -8766.631 / Time: 0h:6m:26s (0h:4m:54s left)
+Iteration 120 / LogL: -8757.168 / Time: 0h:6m:54s (0h:4m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 123: -8748.273
+Iteration 130 / LogL: -8756.825 / Time: 0h:7m:24s (0h:5m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 139: -8748.253
+Iteration 140 / LogL: -8751.535 / Time: 0h:7m:54s (0h:5m:37s left)
+Iteration 150 / LogL: -8750.355 / Time: 0h:8m:28s (0h:5m:3s left)
+Iteration 160 / LogL: -8825.845 / Time: 0h:8m:57s (0h:4m:26s left)
+Iteration 170 / LogL: -8759.774 / Time: 0h:9m:29s (0h:3m:52s left)
+Iteration 180 / LogL: -8797.634 / Time: 0h:10m:0s (0h:3m:18s left)
+Iteration 190 / LogL: -8758.155 / Time: 0h:10m:30s (0h:2m:43s left)
+Iteration 200 / LogL: -8749.139 / Time: 0h:10m:57s (0h:2m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 206: -8747.341
+Iteration 210 / LogL: -8754.763 / Time: 0h:11m:26s (0h:5m:15s left)
+Iteration 220 / LogL: -8748.257 / Time: 0h:11m:56s (0h:4m:41s left)
+Iteration 230 / LogL: -8874.364 / Time: 0h:12m:26s (0h:4m:7s left)
+Iteration 240 / LogL: -8750.934 / Time: 0h:12m:56s (0h:3m:34s left)
+Iteration 250 / LogL: -8754.460 / Time: 0h:13m:26s (0h:3m:1s left)
+Iteration 260 / LogL: -8767.175 / Time: 0h:13m:55s (0h:2m:28s left)
+Iteration 270 / LogL: -8750.842 / Time: 0h:14m:26s (0h:1m:55s left)
+Iteration 280 / LogL: -8753.734 / Time: 0h:14m:57s (0h:1m:23s left)
+Iteration 290 / LogL: -8769.339 / Time: 0h:15m:26s (0h:0m:51s left)
+Iteration 300 / LogL: -8748.256 / Time: 0h:15m:56s (0h:0m:19s left)
+TREE SEARCH COMPLETED AFTER 307 ITERATIONS / Time: 0h:16m:19s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8747.341
+Optimal log-likelihood: -8747.341
+Proportion of invariable sites: 0.225
+Gamma shape alpha: 0.773
+Parameters optimization took 1 rounds (0.247 sec)
+BEST SCORE FOUND : -8747.341
+Total tree length: 6.499
+
+Total number of iterations: 307
+CPU time used for tree search: 942.859 sec (0h:15m:42s)
+Wall-clock time used for tree search: 955.429 sec (0h:15m:55s)
+Total CPU time used: 966.026 sec (0h:16m:6s)
+Total wall-clock time used: 979.501 sec (0h:16m:19s)
+
+Analysis results written to: 
+  IQ-TREE report:                rh1_12-13-21_ALN.fas.iqtree
+  Maximum-likelihood tree:       rh1_12-13-21_ALN.fas.treefile
+  Likelihood distances:          rh1_12-13-21_ALN.fas.mldist
+  Screen log file:               rh1_12-13-21_ALN.fas.log
+
+Date and Time: Mon Dec 13 17:51:33 2021

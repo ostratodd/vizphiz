@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 )
 
 #read file for data
-file1 = open('opsindb.tsv', 'r')
+file1 = open('heterologous.tsv', 'r')
 Lines = file1.readlines()
 
 count=0
@@ -17,8 +17,8 @@ for line in Lines:
 
     mycursor = mydb.cursor()
 
-    sql = "INSERT INTO opsins (opsinid, genefamily, genenames, genus, species, db, accession, dna, aa, refid) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-    val = (columns[0], columns[1], columns[2], columns[3], columns[4], columns[5], columns[6], columns[7], columns[8], columns[9])
+    sql = "INSERT INTO heterologous (hetid, genus, species, accession, mutations, lamdamax, error, cellculture, purification, spectrum, refid) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    val = (columns[0], columns[1], columns[2], columns[3], columns[4], columns[5], columns[6], columns[7], columns[8], columns[9], columns[10])
     print(sql)
     print(val)
 
