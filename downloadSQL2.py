@@ -1,4 +1,5 @@
 import mysql.connector
+import re
 
 mydb = mysql.connector.connect(
   host="localhost",
@@ -37,4 +38,12 @@ mycursor.execute(sql)
 myresult = mycursor.fetchall()
 
 for x in myresult:
-  print(">" + x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "\n" + x[4] )
+  #First 2 of if statements ignore ancestral (pigment named) or mutated genes
+  if re.match("pi[g-z]ment", x[2]) :
+    pass
+    #print("PIGMENT " + x[0] + "_" + x[1] + "_" + x[2])
+  elif re.match('.+[A-Z]\d.+[A-Z]', x[2]) :
+    #print("********************Found " + x[2] )
+    pass
+  else :
+    print(">" + x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "\n" + x[4] )
