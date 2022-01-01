@@ -16,8 +16,22 @@ mycursor.execute(sql)
 
 myresult = mycursor.fetchall()
 
+acc_list = []
+duped = 0
+
 for x in myresult:
-  print(">" + x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "\n" + x[4] )
+  #Keep all accessions in a list -- don't print 
+  if (x[2] in acc_list):
+    #print ("\n\n\n****Accession Exists" + x[2] + "\n\n" )
+    duped=1
+  else: 
+    acc_list.append(x[2])
+  if (duped==1) :
+    duped=0
+  else :
+#top prints fasta sequece second prints csv for character data
+#    print(">" + x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "\n" + x[4] )
+    print(x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "," + str(x[3]))
 
 
 
@@ -37,13 +51,26 @@ mycursor.execute(sql)
 
 myresult = mycursor.fetchall()
 
+
 for x in myresult:
+  #Keep all accessions in a list -- don't print 
+  if (x[2] in acc_list):
+    #print ("\n\n\n****Accession Exists" + x[2] + "\n\n" )
+    duped=1
+  else: 
+    acc_list.append(x[2])
+
+
   #First 2 of if statements ignore ancestral (pigment named) or mutated genes
-  if re.match("pi[g-z]ment", x[2]) :
+  if (duped==1) :
+    duped=0
+  elif re.match("pigment", x[2]) :
     pass
     #print("PIGMENT " + x[0] + "_" + x[1] + "_" + x[2])
   elif re.match('.+[A-Z]\d.+[A-Z]', x[2]) :
     #print("********************Found " + x[2] )
     pass
   else :
-    print(">" + x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "\n" + x[4] )
+#top prints fasta sequece second prints csv for character data
+#    print(">" + x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + "\n" + x[4] )
+    print(x[0] + "_" + x[1] + "_" + x[2] + "_" + str(x[3]) + ", " + str(x[3]) )
