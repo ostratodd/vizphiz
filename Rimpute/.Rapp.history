@@ -1,0 +1,562 @@
+tree<-pbtree(n=100,tip.label=LETTERS,scale=1)
+tree<-pbtree(n=100,tip.label=LETTERS,scale=1)
+help(pbtree)
+library(phytools)#
+library(phangorn)#
+#
+tree<-pbtree(n=100,tip.label=LETTERS,scale=1)
+help(pbtree)
+tree<-pbtree(n=100,tip.label=NUMBERS,scale=1)
+tree<-pbtree(n=100,scale=1)
+plot(tree)
+tree<-pbtree(n=100,scale=1)#
+x<-fastBM(tree, a=400, sig2=10)#
+#
+xp<-sample(x,95)#
+#
+fit<-anc.ML(tree,xp)#
+fit#
+#
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)#
+#
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+tree <- read.tree(text="((('Conger_myriaster_AB043817.1_486.00000':0.098867,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008474,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.0127,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019795,'Strophidon_sathete_HQ444183.1_487.00000':0.007619):0.002432):0.004029):2.0E-6):0.047045,('Anguilla_japonica_LC464070.1_479.00000':0.094033,('Amia_calva_AF137208.1_527.00000':0.094452,(('Latimeria_chalumnae_AH007712.2_482.00000':0.127979,('Acipenser_transmontanus_KC250344.1_540.00000':0.013241,'Neoceratodus_forsteri_EF526295.1_540.00000':0.074844):0.014714):0.025934,('Geotria_australis_AY366493.1_499.00000':0.228469,('Anolis_carolinensis_L31503_491.00000':0.147012,('Tachyglossus_aculeatus_JX103830_497.90000':0.048591,('Loxodonta_africana_AY686752.1_496.00000':0.039759,('Tursiops_truncatus_AF055456_488.00000':0.049859,('Bos_taurus_NM_001014890.2_500.00000':1.0E-6,'Bos_taurus_NM_001014890.2_498.00000':1.0E-6):0.061153):0.020583):0.038506):0.071825):0.021687):0.032219):0.080042):0.050794):0.040846):0.008589,((('Carassius_auratus_L11863.1_521.00000':1.0E-6,'Carassius_auratus_L11863.1_522.00000':1.0E-6):0.16785,('Astyanax_mexicanus_U12328.1_504.00000':0.092959,('Sardinops_melanostictus_LC007931.1_502.00000':0.020857,('Engraulis_mordax_KT201125.1_498.00000':0.014551,('Engraulis_encrasicolus_KT201123.1_500.00000':1.0E-6,'Engraulis_japonicus_AB731902.1_502.00000':0.003355):0.027946):0.085767):0.056064):0.0316):0.013511,((('Lepidopus_fitchi_EU407252.1_507.00000':0.063821,'Lepidopus_fitchi_EU407253.1_486.00000':0.123422):0.116737,(('Aristostomias_scintillans_EU407248.1_526.00000':0.185535,'Chauliodus_macouni_EU407250.1_489.00000':0.139364):0.089337,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.240941,('Oncorhynchus_keta_AY214141.1_524.00000':0.006644,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.003317,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':1.0E-6):2.0E-6):0.067404):0.038129):0.015344):0.039232,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101279,(('Atherina_boyeri_JF309697.1_511.00000':0.046221,'Belone_belone_AY141268.1_509.00000':0.04826):0.025843,((('Myripristis_violacea_U57539.1_499.00000':0.013113,('Myripristis_berndti_U57538.1_495.00000':1.0E-6,'Myripristis_berndti_U57538.1_493.00000':1.0E-6):0.029878):0.058378,(('Sargocentron_microstoma_U57542.1_494.00000':0.015469,('Sargocentron_diadema_U57537.1_491.00000':0.00367,('Sargocentron_xantherythrum_U57546.1_490.00000':1.0E-6,'Sargocentron_xantherythrum_U57546.1_486.00000':1.0E-6):0.029034):0.003031):0.016879,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029133,('Neoniphon_sammara_U57536.1_502.00000':0.014195,'Neoniphon_argenteus_U57540.1_502.00000':3.0E-6):0.029558):0.008541,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044694,('Sargocentron_spiniferum_U57544.1_490.00000':0.004593,'Sargocentron_tiere_U57545.1_490.00000':0.002436):0.047214):0.049226):0.01118):0.020403):0.063832,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315):0.035496,('Ictalurus_punctatus_AF028016.1_542.00000':0.094847,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.044806,((('Dimidiochromis_compressiceps_AB084931.1_498.00000':1.0E-6,'Dimidiochromis_compressiceps_AB084931.1_502.00000':1.0E-6):7.27E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.00809,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012055,(('Oreochromis_niloticus_AB084938.1_505.00000':0.04036,('Pseudotropheus_acei_GQ422475.1_505.00000':1.0E-6,('Pseudotropheus_acei_GQ422475.1_498.00000':0.0,('Melanochromis_vermivorus_GQ422472.1_505.00000':0.0,'Pseudotropheus_sp._GQ422475.1_498.00000':0.0):0.0):1.0E-6):3.0E-6):0.003726,('Tropheus_duboisi_AB084946.1_501.00000':2.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003644,'Haplochromis_sp._AB084933.1_501.00000':3.0E-6):0.035297,('Tramitichromis_intermedius_GQ422473.1_505.00000':1.0E-6,('Tramitichromis_intermedius_GQ422473.1_506.00000':1.0E-6,'Labidochromis_caeruleus_AB084934.1_500.00000':1.0E-6):3.0E-6):0.003606):2.0E-6):0.010909):2.0E-6):0.007655):0.006162,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007803,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017575,('Altolamprologus_calvus_AB458132.1_498.00000':1.0E-6,'Altolamprologus_calvus_AB084924.1_499.00000':1.0E-6):0.014538):2.0E-6):0.007501,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007299,(('Xenotilapia_papilio_AB457996.1_497.00000':0.020937,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006327,('Trematocara_unimaculatum_AB185238.1_484.00000':0.023755,'Trematocara_macrostoma_AB084945.1_488.00000':0.027526):0.025578):0.010252,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016377,('Limnochromis_staneri_AB185225.1_498.00000':3.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.012396,'Hemibates_stenosoma_AB185222.1_496.00000':0.03853):0.007997):0.004033):0.008121):2.37E-4):0.004031,((('Aulonocara_sp._AB185214.1_495.00000':0.012058,'Benthochromis_tricoti_AB084927.1_488.00000':0.016353):0.004115,('Neolamprologus_ventralis_AB458138.1_493.00000':0.017397,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':0.00677,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.004409):0.022489):0.005134):0.003582,('Perissodus_elaviae_AB185230.1_490.00000':1.0E-6,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012065,('Cyphotilapia_frontosa_AB084929.1_487.00000':1.0E-6,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018772,('Cyprichromis_leptosoma_AB084930.1_498.00000':1.0E-6,'Cyprichromis_leptosoma_AB458118.1_500.00000':1.0E-6):0.003716):0.010836,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014742,('Paracyprichromis_brieni_AB458121.1_494.00000':0.01093,'Cyprichromis_pavo_AB458119.1_489.00000':0.007175):0.004034):3.0E-6):0.00726):0.007225):0.007324):2.0E-6):0.003563):0.007243):0.007277):0.003663):0.043051):0.008541):0.014204):0.010267):0.006939):0.014206):0.04106):0.037163):0.07015);")
+x<-fastBM(tree, a=400, sig2=10)
+xp<-sample(x,95)
+fit<-anc.ML(tree,xp)
+help(drop.tip)
+drop.tip(tree, interactive=TRUE)
+drop.tip(tree, interactive=TRUE)
+plot.new(tree)
+help(drop.tip)
+plot(tree)
+help(plot.tree)
+help(plot)
+tree <- read.tree(text="((('Conger_myriaster_AB043817.1_486.00000':0.098867,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008474,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.0127,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019795,'Strophidon_sathete_HQ444183.1_487.00000':0.007619):0.002432):0.004029):2.0E-6):0.047045,('Anguilla_japonica_LC464070.1_479.00000':0.094033,('Amia_calva_AF137208.1_527.00000':0.094452,(('Latimeria_chalumnae_AH007712.2_482.00000':0.127979,('Acipenser_transmontanus_KC250344.1_540.00000':0.013241,'Neoceratodus_forsteri_EF526295.1_540.00000':0.074844):0.014714):0.025934,('Geotria_australis_AY366493.1_499.00000':0.228469,('Anolis_carolinensis_L31503_491.00000':0.147012,('Tachyglossus_aculeatus_JX103830_497.90000':0.048591,('Loxodonta_africana_AY686752.1_496.00000':0.039759,('Tursiops_truncatus_AF055456_488.00000':0.049859,('Bos_taurus_NM_001014890.2_500.00000':.01,'Bos_taurus_NM_001014890.2_498.00000':.01):0.061153):0.020583):0.038506):0.071825):0.021687):0.032219):0.080042):0.050794):0.040846):0.008589,((('Carassius_auratus_L11863.1_521.00000':.01,'Carassius_auratus_L11863.1_522.00000':.01):0.16785,('Astyanax_mexicanus_U12328.1_504.00000':0.092959,('Sardinops_melanostictus_LC007931.1_502.00000':0.020857,('Engraulis_mordax_KT201125.1_498.00000':0.014551,('Engraulis_encrasicolus_KT201123.1_500.00000':.01,'Engraulis_japonicus_AB731902.1_502.00000':0.003355):0.027946):0.085767):0.056064):0.0316):0.013511,((('Lepidopus_fitchi_EU407252.1_507.00000':0.063821,'Lepidopus_fitchi_EU407253.1_486.00000':0.123422):0.116737,(('Aristostomias_scintillans_EU407248.1_526.00000':0.185535,'Chauliodus_macouni_EU407250.1_489.00000':0.139364):0.089337,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.240941,('Oncorhynchus_keta_AY214141.1_524.00000':0.006644,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.003317,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':.01):2.0E-6):0.067404):0.038129):0.015344):0.039232,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101279,(('Atherina_boyeri_JF309697.1_511.00000':0.046221,'Belone_belone_AY141268.1_509.00000':0.04826):0.025843,((('Myripristis_violacea_U57539.1_499.00000':0.013113,('Myripristis_berndti_U57538.1_495.00000':.01,'Myripristis_berndti_U57538.1_493.00000':.01):0.029878):0.058378,(('Sargocentron_microstoma_U57542.1_494.00000':0.015469,('Sargocentron_diadema_U57537.1_491.00000':0.00367,('Sargocentron_xantherythrum_U57546.1_490.00000':.01,'Sargocentron_xantherythrum_U57546.1_486.00000':.01):0.029034):0.003031):0.016879,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029133,('Neoniphon_sammara_U57536.1_502.00000':0.014195,'Neoniphon_argenteus_U57540.1_502.00000':3.0E-6):0.029558):0.008541,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044694,('Sargocentron_spiniferum_U57544.1_490.00000':0.004593,'Sargocentron_tiere_U57545.1_490.00000':0.002436):0.047214):0.049226):0.01118):0.020403):0.063832,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315):0.035496,('Ictalurus_punctatus_AF028016.1_542.00000':0.094847,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.044806,((('Dimidiochromis_compressiceps_AB084931.1_498.00000':.01,'Dimidiochromis_compressiceps_AB084931.1_502.00000':.01):7.27E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.00809,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012055,(('Oreochromis_niloticus_AB084938.1_505.00000':0.04036,('Pseudotropheus_acei_GQ422475.1_505.00000':.01,('Pseudotropheus_acei_GQ422475.1_498.00000':0.0,('Melanochromis_vermivorus_GQ422472.1_505.00000':0.0,'Pseudotropheus_sp._GQ422475.1_498.00000':0.0):0.0):.01):3.0E-6):0.003726,('Tropheus_duboisi_AB084946.1_501.00000':2.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003644,'Haplochromis_sp._AB084933.1_501.00000':3.0E-6):0.035297,('Tramitichromis_intermedius_GQ422473.1_505.00000':.01,('Tramitichromis_intermedius_GQ422473.1_506.00000':.01,'Labidochromis_caeruleus_AB084934.1_500.00000':.01):3.0E-6):0.003606):2.0E-6):0.010909):2.0E-6):0.007655):0.006162,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007803,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017575,('Altolamprologus_calvus_AB458132.1_498.00000':.01,'Altolamprologus_calvus_AB084924.1_499.00000':.01):0.014538):2.0E-6):0.007501,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007299,(('Xenotilapia_papilio_AB457996.1_497.00000':0.020937,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006327,('Trematocara_unimaculatum_AB185238.1_484.00000':0.023755,'Trematocara_macrostoma_AB084945.1_488.00000':0.027526):0.025578):0.010252,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016377,('Limnochromis_staneri_AB185225.1_498.00000':3.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.012396,'Hemibates_stenosoma_AB185222.1_496.00000':0.03853):0.007997):0.004033):0.008121):2.37E-4):0.004031,((('Aulonocara_sp._AB185214.1_495.00000':0.012058,'Benthochromis_tricoti_AB084927.1_488.00000':0.016353):0.004115,('Neolamprologus_ventralis_AB458138.1_493.00000':0.017397,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':0.00677,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.004409):0.022489):0.005134):0.003582,('Perissodus_elaviae_AB185230.1_490.00000':.01,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012065,('Cyphotilapia_frontosa_AB084929.1_487.00000':.01,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018772,('Cyprichromis_leptosoma_AB084930.1_498.00000':.01,'Cyprichromis_leptosoma_AB458118.1_500.00000':.01):0.003716):0.010836,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014742,('Paracyprichromis_brieni_AB458121.1_494.00000':0.01093,'Cyprichromis_pavo_AB458119.1_489.00000':0.007175):0.004034):3.0E-6):0.00726):0.007225):0.007324):2.0E-6):0.003563):0.007243):0.007277):0.003663):0.043051):0.008541):0.014204):0.010267):0.006939):0.014206):0.04106):0.037163):0.07015);")
+tree<-pbtree(n=100,scale=1)#
+x<-fastBM(tree, a=400, sig2=10)#
+#
+xp<-sample(x,95)#
+#
+fit<-anc.ML(tree,xp)#
+fit
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)#
+#
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+tree <- read.tree(text="((('Conger_myriaster_AB043817.1_486.00000':0.098867,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008474,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.0127,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019795,'Strophidon_sathete_HQ444183.1_487.00000':0.007619):0.002432):0.004029):2.0E-6):0.047045,('Anguilla_japonica_LC464070.1_479.00000':0.094033,('Amia_calva_AF137208.1_527.00000':0.094452,(('Latimeria_chalumnae_AH007712.2_482.00000':0.127979,('Acipenser_transmontanus_KC250344.1_540.00000':0.013241,'Neoceratodus_forsteri_EF526295.1_540.00000':0.074844):0.014714):0.025934,('Geotria_australis_AY366493.1_499.00000':0.228469,('Anolis_carolinensis_L31503_491.00000':0.147012,('Tachyglossus_aculeatus_JX103830_497.90000':0.048591,('Loxodonta_africana_AY686752.1_496.00000':0.039759,('Tursiops_truncatus_AF055456_488.00000':0.049859,('Bos_taurus_NM_001014890.2_500.00000':.01,'Bos_taurus_NM_001014890.2_498.00000':.01):0.061153):0.020583):0.038506):0.071825):0.021687):0.032219):0.080042):0.050794):0.040846):0.008589,((('Carassius_auratus_L11863.1_521.00000':.01,'Carassius_auratus_L11863.1_522.00000':.01):0.16785,('Astyanax_mexicanus_U12328.1_504.00000':0.092959,('Sardinops_melanostictus_LC007931.1_502.00000':0.020857,('Engraulis_mordax_KT201125.1_498.00000':0.014551,('Engraulis_encrasicolus_KT201123.1_500.00000':.01,'Engraulis_japonicus_AB731902.1_502.00000':0.003355):0.027946):0.085767):0.056064):0.0316):0.013511,((('Lepidopus_fitchi_EU407252.1_507.00000':0.063821,'Lepidopus_fitchi_EU407253.1_486.00000':0.123422):0.116737,(('Aristostomias_scintillans_EU407248.1_526.00000':0.185535,'Chauliodus_macouni_EU407250.1_489.00000':0.139364):0.089337,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.240941,('Oncorhynchus_keta_AY214141.1_524.00000':0.006644,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.003317,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':.01):2.0E-6):0.067404):0.038129):0.015344):0.039232,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101279,(('Atherina_boyeri_JF309697.1_511.00000':0.046221,'Belone_belone_AY141268.1_509.00000':0.04826):0.025843,((('Myripristis_violacea_U57539.1_499.00000':0.013113,('Myripristis_berndti_U57538.1_495.00000':.01,'Myripristis_berndti_U57538.1_493.00000':.01):0.029878):0.058378,(('Sargocentron_microstoma_U57542.1_494.00000':0.015469,('Sargocentron_diadema_U57537.1_491.00000':0.00367,('Sargocentron_xantherythrum_U57546.1_490.00000':.01,'Sargocentron_xantherythrum_U57546.1_486.00000':.01):0.029034):0.003031):0.016879,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029133,('Neoniphon_sammara_U57536.1_502.00000':0.014195,'Neoniphon_argenteus_U57540.1_502.00000':3.0E-6):0.029558):0.008541,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044694,('Sargocentron_spiniferum_U57544.1_490.00000':0.004593,'Sargocentron_tiere_U57545.1_490.00000':0.002436):0.047214):0.049226):0.01118):0.020403):0.063832,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315):0.035496,('Ictalurus_punctatus_AF028016.1_542.00000':0.094847,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.044806,((('Dimidiochromis_compressiceps_AB084931.1_498.00000':.01,'Dimidiochromis_compressiceps_AB084931.1_502.00000':.01):7.27E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.00809,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012055,(('Oreochromis_niloticus_AB084938.1_505.00000':0.04036,('Pseudotropheus_acei_GQ422475.1_505.00000':.01,('Pseudotropheus_acei_GQ422475.1_498.00000':0.0,('Melanochromis_vermivorus_GQ422472.1_505.00000':0.0,'Pseudotropheus_sp._GQ422475.1_498.00000':0.0):0.0):.01):3.0E-6):0.003726,('Tropheus_duboisi_AB084946.1_501.00000':2.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003644,'Haplochromis_sp._AB084933.1_501.00000':3.0E-6):0.035297,('Tramitichromis_intermedius_GQ422473.1_505.00000':.01,('Tramitichromis_intermedius_GQ422473.1_506.00000':.01,'Labidochromis_caeruleus_AB084934.1_500.00000':.01):3.0E-6):0.003606):2.0E-6):0.010909):2.0E-6):0.007655):0.006162,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007803,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017575,('Altolamprologus_calvus_AB458132.1_498.00000':.01,'Altolamprologus_calvus_AB084924.1_499.00000':.01):0.014538):2.0E-6):0.007501,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007299,(('Xenotilapia_papilio_AB457996.1_497.00000':0.020937,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006327,('Trematocara_unimaculatum_AB185238.1_484.00000':0.023755,'Trematocara_macrostoma_AB084945.1_488.00000':0.027526):0.025578):0.010252,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016377,('Limnochromis_staneri_AB185225.1_498.00000':3.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.012396,'Hemibates_stenosoma_AB185222.1_496.00000':0.03853):0.007997):0.004033):0.008121):2.37E-4):0.004031,((('Aulonocara_sp._AB185214.1_495.00000':0.012058,'Benthochromis_tricoti_AB084927.1_488.00000':0.016353):0.004115,('Neolamprologus_ventralis_AB458138.1_493.00000':0.017397,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':0.00677,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.004409):0.022489):0.005134):0.003582,('Perissodus_elaviae_AB185230.1_490.00000':.01,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012065,('Cyphotilapia_frontosa_AB084929.1_487.00000':.01,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018772,('Cyprichromis_leptosoma_AB084930.1_498.00000':.01,'Cyprichromis_leptosoma_AB458118.1_500.00000':.01):0.003716):0.010836,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014742,('Paracyprichromis_brieni_AB458121.1_494.00000':0.01093,'Cyprichromis_pavo_AB458119.1_489.00000':0.007175):0.004034):3.0E-6):0.00726):0.007225):0.007324):2.0E-6):0.003563):0.007243):0.007277):0.003663):0.043051):0.008541):0.014204):0.010267):0.006939):0.014206):0.04106):0.037163):0.07015);")
+x<-fastBM(tree, a=400, sig2=10)#
+#
+xp<-sample(x,95)#
+#
+fit<-anc.ML(tree,xp)#
+fit
+fit<-anc.ML(tree,xp)
+library(phytools)#
+library(phangorn)#
+#
+#tree<-pbtree(n=100,scale=1)#
+x<-fastBM(tree, a=400, sig2=10)#
+#
+xp<-sample(x,95)#
+#
+fit<-anc.ML(tree,xp)#
+fit
+fit<-anc.ML(tree,xp)
+tree <- read.tree(text="((('Conger_myriaster_AB043817.1_486.00000':0.098867,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008474,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.0127,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019795,'Strophidon_sathete_HQ444183.1_487.00000':0.007619):0.002432):0.004029):2.0E-6):0.047045,('Anguilla_japonica_LC464070.1_479.00000':0.094033,('Amia_calva_AF137208.1_527.00000':0.094452,(('Latimeria_chalumnae_AH007712.2_482.00000':0.127979,('Acipenser_transmontanus_KC250344.1_540.00000':0.013241,'Neoceratodus_forsteri_EF526295.1_540.00000':0.074844):0.014714):0.025934,('Geotria_australis_AY366493.1_499.00000':0.228469,('Anolis_carolinensis_L31503_491.00000':0.147012,('Tachyglossus_aculeatus_JX103830_497.90000':0.048591,('Loxodonta_africana_AY686752.1_496.00000':0.039759,('Tursiops_truncatus_AF055456_488.00000':0.049859,('Bos_taurus_NM_001014890.2_500.00000':.01,'Bos_taurus_NM_001014890.2_498.00000':.01):0.061153):0.020583):0.038506):0.071825):0.021687):0.032219):0.080042):0.050794):0.040846):0.008589,((('Carassius_auratus_L11863.1_521.00000':.01,'Carassius_auratus_L11863.1_522.00000':.01):0.16785,('Astyanax_mexicanus_U12328.1_504.00000':0.092959,('Sardinops_melanostictus_LC007931.1_502.00000':0.020857,('Engraulis_mordax_KT201125.1_498.00000':0.014551,('Engraulis_encrasicolus_KT201123.1_500.00000':.01,'Engraulis_japonicus_AB731902.1_502.00000':0.003355):0.027946):0.085767):0.056064):0.0316):0.013511,((('Lepidopus_fitchi_EU407252.1_507.00000':0.063821,'Lepidopus_fitchi_EU407253.1_486.00000':0.123422):0.116737,(('Aristostomias_scintillans_EU407248.1_526.00000':0.185535,'Chauliodus_macouni_EU407250.1_489.00000':0.139364):0.089337,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.240941,('Oncorhynchus_keta_AY214141.1_524.00000':0.006644,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.003317,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':.01):2.0E-6):0.067404):0.038129):0.015344):0.039232,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101279,(('Atherina_boyeri_JF309697.1_511.00000':0.046221,'Belone_belone_AY141268.1_509.00000':0.04826):0.025843,((('Myripristis_violacea_U57539.1_499.00000':0.013113,('Myripristis_berndti_U57538.1_495.00000':.01,'Myripristis_berndti_U57538.1_493.00000':.01):0.029878):0.058378,(('Sargocentron_microstoma_U57542.1_494.00000':0.015469,('Sargocentron_diadema_U57537.1_491.00000':0.00367,('Sargocentron_xantherythrum_U57546.1_490.00000':.01,'Sargocentron_xantherythrum_U57546.1_486.00000':.01):0.029034):0.003031):0.016879,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029133,('Neoniphon_sammara_U57536.1_502.00000':0.014195,'Neoniphon_argenteus_U57540.1_502.00000':3.0E-6):0.029558):0.008541,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044694,('Sargocentron_spiniferum_U57544.1_490.00000':0.004593,'Sargocentron_tiere_U57545.1_490.00000':0.002436):0.047214):0.049226):0.01118):0.020403):0.063832,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315):0.035496,('Ictalurus_punctatus_AF028016.1_542.00000':0.094847,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.044806,((('Dimidiochromis_compressiceps_AB084931.1_498.00000':.01,'Dimidiochromis_compressiceps_AB084931.1_502.00000':.01):7.27E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.00809,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012055,(('Oreochromis_niloticus_AB084938.1_505.00000':0.04036,('Pseudotropheus_acei_GQ422475.1_505.00000':.01,('Pseudotropheus_acei_GQ422475.1_498.00000':0.0,('Melanochromis_vermivorus_GQ422472.1_505.00000':0.0,'Pseudotropheus_sp._GQ422475.1_498.00000':0.0):0.0):.01):3.0E-6):0.003726,('Tropheus_duboisi_AB084946.1_501.00000':2.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003644,'Haplochromis_sp._AB084933.1_501.00000':3.0E-6):0.035297,('Tramitichromis_intermedius_GQ422473.1_505.00000':.01,('Tramitichromis_intermedius_GQ422473.1_506.00000':.01,'Labidochromis_caeruleus_AB084934.1_500.00000':.01):3.0E-6):0.003606):2.0E-6):0.010909):2.0E-6):0.007655):0.006162,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007803,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017575,('Altolamprologus_calvus_AB458132.1_498.00000':.01,'Altolamprologus_calvus_AB084924.1_499.00000':.01):0.014538):2.0E-6):0.007501,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007299,(('Xenotilapia_papilio_AB457996.1_497.00000':0.020937,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006327,('Trematocara_unimaculatum_AB185238.1_484.00000':0.023755,'Trematocara_macrostoma_AB084945.1_488.00000':0.027526):0.025578):0.010252,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016377,('Limnochromis_staneri_AB185225.1_498.00000':3.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.012396,'Hemibates_stenosoma_AB185222.1_496.00000':0.03853):0.007997):0.004033):0.008121):2.37E-4):0.004031,((('Aulonocara_sp._AB185214.1_495.00000':0.012058,'Benthochromis_tricoti_AB084927.1_488.00000':0.016353):0.004115,('Neolamprologus_ventralis_AB458138.1_493.00000':0.017397,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':0.00677,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.004409):0.022489):0.005134):0.003582,('Perissodus_elaviae_AB185230.1_490.00000':.01,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012065,('Cyphotilapia_frontosa_AB084929.1_487.00000':.01,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018772,('Cyprichromis_leptosoma_AB084930.1_498.00000':.01,'Cyprichromis_leptosoma_AB458118.1_500.00000':.01):0.003716):0.010836,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014742,('Paracyprichromis_brieni_AB458121.1_494.00000':0.01093,'Cyprichromis_pavo_AB458119.1_489.00000':0.007175):0.004034):3.0E-6):0.00726):0.007225):0.007324):2.0E-6):0.003563):0.007243):0.007277):0.003663):0.043051):0.008541):0.014204):0.010267):0.006939):0.014206):0.04106):0.037163):0.07015);")
+plot(tree)
+x<-fastBM(tree, a=400, sig2=10)
+x
+xp<-sample(x,95)
+xp
+fit<-anc.ML(tree,xp)
+tree <- di2multi(tree)
+plot(tree)
+x<-fastBM(tree, a=400, sig2=10)#
+#
+xp<-sample(x,95)#
+#
+fit<-anc.ML(tree,xp)#
+fit
+tree <- di2multi(tree)
+x<-fastBM(tree, a=400, sig2=10)
+xp<-sample(x,95)
+fit<-anc.ML(tree,xp)
+tree <- read.tree(text="((('Conger_myriaster_AB043817.1_486.00000':0.098867,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008474,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.0127,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019795,'Strophidon_sathete_HQ444183.1_487.00000':0.007619):0.002432):0.004029):2.0E-6):0.047045,('Anguilla_japonica_LC464070.1_479.00000':0.094033,('Amia_calva_AF137208.1_527.00000':0.094452,(('Latimeria_chalumnae_AH007712.2_482.00000':0.127979,('Acipenser_transmontanus_KC250344.1_540.00000':0.013241,'Neoceratodus_forsteri_EF526295.1_540.00000':0.074844):0.014714):0.025934,('Geotria_australis_AY366493.1_499.00000':0.228469,('Anolis_carolinensis_L31503_491.00000':0.147012,('Tachyglossus_aculeatus_JX103830_497.90000':0.048591,('Loxodonta_africana_AY686752.1_496.00000':0.039759,('Tursiops_truncatus_AF055456_488.00000':0.049859,('Bos_taurus_NM_001014890.2_500.00000':.01,'Bos_taurus_NM_001014890.2_498.00000':.01):0.061153):0.020583):0.038506):0.071825):0.021687):0.032219):0.080042):0.050794):0.040846):0.008589,((('Carassius_auratus_L11863.1_521.00000':.01,'Carassius_auratus_L11863.1_522.00000':.01):0.16785,('Astyanax_mexicanus_U12328.1_504.00000':0.092959,('Sardinops_melanostictus_LC007931.1_502.00000':0.020857,('Engraulis_mordax_KT201125.1_498.00000':0.014551,('Engraulis_encrasicolus_KT201123.1_500.00000':.01,'Engraulis_japonicus_AB731902.1_502.00000':0.003355):0.027946):0.085767):0.056064):0.0316):0.013511,((('Lepidopus_fitchi_EU407252.1_507.00000':0.063821,'Lepidopus_fitchi_EU407253.1_486.00000':0.123422):0.116737,(('Aristostomias_scintillans_EU407248.1_526.00000':0.185535,'Chauliodus_macouni_EU407250.1_489.00000':0.139364):0.089337,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.240941,('Oncorhynchus_keta_AY214141.1_524.00000':0.006644,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.003317,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':.01):2.0E-6):0.067404):0.038129):0.015344):0.039232,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101279,(('Atherina_boyeri_JF309697.1_511.00000':0.046221,'Belone_belone_AY141268.1_509.00000':0.04826):0.025843,((('Myripristis_violacea_U57539.1_499.00000':0.013113,('Myripristis_berndti_U57538.1_495.00000':.01,'Myripristis_berndti_U57538.1_493.00000':.01):0.029878):0.058378,(('Sargocentron_microstoma_U57542.1_494.00000':0.015469,('Sargocentron_diadema_U57537.1_491.00000':0.00367,('Sargocentron_xantherythrum_U57546.1_490.00000':.01,'Sargocentron_xantherythrum_U57546.1_486.00000':.01):0.029034):0.003031):0.016879,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029133,('Neoniphon_sammara_U57536.1_502.00000':0.014195,'Neoniphon_argenteus_U57540.1_502.00000':3.0E-6):0.029558):0.008541,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044694,('Sargocentron_spiniferum_U57544.1_490.00000':0.004593,'Sargocentron_tiere_U57545.1_490.00000':0.002436):0.047214):0.049226):0.01118):0.020403):0.063832,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315):0.035496,('Ictalurus_punctatus_AF028016.1_542.00000':0.094847,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.044806,((('Dimidiochromis_compressiceps_AB084931.1_498.00000':.01,'Dimidiochromis_compressiceps_AB084931.1_502.00000':.01):7.27E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.00809,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012055,(('Oreochromis_niloticus_AB084938.1_505.00000':0.04036,('Pseudotropheus_acei_GQ422475.1_505.00000':.01,('Pseudotropheus_acei_GQ422475.1_498.00000':0.0,('Melanochromis_vermivorus_GQ422472.1_505.00000':0.0,'Pseudotropheus_sp._GQ422475.1_498.00000':0.0):0.0):.01):3.0E-6):0.003726,('Tropheus_duboisi_AB084946.1_501.00000':2.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003644,'Haplochromis_sp._AB084933.1_501.00000':3.0E-6):0.035297,('Tramitichromis_intermedius_GQ422473.1_505.00000':.01,('Tramitichromis_intermedius_GQ422473.1_506.00000':.01,'Labidochromis_caeruleus_AB084934.1_500.00000':.01):3.0E-6):0.003606):2.0E-6):0.010909):2.0E-6):0.007655):0.006162,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007803,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017575,('Altolamprologus_calvus_AB458132.1_498.00000':.01,'Altolamprologus_calvus_AB084924.1_499.00000':.01):0.014538):2.0E-6):0.007501,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007299,(('Xenotilapia_papilio_AB457996.1_497.00000':0.020937,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006327,('Trematocara_unimaculatum_AB185238.1_484.00000':0.023755,'Trematocara_macrostoma_AB084945.1_488.00000':0.027526):0.025578):0.010252,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016377,('Limnochromis_staneri_AB185225.1_498.00000':3.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.012396,'Hemibates_stenosoma_AB185222.1_496.00000':0.03853):0.007997):0.004033):0.008121):2.37E-4):0.004031,((('Aulonocara_sp._AB185214.1_495.00000':0.012058,'Benthochromis_tricoti_AB084927.1_488.00000':0.016353):0.004115,('Neolamprologus_ventralis_AB458138.1_493.00000':0.017397,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':0.00677,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.004409):0.022489):0.005134):0.003582,('Perissodus_elaviae_AB185230.1_490.00000':.01,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012065,('Cyphotilapia_frontosa_AB084929.1_487.00000':.01,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018772,('Cyprichromis_leptosoma_AB084930.1_498.00000':.01,'Cyprichromis_leptosoma_AB458118.1_500.00000':.01):0.003716):0.010836,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014742,('Paracyprichromis_brieni_AB458121.1_494.00000':0.01093,'Cyprichromis_pavo_AB458119.1_489.00000':0.007175):0.004034):3.0E-6):0.00726):0.007225):0.007324):2.0E-6):0.003563):0.007243):0.007277):0.003663):0.043051):0.008541):0.014204):0.010267):0.006939):0.014206):0.04106):0.037163):0.07015);")
+tree <- di2multi(tree)
+x<-fastBM(tree, a=400, sig2=10)
+xp<-sample(x,95)
+fit<-anc.ML(tree,xp)
+fit<-anc.ML(tree,x)
+xp
+x<-fastBM(tree, a=500, sig2=10)
+xp<-sample(x,95)
+fit<-anc.ML(tree,xp)
+x
+tree<-pbtree(n=100,scale=1)#
+tree <- di2multi(tree)#
+x<-fastBM(tree, a=500, sig2=10)#
+#
+xp<-sample(x,95)#
+#
+fit<-anc.ML(tree,xp)#
+fit
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)#
+#
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+tree <- read.tree(text=('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315);)
+tree <- read.tree(text="('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095216,(('Sebastolobus_altivelis_DQ490124_483.00000':0.064897,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046174,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027617):0.090443):0.021312,('Cottocomephorus_inermis_U97266.1_494.00000':0.049939,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042368,'Leocottus_kesslerii_L42953.1_516.00000':0.062089):0.038376):0.044061):0.010315);")
+plot(tree)
+plot(tree)
+x<-fastBM(tree, a=500, sig2=10)#
+#
+xp<-sample(x,5)#
+#
+fit<-anc.ML(tree,xp)#
+fit
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)#
+#
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+phenogram(tree)
+phenogram(tree,x.all)
+phenogram(tree,x.missing)
+help(phenogram)
+phenogram(tree,x.all,fsize=0.1)
+x<-fastBM(tree, a=500, sig2=10)#
+#
+xp<-sample(x,5)#
+#
+fit<-anc.ML(tree,xp)#
+fit#
+#
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)#
+#
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X#
+#
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all,fsize=0.1)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all,fsize=0.3)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+X.full<-x#
+X.missing<-X.full#
+Nmis <- 2#
+X.missing[cbind(sample(1:nrow(X.missing),7-Nmis),#
+    sample(1:3,20,replace=TRUE))]<-NA#
+X.missing
+X.missing[cbind(sample(1:nrow(X.missing),7-Nmis),#
+    sample(1:1,7-Nmis,replace=TRUE))]<-NA#
+X.missing
+X.missing
+sample(1:nrow(X.missing),7-Nmis)
+nrow(X.missing)
+x
+nrow(x)
+tree <- read.tree(text="(('Anolis_carolinensis_L31503_491.00000':0.147541,('Tachyglossus_aculeatus_JX103830_497.90000':0.048767,('Loxodonta_africana_AY686752.1_496.00000':0.039911,('Bos_taurus_NM_001014890.2_500.00000':0.061422,'Tursiops_truncatus_AF055456_488.00000':0.050037):0.020666):0.038656):0.072194):0.010872,('Geotria_australis_AY366493.1_499.00000':0.229272,(('Latimeria_chalumnae_AH007712.2_482.00000':0.128562,('Acipenser_transmontanus_KC250344.1_540.00000':0.01333,'Neoceratodus_forsteri_EF526295.1_540.00000':0.075123):0.014794):0.026042,('Amia_calva_AF137208.1_527.00000':0.095183,('Anguilla_japonica_LC464070.1_479.00000':0.09439,(('Conger_myriaster_AB043817.1_486.00000':0.099299,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008511,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.012763,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019894,'Strophidon_sathete_HQ444183.1_487.00000':0.007655):0.002442):0.00405):2.0E-6):0.047261,(('Carassius_auratus_L11863.1_521.00000':0.168531,('Astyanax_mexicanus_U12328.1_504.00000':0.093314,('Sardinops_melanostictus_LC007931.1_502.00000':0.020955,('Engraulis_mordax_KT201125.1_498.00000':0.014638,('Engraulis_encrasicolus_KT201123.1_500.00000':1.0E-6,'Engraulis_japonicus_AB731902.1_502.00000':0.003368):0.028054):0.086102):0.056387):0.031694):0.013538,((('Lepidopus_fitchi_EU407252.1_507.00000':0.064089,'Lepidopus_fitchi_EU407253.1_486.00000':0.123909):0.117159,(('Aristostomias_scintillans_EU407248.1_526.00000':0.186114,'Chauliodus_macouni_EU407250.1_489.00000':0.139895):0.089621,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.241699,('Oncorhynchus_keta_AY214141.1_524.00000':0.006672,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.00333,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':1.0E-6):2.0E-6):0.067584):0.038426):0.015441):0.039348,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101607,(('Atherina_boyeri_JF309697.1_511.00000':0.046482,'Belone_belone_AY141268.1_509.00000':0.048519):0.025992,((('Myripristis_berndti_U57538.1_495.00000':0.029988,'Myripristis_violacea_U57539.1_499.00000':0.013169):0.058559,(('Sargocentron_microstoma_U57542.1_494.00000':0.01553,('Sargocentron_xantherythrum_U57546.1_490.00000':0.029146,'Sargocentron_diadema_U57537.1_491.00000':0.003685):0.003041):0.016926,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029227,('Neoniphon_sammara_U57536.1_502.00000':0.014249,'Neoniphon_argenteus_U57540.1_502.00000':2.0E-6):0.029682):0.008566,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044759,('Sargocentron_spiniferum_U57544.1_490.00000':0.004702,'Sargocentron_tiere_U57545.1_490.00000':0.002374):0.047397):0.04954):0.01123):0.02056):0.064,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095569,(('Sebastolobus_altivelis_DQ490124_483.00000':0.065171,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046482,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027728):0.091037):0.021362,('Cottocomephorus_inermis_U97266.1_494.00000':0.050187,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042544,'Leocottus_kesslerii_L42953.1_516.00000':0.062362):0.038524):0.044221):0.010358):0.035619,('Ictalurus_punctatus_AF028016.1_542.00000':0.095235,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.045117,(('Dimidiochromis_compressiceps_AB084931.1_498.00000':7.3E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.008119,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012099,(('Oreochromis_niloticus_AB084938.1_505.00000':0.040502,('Melanochromis_vermivorus_GQ422472.1_505.00000':1.0E-6,'Pseudotropheus_acei_GQ422475.1_505.00000':3.0E-6):3.0E-6):0.003741,('Tropheus_duboisi_AB084946.1_501.00000':3.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003659,'Haplochromis_sp._AB084933.1_501.00000':2.0E-6):0.035444,('Tramitichromis_intermedius_GQ422473.1_505.00000':1.0E-6,'Labidochromis_caeruleus_AB084934.1_500.00000':1.0E-6):0.003621):3.0E-6):0.010953):2.0E-6):0.007684):0.006184,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007831,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017639,('Altolamprologus_calvus_AB458132.1_498.00000':1.0E-6,'Altolamprologus_calvus_AB084924.1_499.00000':1.0E-6):0.014598):1.0E-6):0.007531,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007328,((('Aulonocara_sp._AB185214.1_495.00000':0.012195,('Xenotilapia_papilio_AB457996.1_497.00000':3.0E-6,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':3.0E-6,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.011319):0.026596):0.015162):2.0E-6,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006347,('Trematocara_unimaculatum_AB185238.1_484.00000':0.02382,'Trematocara_macrostoma_AB084945.1_488.00000':0.027628):0.025672):0.010313,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016438,('Limnochromis_staneri_AB185225.1_498.00000':1.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.01244,'Hemibates_stenosoma_AB185222.1_496.00000':0.038673):0.008029):0.004047):0.008227):0.003985):0.00367,('Perissodus_elaviae_AB185230.1_490.00000':1.0E-6,(('Benthochromis_tricoti_AB084927.1_488.00000':0.021199,'Neolamprologus_ventralis_AB458138.1_493.00000':0.023361):0.003031,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012108,('Cyphotilapia_frontosa_AB084929.1_487.00000':3.0E-6,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018846,('Cyprichromis_leptosoma_AB084930.1_498.00000':1.0E-6,'Cyprichromis_leptosoma_AB458118.1_500.00000':1.0E-6):0.00373):0.01088,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014802,('Paracyprichromis_brieni_AB458121.1_494.00000':0.010972,'Cyprichromis_pavo_AB458119.1_489.00000':0.007206):0.004047):2.0E-6):0.007288):0.007253):0.007353):2.0E-6):0.003587):0.007275):0.007305):0.003684):0.043194):0.008562):0.014295):0.010303):0.006971):0.01423):0.041213):0.037287):0.079127):0.040986):0.050898):0.080333):0.032287):0.010872);")
+plot(tree)
+x<-fastBM(tree, a=500, sig2=10)
+xp<-sample(x,90)
+fit<-anc.ML(tree,xp)
+fit
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all,fsize=0.3)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+x<-fastBM(tree, a=500, sig2=10)#
+xp<-sample(x,80)#
+#
+fit<-anc.ML(tree,xp)#
+fit#
+#
+tips<-sapply(names(fit$missing.x),function(x,y)#
+    which(y==x),y=tree$tip.label)#
+#
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+x.all<-c(xp,fit$missing.x,fit$ace)#
+tree<-paintBranches(tree,tips,"2")#
+phenogram(tree,x.all,fsize=0.3)#
+nodelabels(node=tips,pie=rep(1,length(fit$missing.x)),#
+    cex=0.5)
+x
+head(x)
+head(xp)
+as.matrix(x)
+resample <- 80#
+#
+xp<-sample(x,resample)
+xp
+as.matrix(xp)
+xp[as.matrix(sample(x,resample), replace=TRUE)] <- NA
+xp <- x#
+xp[as.matrix(sample(x,resample), replace=TRUE)] <- NA
+xp
+xp[as.matrix(sample(x,resample), replace=TRUE)]
+nrow(x)
+nrow(as.matrix(x))
+sample(1:nrow(as.matrix(x)), 80)
+sample(1:nrow(as.matrix(x)), resample)
+sample(1:nrow(as.matrix(xp)), resample)
+xp[sample(1:nrow(as.matrix(xp)), resample)]
+as.matrix(xp[sample(1:nrow(as.matrix(xp)), resample)])
+xp <- as.matrix(x)
+xp
+xp[sample(1:nrow(as.matrix(xp)), resample)]
+sample(1:nrow(as.matrix(xp)), resample)
+sample(0:nrow(as.matrix(xp)), resample)
+sample(1:nrow(as.matrix(xp)), resample)
+xp[cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1,resample,replace=TRUE)]<-NA
+xp[cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1:1,resample,replace=TRUE)]<-NA
+cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1:1,resample,replace=TRUE))
+cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1,resample,replace=TRUE))
+xp[cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1,resample,replace=TRUE))]<-NA
+xp
+x<-fastBM(tree, a=500, sig2=10)
+resample <- 80
+xp <- as.matrix(x)
+xp[cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1,resample,replace=TRUE))]<-NA
+xp
+X.full<-sim.corrs(tree,V)
+V<-matrix(c(1,0.8,-0.4,#
+    0.8,1,-0.3,#
+    -0.4,-0.3,1),3,3)#
+V
+X.full<-sim.corrs(tree,V)
+X.missing<-X.full
+X.missing[cbind(sample(1:nrow(X.missing),20),#
+    sample(1:3,20,replace=TRUE))]<-NA
+X.missing
+resample <- 10#
+#
+xp <- as.matrix(x)#
+xp[cbind(sample(1:nrow(as.matrix(xp)), resample), sample(1,resample,replace=TRUE))]<-NA#
+#
+xp
+leaveout <- 10#
+#
+xp <- as.matrix(x)#
+xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+#
+xp
+missing<-which(is.na(xp),arr.ind=TRUE)
+missing
+fit<-anc.ML(tree,xp)
+x
+xp
+xp
+parents<-sapply(tips,Ancestors,x=tree,type="parent")#
+X<-rbind(fit$missing.x,fit$ace[as.character(parents)])#
+rownames(X)<-c("daughter","parent")#
+X
+as.matrix(X)
+as.matrix(X)
+fit$missing.x
+as.matrix(fit$missing.x)
+impute <- as.matrix(fit$missing.x)
+impute
+missing<-which(is.na(xp),arr.ind=TRUE)
+missing
+fit<-anc.ML(tree,xp)
+x<-fastBM(tree, a=500, sig2=10)#
+#
+leaveout <- 10#
+xp <- as.matrix(x)#
+xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+#
+xp
+fit<-anc.ML(tree,xp)#
+fit
+xp
+x<-fastBM(tree, a=500, sig2=10)
+xp <- as.matrix(x)
+xp
+x
+as.matrix(xp)[,1]
+x
+xp <- as.matrix(x)
+xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA
+xp
+xpt <- as.matrix(xp)[,1]
+xpt
+fit<-anc.ML(tree,xpt)
+fit<-anc.ML(tree,na.omit(xpt))
+fit
+impute <- as.matrix(fit$missing.x)
+impute
+missing<-which(is.na(xp),arr.ind=TRUE)
+missing
+x[missing]
+xp[missing]
+x[missing]
+missing
+missing<-which(is.na(xp),arr.ind=TRUE)
+which(is.na(xp),arr.ind=TRUE)
+which(is.na(xp))
+xp[which(is.na(xp))]
+xp[which(is.na(x))]
+x[which(is.na(xp))]
+as.matrix[x[which(is.na(xp))]]
+as.matrix(x[which(is.na(xp))])
+as.matrix(x[which(is.na(xp))]) -> actual
+as.matrix(x[which(is.na(xp))]) -> actual
+actual[,1]
+impute[,1]
+plot(actual[,1], missing[,1])
+plot(actual[,1], impute[,1])
+plot(actual[,1], impute[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values",ylab="imputed values using phylo.impute",asp=1)
+plot(actual[,1], impute[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+x<-fastBM(tree, a=500, sig2=10)#
+#
+leaveout <- 5#
+xp <- as.matrix(x)#
+xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+xp#
+xpt <- as.matrix(xp)[,1]#
+xpt#
+#
+fit<-anc.ML(tree,na.omit(xpt))#
+fit#
+#
+impute <- as.matrix(fit$missing.x)#
+#find row for missing data to obtain actual data#
+as.matrix(x[which(is.na(xp))]) -> actual#
+#
+plot(actual[,1], impute[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+x<-fastBM(tree, a=500, sig2=10)#
+#
+leaveout <- 20#
+xp <- as.matrix(x)#
+xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+xp#
+xpt <- as.matrix(xp)[,1]#
+xpt#
+#
+fit<-anc.ML(tree,na.omit(xpt))#
+fit#
+#
+impute <- as.matrix(fit$missing.x)#
+#find row for missing data to obtain actual data#
+as.matrix(x[which(is.na(xp))]) -> actual#
+#
+plot(actual[,1], impute[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+for(i in 1:10) {#
+    xp <- as.matrix(x)#
+    xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+    xp#
+    xpt <- as.matrix(xp)[,1]#
+    xpt#
+#
+    fit<-anc.ML(tree,na.omit(xpt))#
+    fit#
+#
+    impute <- as.matrix(fit$missing.x)#
+    #find row for missing data to obtain actual data#
+    as.matrix(x[which(is.na(xp))]) -> actual#
+    actual#
+}
+xp
+tree <- read.tree(text="(('Anolis_carolinensis_L31503_491.00000':0.147541,('Tachyglossus_aculeatus_JX103830_497.90000':0.048767,('Loxodonta_africana_AY686752.1_496.00000':0.039911,('Bos_taurus_NM_001014890.2_500.00000':0.061422,'Tursiops_truncatus_AF055456_488.00000':0.050037):0.020666):0.038656):0.072194):0.010872,('Geotria_australis_AY366493.1_499.00000':0.229272,(('Latimeria_chalumnae_AH007712.2_482.00000':0.128562,('Acipenser_transmontanus_KC250344.1_540.00000':0.01333,'Neoceratodus_forsteri_EF526295.1_540.00000':0.075123):0.014794):0.026042,('Amia_calva_AF137208.1_527.00000':0.095183,('Anguilla_japonica_LC464070.1_479.00000':0.09439,(('Conger_myriaster_AB043817.1_486.00000':0.099299,('Gymnothorax_favagineus_HQ444181.1_488.00000':0.008511,('Rhinomuraena_quaesita_HQ444180.1_498.00000':0.012763,('Gymnothorax_reticularis_HQ444182.1_486.00000':0.019894,'Strophidon_sathete_HQ444183.1_487.00000':0.007655):0.002442):0.00405):2.0E-6):0.047261,(('Carassius_auratus_L11863.1_521.00000':0.168531,('Astyanax_mexicanus_U12328.1_504.00000':0.093314,('Sardinops_melanostictus_LC007931.1_502.00000':0.020955,('Engraulis_mordax_KT201125.1_498.00000':0.014638,('Engraulis_encrasicolus_KT201123.1_500.00000':1.0E-6,'Engraulis_japonicus_AB731902.1_502.00000':0.003368):0.028054):0.086102):0.056387):0.031694):0.013538,((('Lepidopus_fitchi_EU407252.1_507.00000':0.064089,'Lepidopus_fitchi_EU407253.1_486.00000':0.123909):0.117159,(('Aristostomias_scintillans_EU407248.1_526.00000':0.186114,'Chauliodus_macouni_EU407250.1_489.00000':0.139895):0.089621,('Stenobrachius_leucopsarus_EU407251.1_492.00000':0.241699,('Oncorhynchus_keta_AY214141.1_524.00000':0.006672,('Oncorhynchus_kisutch_AY214146.1_531.00000':0.00333,'Oncorhynchus_tshawytscha_AY214136.1_524.00000':1.0E-6):2.0E-6):0.067584):0.038426):0.015441):0.039348,('Pomatoschistus_minutus_FN430594.1_508.00000':0.101607,(('Atherina_boyeri_JF309697.1_511.00000':0.046482,'Belone_belone_AY141268.1_509.00000':0.048519):0.025992,((('Myripristis_berndti_U57538.1_495.00000':0.029988,'Myripristis_violacea_U57539.1_499.00000':0.013169):0.058559,(('Sargocentron_microstoma_U57542.1_494.00000':0.01553,('Sargocentron_xantherythrum_U57546.1_490.00000':0.029146,'Sargocentron_diadema_U57537.1_491.00000':0.003685):0.003041):0.016926,(('Sargocentron_punctatissimum_U57543.1_494.00000':0.029227,('Neoniphon_sammara_U57536.1_502.00000':0.014249,'Neoniphon_argenteus_U57540.1_502.00000':2.0E-6):0.029682):0.008566,('Neoniphon_aurolineatus_U57541.1_481.00000':0.044759,('Sargocentron_spiniferum_U57544.1_490.00000':0.004702,'Sargocentron_tiere_U57545.1_490.00000':0.002374):0.047397):0.04954):0.01123):0.02056):0.064,(('Pseudopleuronectes_americanus_AY631036.1_506.00000':0.095569,(('Sebastolobus_altivelis_DQ490124_483.00000':0.065171,('Dissostichus_mawsoni_DQ498794.1_504.00000':0.046482,'Pagothenia_borchgrevinki_DQ498791.1_499.00000':0.027728):0.091037):0.021362,('Cottocomephorus_inermis_U97266.1_494.00000':0.050187,('Batrachocottus_nikolskii_U97268.1_488.00000':0.042544,'Leocottus_kesslerii_L42953.1_516.00000':0.062362):0.038524):0.044221):0.010358):0.035619,('Ictalurus_punctatus_AF028016.1_542.00000':0.095235,('Acanthopagrus_butcheri_DQ354577.1_509.00000':0.045117,(('Dimidiochromis_compressiceps_AB084931.1_498.00000':7.3E-4,(('Diplotaxodon_macrops_AB185220.1_500.00000':0.008119,'Pallidochromis_tokolosh_AB185229.1_500.00000':2.0E-6):0.012099,(('Oreochromis_niloticus_AB084938.1_505.00000':0.040502,('Melanochromis_vermivorus_GQ422472.1_505.00000':1.0E-6,'Pseudotropheus_acei_GQ422475.1_505.00000':3.0E-6):3.0E-6):0.003741,('Tropheus_duboisi_AB084946.1_501.00000':3.0E-6,(('Pundamilia_pundamilia_AY673739.1_506.00000':0.003659,'Haplochromis_sp._AB084933.1_501.00000':2.0E-6):0.035444,('Tramitichromis_intermedius_GQ422473.1_505.00000':1.0E-6,'Labidochromis_caeruleus_AB084934.1_500.00000':1.0E-6):0.003621):3.0E-6):0.010953):2.0E-6):0.007684):0.006184,(('Spathodus_erythrodon_AB084941.1_502.00000':0.007831,('Xenotilapia_ochrogenys_AB084947.1_503.00000':0.017639,('Altolamprologus_calvus_AB458132.1_498.00000':1.0E-6,'Altolamprologus_calvus_AB084924.1_499.00000':1.0E-6):0.014598):1.0E-6):0.007531,('Haplotaxodon_microlepis_AB458142.1_504.00000':0.007328,((('Aulonocara_sp._AB185214.1_495.00000':0.012195,('Xenotilapia_papilio_AB457996.1_497.00000':3.0E-6,('Xenotilapia_nigrolabiata_AB458130.1_488.00000':3.0E-6,'Xenotilapia_caudafasciata_AB458131.1_491.00000':0.011319):0.026596):0.015162):2.0E-6,(('Bathybates_fasciatus_AB185218.1_501.00000':0.006347,('Trematocara_unimaculatum_AB185238.1_484.00000':0.02382,'Trematocara_macrostoma_AB084945.1_488.00000':0.027628):0.025672):0.010313,('Baileychromis_centropomoides_AB185217.1_492.00000':0.016438,('Limnochromis_staneri_AB185225.1_498.00000':1.0E-6,('Gnathochromis_permaxillaris_AB084932.1_497.00000':0.01244,'Hemibates_stenosoma_AB185222.1_496.00000':0.038673):0.008029):0.004047):0.008227):0.003985):0.00367,('Perissodus_elaviae_AB185230.1_490.00000':1.0E-6,(('Benthochromis_tricoti_AB084927.1_488.00000':0.021199,'Neolamprologus_ventralis_AB458138.1_493.00000':0.023361):0.003031,('Greenwoodochromis_bellcrossi_AB185221.1_488.00000':0.012108,('Cyphotilapia_frontosa_AB084929.1_487.00000':3.0E-6,(('Paracyprichromis_brieni_AB458120.1_491.00000':0.018846,('Cyprichromis_leptosoma_AB084930.1_498.00000':1.0E-6,'Cyprichromis_leptosoma_AB458118.1_500.00000':1.0E-6):0.00373):0.01088,('Paracyprichromis_nigripinnis_AB458122.1_492.00000':0.014802,('Paracyprichromis_brieni_AB458121.1_494.00000':0.010972,'Cyprichromis_pavo_AB458119.1_489.00000':0.007206):0.004047):2.0E-6):0.007288):0.007253):0.007353):2.0E-6):0.003587):0.007275):0.007305):0.003684):0.043194):0.008562):0.014295):0.010303):0.006971):0.01423):0.041213):0.037287):0.079127):0.040986):0.050898):0.080333):0.032287):0.010872);")
+x<-fastBM(tree, a=500, sig2=10)#
+leaveout <- 20
+xp <- as.matrix(x)
+for(i in 1:10) {#
+    xp	#
+}
+i
+xp <- as.matrix(x)#
+    xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+    xp#
+    xpt <- as.matrix(xp)[,1]#
+    xpt#
+#
+    fit<-anc.ML(tree,na.omit(xpt))#
+    fit#
+#
+    impute <- as.matrix(fit$missing.x)#
+    #find row for missing data to obtain actual data#
+    as.matrix(x[which(is.na(xp))]) -> actual#
+    cbind(actual[,1], impute[,1])->rep
+rep
+plot(rep[,1], rep[,2])
+print(rep)
+all <- rbind(all,rep)
+all <- c() # initialize for imputed results
+all <- rbind(all,rep)
+all
+x<-fastBM(tree, a=500, sig2=10)#
+leaveout <- 20#
+all <- c() # initialize for imputed results#
+for(i in 1:2) {#
+    xp <- as.matrix(x)#
+    xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+    xp#
+    xpt <- as.matrix(xp)[,1]#
+    xpt#
+#
+    fit<-anc.ML(tree,na.omit(xpt))#
+    fit#
+#
+    impute <- as.matrix(fit$missing.x)#
+    #find row for missing data to obtain actual data#
+    as.matrix(x[which(is.na(xp))]) -> actual#
+    cbind(actual[,1], impute[,1])->rep#
+    print(rep)#
+    all <- rbind(all,rep)#
+}
+all
+plot(all[,1], all[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+plot(all[,1], all[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+plot(rep[,1], rep[,1], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+plot(all[,1], all[,2], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+plot(all[,1], all[,2], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+x
+as.matrix(x)
+setwd("~/Documents/GitHub/vizphiz/Rimpute/")
+dir()
+read.csv(file="rh1_ymax.csv") -> ymax
+ymax
+read.csv(file="rh1_ymax.csv", rownames=1) -> ymax
+x<-fastBM(tree, a=500, sig2=10)
+x
+ymax
+read.csv(file="rh1_ymax.csv", row.names=1) -> ymax
+ymax
+read.csv(file="rh1_ymax.csv", row.names=1, header=FALSE) -> ymax
+ymax
+setwd("~/Documents/GitHub/vizphiz/Rimpute/")#
+read.csv(file="rh1_ymax.csv", row.names=1, header=FALSE) -> ymax#
+#
+x <-svl<-as.matrix(ymax)[,1]#
+#
+leaveout <- 20
+xp <- as.matrix(x)#
+    xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+    xp#
+    xpt <- as.matrix(xp)[,1]#
+    xpt#
+#
+    fit<-anc.ML(tree,na.omit(xpt))
+fit
+impute <- as.matrix(fit$missing.x)#
+    #find row for missing data to obtain actual data#
+    as.matrix(x[which(is.na(xp))]) -> actual#
+    cbind(actual[,1], impute[,1])->rep#
+    print(rep)#
+    all <- rbind(all,rep)
+plot(all[,1], all[,2], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+x <-svl<-as.matrix(ymax)[,1]#
+#
+leaveout <- 10#
+all <- c() # initialize for imputed results#
+for(i in 1:2) {#
+    xp <- as.matrix(x)#
+    xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+    xp#
+    xpt <- as.matrix(xp)[,1]#
+    xpt#
+#
+    fit<-anc.ML(tree,na.omit(xpt))#
+    fit#
+#
+    impute <- as.matrix(fit$missing.x)#
+    #find row for missing data to obtain actual data#
+    as.matrix(x[which(is.na(xp))]) -> actual#
+    cbind(actual[,1], impute[,1])->rep#
+    print(rep)#
+    all <- rbind(all,rep)#
+}
+all
+x <-svl<-as.matrix(ymax)[,1]#
+#
+leaveout <- 10#
+all <- c() # initialize for imputed results#
+for(i in 1:20) {#
+    xp <- as.matrix(x)#
+    xp[cbind(sample(1:nrow(as.matrix(xp)), leaveout), sample(1,leaveout,replace=TRUE))]<-NA#
+    xp#
+    xpt <- as.matrix(xp)[,1]#
+    xpt#
+#
+    fit<-anc.ML(tree,na.omit(xpt))#
+    fit#
+#
+    impute <- as.matrix(fit$missing.x)#
+    #find row for missing data to obtain actual data#
+    as.matrix(x[which(is.na(xp))]) -> actual#
+    cbind(actual[,1], impute[,1])->rep#
+    print(rep)#
+    all <- rbind(all,rep)#
+}
+plot(all[,1], all[,2], ,pch=21,bg="grey",cex=1.5,#
+    xlab="true values of rod lambda max",ylab="imputed values using phylo.impute",asp=1)
+x.all<-c(xp,fit$missing.x,fit$ace)
+tree<-paintBranches(tree,tips,"2")
+phenogram(tree,x,fsize=0.3)
+contMap(tree,x,plot=TRUE)
+plot(obj, type="fan")
+contMap(tree,x,plot=FALSE) -> obj
+plot(obj, type="fan")
+contMap(tree,x,plot=TRUE, plot.tip.labels=FALSE)
+contMap(tree,x,plot=TRUE, plot.tip.labels=FALSE,fsize=1)
+contMap(tree,x,plot=TRUE, plot.tip.labels=FALSE,fsize=.1)
+contMap(tree,x,plot=TRUE, plot.tip.labels=FALSE,fsize=.3)
+contMap(tree,x,plot=TRUE, plot.tip.labels=FALSE,fsize=.5)
+contMap(tree,x,plot=TRUE, plot.tip.labels=FALSE,fsize=.5)
