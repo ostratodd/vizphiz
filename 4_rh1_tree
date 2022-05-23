@@ -1,3 +1,24 @@
-python downloadSQL2.py > rh1_12-29-21.fas
-mafft rh1_12-29-21.fas > rh1_12-29-21_ALN.fas
-iqtree -s rh1_12-29-21_ALN.fas -redo
+#Create tree from heterologously expressed only
+
+cd trees
+python ../downloadSQL2.py -ho > het.fas
+mafft het.fas > het_ALN.fas
+iqtree -s het_ALN.fas -redo
+
+#print csv file for ymax data
+python ../downloadSQL2.py -co -ho > het_ymax.csv
+
+cd ..
+
+
+
+#Trees with all
+cd trees
+python ../downloadSQL2.py  > rods.fas
+mafft rods.fas > rods_ALN.fas
+iqtree -s rods_ALN.fas -redo
+
+#print csv file for ymax data
+python ../downloadSQL2.py -co -ho > rods_ymax.csv
+
+cd ..
