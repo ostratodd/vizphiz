@@ -1,4 +1,4 @@
 mysql -u root -p < setupVPD.sql
 python hetero2sql.py heterologous.tsv
-#python tab2sql.py lamdamax.tsv
-#python ops2sql.py opsindb.tsv
+python tab2sql.py lamdamax.tsv
+python ops2sql.py opsindb.tsv
