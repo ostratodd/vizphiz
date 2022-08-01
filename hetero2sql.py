@@ -14,7 +14,7 @@ Lines = file1.readlines()
 count=0
 for line in Lines:
     columns = line.split("\t")
-
+    print(columns)
     mycursor = mydb.cursor()
 
     sql = "INSERT INTO heterologous (hetid, genus, species, accession, mutations, lamdamax, error, cellculture, purification, spectrum, sourcetype, refid) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
@@ -22,8 +22,8 @@ for line in Lines:
     print(sql)
     print(val)
 
-    mycursor.execute(sql, val)
+#    mycursor.execute(sql, val)
 
-    mydb.commit()
+#    mydb.commit()
 
     print(mycursor.rowcount, "record inserted.")
