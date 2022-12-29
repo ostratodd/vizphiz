@@ -1,0 +1,7 @@
+The following sites have been translated to the standard Bovine equivalent...
+Site 364 == 335
+Site 252 == 228
+Site 127 == 107
+Site 139 == 119
+Site 369 == 339
+Site 104 == 86
