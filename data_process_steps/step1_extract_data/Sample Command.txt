@@ -1,0 +1,5 @@
+Use Case Example:
+
+python SQL2_fasta_fmt_split.py -wd wd.txt -swd 
+
+Opsin_Workspace\OpsinDB_Tools\data_process_steps\step1_extract_data\
