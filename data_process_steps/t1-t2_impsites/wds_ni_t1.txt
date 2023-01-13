@@ -1,31 +1,31 @@
 The following sites have been translated to the standard Bovine equivalent...
 Format is before translation --> post translation to bovine equivalent.
-Site 195 == 116 X
-Site 163 == 93 X
-Site 116 == 49 X
-Site 105 == 38 
+Site 195 == 116 X [TM3]
+Site 163 == 93 X [TM2]
+Site 116 == 49 X [TM1]
+Site 105 == 38 [EDGE OF TM 1] 
 Site 179 == 100 
 Site 183 == 104 
-Site 298 == 214 
-Site 198 == 119 
-Site 201 == 122 X
-Site 132 == 63 
-Site 245 == 162 
-Site 129 == 60 
-Site 247 == 164 X
-Site 407 == 307 
+Site 298 == 214 [TM5]
+Site 198 == 119 [TM3] 
+Site 201 == 122 X [TM3]
+Site 132 == 63 [TM1]
+Site 245 == 162 [TM4]
+Site 129 == 60 [TM1]
+Site 247 == 164 X [TM4]
+Site 407 == 307 [TM7]
 Site 51 == 14
-Site 312 == 228 
-Site 165 == 95 
-Site 297 == 213 
-Site 234 == 151 
-Site 293 == 209 
-Site 302 == 218 
-Site 377 == 277 X
-Site 158 == 88 
+Site 312 == 228 [TM5] 
+Site 165 == 95 [TM2]
+Site 297 == 213 [TM5]
+Site 234 == 151 [TM4]
+Site 293 == 209 [TM5]
+Site 302 == 218  [TM5]
+Site 377 == 277 X [TM6]
+Site 158 == 88 [TM2]
 Site 230 == 149 
-Site 237 == 154 
-Site 373 == 273 
+Site 237 == 154 [TM4]
+Site 373 == 273 [TM6] 
 Site 283 == 199 
-Site 119 == 52 X
-Site 121 == 54
+Site 119 == 52 X [TM1]
+Site 121 == 54 [TM1]
