@@ -1,0 +1,31 @@
+The following sites have been translated to the standard Bovine equivalent...
+Format is before translation --> post translation to bovine equivalent.
+Site 146 == 100 [Tested-minor shift]
+Site 348 == 287 [CLOSE] 
+Site 252 == 205 [Tested alongside 7 other mutations, so results are confounded]
+Site 142 == 96 [CLOSE] // Tested - +4nm shift
+Site 340 == 279 
+Site 260 == 213 [Tested on ancestor, no shift]
+Site 134 == 88 [tested on invert - no shift]
+Site 320 == 259 
+Site 77 == 31
+Site 102 == 56
+Site 133 == 87 [CLOSE] // Tested - -1nm shift
+Site 139 == 93 X
+Site 143 == 97 X
+Site 196 == 150 [Tested - -3nm shift]
+Site 246 == 199 
+Site 335 == 274 
+Site 338 == 277 X
+Site 350 == 289 [Tested - on humans - +10nm shift]
+Site 85 == 39 
+Site 131 == 85 [CLOSE] // Tested - no shift
+Site 106 == 60 [Tested - -2nm shift]
+Site 324 == 263 [CLOSE] 
+Site 34 == 16
+Site 343 == 282 
+Site 132 == 86 X
+Site 95 == 49 X
+Site 141 == 95 [CLOSE]
+Site 37 == 19 
+Site 264 == 217 [Tested - no effect]

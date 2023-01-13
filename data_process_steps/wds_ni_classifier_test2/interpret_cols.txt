@@ -1,0 +1,157 @@
+<bound method DataFrame.to_string of        p59 p61 p62 p63 p64     p65 p66 p89    p90 p91  ... p356 p357 p399  \
+Bovine   S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S137     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S58      S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S141     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S142     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    S   
+...     ..  ..  ..  ..  ..     ...  ..  ..    ...  ..  ...  ...  ...  ...   
+S423     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S421     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S424     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S427     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S426     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+
+       p401 p423 p427 p432 p434 p435 Opsin_Class  
+Bovine    Y    L    G    G    D    D           8  
+S137      Y    L    G    G    D    D           8  
+S58       Y    L    G    G    D    D           8  
+S141      Y    L    G    G    D    D           5  
+S142      Y    L    G    G    D    D           8  
+...     ...  ...  ...  ...  ...  ...         ...  
+S423      Y    L    G    D    D    S           3  
+S421      Y    L    G    D    D    S           3  
+S424      Y    L    G    D    D    S           3  
+S427      Y    L    G    D    D    S           3  
+S426      Y    V    G    D    D  NKA           3  
+
+[681 rows x 270 columns]><bound method DataFrame.to_string of        p59 p61 p62 p63 p64     p65 p66 p89    p90 p91  ... p356 p357 p399  \
+Bovine   S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S137     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S58      S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S141     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S142     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    S   
+...     ..  ..  ..  ..  ..     ...  ..  ..    ...  ..  ...  ...  ...  ...   
+S423     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S421     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S424     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S427     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S426     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+
+       p401 p423 p427 p432 p434 p435 Opsin_Class  
+Bovine    Y    L    G    G    D    D           8  
+S137      Y    L    G    G    D    D           8  
+S58       Y    L    G    G    D    D           8  
+S141      Y    L    G    G    D    D           5  
+S142      Y    L    G    G    D    D           8  
+...     ...  ...  ...  ...  ...  ...         ...  
+S423      Y    L    G    D    D    S           3  
+S421      Y    L    G    D    D    S           3  
+S424      Y    L    G    D    D    S           3  
+S427      Y    L    G    D    D    S           3  
+S426      Y    V    G    D    D  NKA           3  
+
+[681 rows x 270 columns]><bound method DataFrame.to_string of        p59 p61 p62 p63 p64     p65 p66 p89    p90 p91  ... p356 p357 p399  \
+Bovine   S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S137     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S58      S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S141     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S142     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    S   
+...     ..  ..  ..  ..  ..     ...  ..  ..    ...  ..  ...  ...  ...  ...   
+S423     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S421     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S424     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S427     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S426     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+
+       p401 p423 p427 p432 p434 p435 Opsin_Class  
+Bovine    Y    L    G    G    D    D           8  
+S137      Y    L    G    G    D    D           8  
+S58       Y    L    G    G    D    D           8  
+S141      Y    L    G    G    D    D           5  
+S142      Y    L    G    G    D    D           8  
+...     ...  ...  ...  ...  ...  ...         ...  
+S423      Y    L    G    D    D    S           3  
+S421      Y    L    G    D    D    S           3  
+S424      Y    L    G    D    D    S           3  
+S427      Y    L    G    D    D    S           3  
+S426      Y    V    G    D    D  NKA           3  
+
+[681 rows x 270 columns]><bound method DataFrame.to_string of        p59 p61 p62 p63 p64     p65 p66 p89    p90 p91  ... p356 p357 p399  \
+Bovine   S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S137     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S58      S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S141     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S142     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    S   
+...     ..  ..  ..  ..  ..     ...  ..  ..    ...  ..  ...  ...  ...  ...   
+S423     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S421     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S424     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S427     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S426     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+
+       p401 p423 p427 p432 p434 p435 Opsin_Class  
+Bovine    Y    L    G    G    D    D           8  
+S137      Y    L    G    G    D    D           8  
+S58       Y    L    G    G    D    D           8  
+S141      Y    L    G    G    D    D           5  
+S142      Y    L    G    G    D    D           8  
+...     ...  ...  ...  ...  ...  ...         ...  
+S423      Y    L    G    D    D    S           3  
+S421      Y    L    G    D    D    S           3  
+S424      Y    L    G    D    D    S           3  
+S427      Y    L    G    D    D    S           3  
+S426      Y    V    G    D    D  NKA           3  
+
+[678 rows x 270 columns]><bound method DataFrame.to_string of        p59 p61 p62 p63 p64     p65 p66 p89    p90 p91  ... p356 p357 p399  \
+Bovine   S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S137     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S58      S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S141     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S142     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    S   
+...     ..  ..  ..  ..  ..     ...  ..  ..    ...  ..  ...  ...  ...  ...   
+S423     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S421     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S424     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S427     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S426     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+
+       p401 p423 p427 p432 p434 p435 Opsin_Class  
+Bovine    Y    L    G    G    D    D           8  
+S137      Y    L    G    G    D    D           8  
+S58       Y    L    G    G    D    D           8  
+S141      Y    L    G    G    D    D           5  
+S142      Y    L    G    G    D    D           8  
+...     ...  ...  ...  ...  ...  ...         ...  
+S423      Y    L    G    D    D    S           3  
+S421      Y    L    G    D    D    S           3  
+S424      Y    L    G    D    D    S           3  
+S427      Y    L    G    D    D    S           3  
+S426      Y    V    G    D    D  NKA           3  
+
+[678 rows x 270 columns]><bound method DataFrame.to_string of        p59 p61 p62 p63 p64     p65 p66 p89    p90 p91  ... p356 p357 p399  \
+Bovine   S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S137     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S58      S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S141     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    A   
+S142     S   F   E   A   P       Q   Y   L      A   E  ...    I    M    S   
+...     ..  ..  ..  ..  ..     ...  ..  ..    ...  ..  ...  ...  ...  ...   
+S423     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S421     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S424     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S427     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+S426     G   F   E   Y   P  GNLYRI   Y   L  DYHSP   E  ...    V    M    S   
+
+       p401 p423 p427 p432 p434 p435 Opsin_Class  
+Bovine    Y    L    G    G    D    D           8  
+S137      Y    L    G    G    D    D           8  
+S58       Y    L    G    G    D    D           8  
+S141      Y    L    G    G    D    D           5  
+S142      Y    L    G    G    D    D           8  
+...     ...  ...  ...  ...  ...  ...         ...  
+S423      Y    L    G    D    D    S           3  
+S421      Y    L    G    D    D    S           3  
+S424      Y    L    G    D    D    S           3  
+S427      Y    L    G    D    D    S           3  
+S426      Y    V    G    D    D  NKA           3  
+
+[678 rows x 270 columns]>

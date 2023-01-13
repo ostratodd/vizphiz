@@ -1,0 +1,31 @@
+The following sites have been translated to the standard Bovine equivalent...
+Format is before translation --> post translation to bovine equivalent.
+Site 102 == 86 X
+Site 138 == 118 X
+Site 364 == 336 
+Site 124 == 104 
+Site 128 == 108 [Tested - -2nm shift]
+Site 129 == 109 X
+Site 30 == 18
+Site 297 == 271 
+Site 333 == 307 [CLOSE]
+Site 179 == 155
+Site 47 == 34
+Site 62 == 49 [Tested - -4nm shift]
+Site 362 == 334
+Site 357 == 329
+Site 54 == 41
+Site 244 == 220
+Site 109 == 93 X
+Site 131 == 111 [Tested - -1nm shift]
+Site 140 == 120 [Tested on chimeras of butterfly]
+Site 167 == 147 [Tested - +6nm shift - on Drosphilia]
+Site 171 == 149
+Site 100 == 84 [CLOSE] // Tested - +38nm
+Site 136 == 116 X
+Site 252 == 228 [Consistent]
+Site 97 == 81 [Tested - -1nm shift]
+Site 117 == 97 X
+Site 186 == 162 
+Site 127 == 107 
+Site 139 == 119 [Tested - no shift]

@@ -1,0 +1,31 @@
+The following sites have been translated to the standard Bovine equivalent...
+Format is before translation --> post translation to bovine equivalent.
+Site 171 == 93 X
+Site 176 == 96 [CLOSE] // Tested once - Shift +5nm
+Site 124 == 49 X
+Site 203 == 116 X
+Site 173 == 95 X
+Site 307 == 213 [Tested - little to no shift]
+Site 121 == 46 X
+Site 209 == 122 X
+Site 140 == 63 [CONSISTENT]
+Site 164 == 86 X 
+Site 199 == 112 [CLOSE] // Tested once - shift -1nm
+Site 322 == 228 [CONSISTENT] // [CLOSE]
+Site 432 == 318 
+Site 159 == 81 [CLOSE]
+Site 191 == 104 
+Site 375 == 263 [CLOSE] // [CONSISTENT]
+Site 303 == 209 [Tested few times - minor shift]
+Site 308 == 214 [Tested - 18nm shift on rod ancestor]
+Site 67 == 14 
+Site 371 == 259 
+Site 412 == 300
+Site 187 == 100 [Tested - +1nm shift] 
+Site 299 == 205 [Tested - minor shift]
+Site 240 == 149 
+Site 161 == 83 X
+Site 117 == 42 [One instance of test at this site, but in tandem w/7 other mutations. So confounded]
+Site 196 == 109 X
+Site 255 == 162 [CLOSE] 
+Site 141 == 64 [CONSISTENT] // Tested once - shift +1nm

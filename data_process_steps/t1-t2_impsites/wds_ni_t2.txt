@@ -1,0 +1,31 @@
+The following sites have been translated to the standard Bovine equivalent...
+Format is before translation --> post translation to bovine equivalent.
+Site 195 == 116 X
+Site 116 == 49 X
+Site 407 == 307 [CONSISTENT ACROSS SEVERAL TESTS]
+Site 245 == 162 [On both wds tests]
+Site 163 == 93 X
+Site 129 == 60 [CONSISTENT] // [Tested - shifted -2nm]
+Site 51 == 14
+Site 246 == 163 [CLOSE] // [Tested once - no shift]
+Site 161 == 91 X
+Site 234 == 151 
+Site 377 == 277 X
+Site 119 == 52 X
+Site 155 == 85 [CLOSE] // Tested once - no shift
+Site 237 == 154 
+Site 371 == 271 
+Site 359 == 259 [CLOSE]
+Site 198 == 119 [CLOSE] // Tested once - no shift 
+Site 249 == 166 
+Site 283 == 199 
+Site 302 == 218 [Tested once - no effect]
+Site 312 == 228  [CLOSE] // 
+Site 179 == 100 
+Site 247 == 164 X
+Site 340 == 242 
+Site 165 == 95 [CLOSE] // tested w/7 other muts
+Site 188 == 109 X
+Site 298 == 214 [Tested once - caused +18nm shift]
+Site 134 == 65 
+Site 233 == 150 [Tested on chicken // -2nm shift]
