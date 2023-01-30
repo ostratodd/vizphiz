@@ -1,0 +1,11 @@
+,Model,Accuracy,AUC,Recall,Prec.,F1,Kappa,MCC,TT (Sec)
+lightgbm,Light Gradient Boosting Machine,0.6552,0.9269,0.6314,0.6689,0.6413,0.6095,0.6143,0.056
+gbc,Gradient Boosting Classifier,0.6469,0.9207,0.6235,0.6617,0.6356,0.6005,0.6046,0.272
+lr,Logistic Regression,0.6364,0.9287,0.6082,0.6516,0.6221,0.5873,0.592,0.039
+ridge,Ridge Classifier,0.6341,0.0,0.604,0.6451,0.6196,0.585,0.5893,0.004
+xgboost,Extreme Gradient Boosting,0.6343,0.9214,0.6119,0.6452,0.6194,0.5863,0.591,0.259
+svm,SVM - Linear Kernel,0.6235,0.0,0.5952,0.6463,0.6096,0.5737,0.5807,0.009
+dt,Decision Tree Classifier,0.6172,0.814,0.5993,0.6389,0.6056,0.5676,0.5726,0.005
+et,Extra Trees Classifier,0.6129,0.8883,0.5969,0.6182,0.5964,0.5624,0.5677,0.052
+rf,Random Forest Classifier,0.6043,0.9131,0.5841,0.6141,0.5908,0.5518,0.5561,0.056
+ada,Ada Boost Classifier,0.2962,0.7152,0.2359,0.1839,0.2056,0.1873,0.208,0.024
