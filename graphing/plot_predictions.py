@@ -5,7 +5,9 @@ import csv
 import pandas as pd
 import argparse
 import seaborn as sns
+import numpy as np
 from statistics import mean
+
 
 # Construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
@@ -84,6 +86,12 @@ plt.axhspan(class5max, class6max, facecolor=class6col, alpha=0.1)
 plt.axhspan(class6max, class7max, facecolor=class7col, alpha=0.1)
 plt.axhspan(class7max, class8max, facecolor=class8col, alpha=0.1)
 plt.axhspan(class8max, class9max, facecolor=class9col, alpha=0.1)
+
+##Calculate regression
+corr_matrix = np.corrcoef(table.loc[:,'Lambda_Max'], table.loc[:,'Predicted_lmax'])
+corr = corr_matrix[0,1]
+R_sq = corr**2
+print(R_sq)
 
 
 #If no file name show on screen otherwise save pdf
