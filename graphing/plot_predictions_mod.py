@@ -16,7 +16,7 @@ ap.add_argument("-c", "--class_ranges", required=False, default='classifier_rang
         help="path to data")
 ap.add_argument("-f", "--file", required=False, type=str,default="wds_classifier_test_results_t2.csv",
 	help="file name for classifier iteration data")
-ap.add_argument("-o", "--outfile", required=False, default='test', type=str,
+ap.add_argument("-o", "--outfile", required=False, default='', type=str,
 	help="output file for graph")
 
 args = vars(ap.parse_args())
@@ -105,10 +105,11 @@ for colors in class_list:
         pass
 
 
-colorby='Score'
-
 #2d
-sns.scatterplot(x='Lambda_Max', y='Predicted_lmax', data=table, edgecolor = 'none', color = 'black', s = 20)
+#find min and max of score to increase size differences between smallest and largest scores. Then scale from 1 to 50 for size
+minscore = table['Score'].min()
+
+sns.scatterplot(x='Lambda_Max', y='Predicted_lmax', data=table, edgecolor = 'none', color = 'black', s = 49*(table['Score']-minscore)+1 )
 plt.xlabel('Known Lambda-max (nm)')
 plt.ylabel('Predicted Lambda-max (mean of class in nm)')
 
