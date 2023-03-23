@@ -725,22 +725,48 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 724	Mus	musculus	NP_031564.1_F46T,F49L,T52F,F85L,T92P,E113Q,A114G,S118T		359	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 725	Homo	sapiens	AH003620.2_T46F,L49F,F52T,L93F,P100T,G114A,T118S		352	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 726	Homo	sapiens	AH003620.2_T46F,L49F,F52T,F88L,L93F,P100T,G114A,T118S		369	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
-727	Loxodonta	africana	AY686752.1_N83D	Rh1	498	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
-728	Loxodonta 	africana	AY686753.1_S86F	SWS1	367	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
+727	Loxodonta	africana	AY686752.1_N83D		498	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
+728	Loxodonta 	africana	AY686753.1_S86F		367	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 729	Loxodonta 	africana	AY686753.1_I92T		412	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 730	Loxodonta 	africana	AY686753.1_V116L		416	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 731	Loxodonta 	africana	AY686753.1_S86F,I92T		359	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 732	Loxodonta 	africana	AY686753.1_S86F,V116L		360	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 733	Loxodonta 	africana	AY686753.1_I92T,V116L		411	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 734	Loxodonta 	africana	AY686753.1_S86F,I92T,V116L		360	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
-735	Loxodonta 	africana	AY686754.1	LWS	552	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
+735	Loxodonta 	africana	AY686754.1		552	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
 736	Loxodonta 	africana	AY686754.1_A180S		558	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
-737												
-738												
-739												
-740												
-741												
-742												
-743												
-744												
-745												
+737	Callosobruchus	maculatus	OP722929.1		363	0	Dropsophilia 	null	ERG	primary	418	
+738	Callosobruchus	maculatus	OP722946.1		511	0	Dropsophilia 	null	ERG	primary	418	
+739	Chrysochroa 	rajah	OP722930.1		431	0	Dropsophilia 	null	ERG	primary	418	
+740	Chrysochroa 	rajah	OP722931.1		356	0	Dropsophilia 	null	ERG	primary	418	
+741	Chrysochroa	mniszechii	OP722932.1		357	0	Dropsophilia 	null	ERG	primary	418	
+742	Chrysochroa	mniszechii	OP722933.1		442	0	Dropsophilia 	null	ERG	primary	418	
+743	Chrysochroa 	rajah	OP722947.1		584	0	Dropsophilia 	null	ERG	primary	418	
+744	Chrysochroa 	rajah	OP722948.1		509	0	Dropsophilia 	null	ERG	primary	418	
+745	Chrysochroa	mniszechii	OP722949.1		572	0	Dropsophilia 	null	ERG	primary	418	
+746	Chrysochroa	mniszechii	OP722950.1		507	0	Dropsophilia 	null	ERG	primary	418	
+747	Chrysochroa 	rajah	OP722931.1_Q118A	Q118A	552	0	Dropsophilia 	null	ERG	primary	418	
+748	Chrysochroa 	rajah	OP722931.1_F261Y	F261Y	559	0	Dropsophilia 	null	ERG	primary	418	
+749	Chrysochroa 	rajah	OP722931.1_Q118A_F261Y	Q118A,F261Y	358	0	Dropsophilia 	null	ERG	primary	418	
+750	Chrysochroa 	rajah	OP722948.1_C122T	C122T	507	0	Dropsophilia 	null	ERG	primary	418	
+751	Chrysochroa 	rajah	OP722948.1_V211C	V211C	511	0	Dropsophilia 	null	ERG	primary	418	
+752	Chrysochroa 	rajah	OP722948.1_C122T_V211C	C122T,V211C	519	0	Dropsophilia 	null	ERG	primary	418	
+753	lwsanc_pigmenta	sp.	lwsanc_pigmenta		563	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+754	lwsanc_pigmentb	sp.	lwsanc_pigmentb		563	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+755	lwsanc_pigmentc	sp.	lwsanc_pigmentc		561	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+756	lwsanc_pigmentd	sp.	lwsanc_pigmentd		558	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+757	lwsanc_pigmente	sp.	lwsanc_pigmente		558	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+758	lwsanc_pigmentf	sp.	lwsanc_pigmentf		536	1	COS1	monoclonal antibody 1D5	difference	primary	414	
+759	lwsanc_pigmentg	sp.	lwsanc_pigmentg		561	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+760	lwsanc_pigmenti	sp.	lwsanc_pigmenti		564	2	COS1	monoclonal antibody 1D5	difference	primary	414	
+761	lwsanc_pigmentx	sp.	lwsanc_pigmentx		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+762	lwsanc_pigmenty 	sp.	lwsanc_pigmenty 		553	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+763	lwsanc_pigmentz	sp.	lwsanc_pigmentz		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+764	lwsanc_pigmentx	sp.	lwsanc_pigmentx_A180S		533	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+765	lwsanc_pigmentx	sp.	lwsanc_pigmentx_A58T_V76A_H294N		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+766	lwsanc_pigmenty 	sp.	lwsanc_pigmenty_I274V		554	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+767	lwsanc_pigmenty 	sp.	lwsanc_pigmenty_I320V		553	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+768	lwsanc_pigmentz	sp.	lwsanc_pigmentz_T58A		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+769	lwsanc_pigmentz	sp.	lwsanc_pigmentzV115I_A180S		534	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+770	lwsanc_pigmentz	sp.	lwsanc_pigmentz_H294N		533	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+771	lwsanc_pigmentz	sp.	lwsanc_pigmentz_V76A		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
