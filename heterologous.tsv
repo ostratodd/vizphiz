@@ -1,4 +1,3 @@
-hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification	Spectrum	SourceType 	refid	Notes
 1	Tachyglossus	aculeatus	JX103830		497.9	1.1	HEK293T	1D4 antibody			116	none
 2	Tachyglossus	aculeatus	JX103830_N83D	N83D	503.8	1.5	HEK293T	1D4 antibody			116	
 3	Tachyglossus	aculeatus	JX103830_T158A	T158A	498	1.3	HEK293T	1D4 antibody			116	
@@ -136,28 +135,28 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 135	Gallus	gallus	NM_205490.1		511	0	HEK-293S	cell membrane	difference		170	
 136	Gallus	gallus	NM_205490.1_Q122E		525	0	HEK-293S	cell membrane	difference		170	
 137	Sebastolobus	altivelis	DQ490124.1		483	0	COS1	cell membrane	dark	primary	120	THORNYHEAD
-138	Bos	tarus	P02699.1		500	0	COS1	cell membrane	dark	primary	120	COW
+138	Bos	taurus	P02699.1		500	0	COS1	cell membrane	dark	primary	120	COW
 139	Tursiops	truncatus	NM_001280659.1		489	1	COS-7	monoclonal antibody, 1D4	difference	primary	286	BOTTLENOSE DOLPHIN
-140	Bos	tarus	NM_001014890.2_D83N	D83N	495	1	COS-7	monoclonal antibody, 1D4	difference	primary	286	
+140	Bos	taurus	NM_001014890.2_D83N	D83N	495	1	COS-7	monoclonal antibody, 1D4	difference	primary	286	
 141	Tursiops	truncatus	XM_019933644.2		524	1	COS-7	monoclonal antibody, 1D4	difference	primary	286	BOTTLENOSE DOLPHIN
 142	Tursiops	truncatus	XM_019933644.2_S292A	S292A	552	1	COS-7	monoclonal antibody, 1D4	difference	primary	286	
-143	Bos 	tarus	NM_001014890_A292S	A292S	489	1	COS-7	monoclonal antibody, 1D5	difference	primary	286	
-144	Bos 	tarus	NM_001014890_A299S	A299S	501	1	COS-7	monoclonal antibody, 1D6	difference	primary	286	
-145	Bos 	tarus	NM_001014890_D83N_A292S	D83N, A292S	485	1	COS-7	monoclonal antibody, 1D7	difference	primary	286	
-146	Bos 	tarus	NM_001014890_D83N_A292S_A299S	D83N, A292S, A299S	489	1	COS-7	monoclonal antibody, 1D8	difference	primary	286	
-147	Bos, Sebastolobus	tarus, altivelis	DQ490124.1_1_277-NM_001014890_278_348		492	0	COS1	cell membrane	dark	primary	120	
-148	Bos, Sebastolobus	tarus, altivelis	NM_001014890_1_277-DQ490124.1[S292A]_278_306-NM_001014890_307_348	S292A	501	0	COS1	cell membrane	dark	primary	120	
-149	Bos, Sebastolobus	tarus, altivelis	NM_001014890_1_306-DQ490124.1_307_348		499	0	COS1	cell membrane	dark	primary	120	
-150	Bos, Sebastolobus	tarus, altivelis	DQ490124.1[S292A]_1_306-NM_001014890_307_348	S292A	494	0	COS1	cell membrane	dark	primary	120	
-151	Bos, Sebastolobus	tarus, altivelis	DQ490124.1_1_277-NM_001014890_278_306-DQ490124.1_307_348		491	0	COS1	cell membrane	dark	primary	120	
-152	Bos, Sebastolobus	tarus, altivelis	NM_001014890_1_277-DQ490124.1[S292A]_278_348	S292A	501	0	COS1	cell membrane	dark	primary	120	
-153	Bos, Sebastolobus	tarus, altivelis	DQ490124.1_1_277-NM_001014890[A292S]_278_348	A292S	482	0	COS1	cell membrane	dark	primary	120	
+143	Bos 	taurus	NM_001014890_A292S	A292S	489	1	COS-7	monoclonal antibody, 1D5	difference	primary	286	
+144	Bos 	taurus	NM_001014890_A299S	A299S	501	1	COS-7	monoclonal antibody, 1D6	difference	primary	286	
+145	Bos 	taurus	NM_001014890_D83N_A292S	D83N, A292S	485	1	COS-7	monoclonal antibody, 1D7	difference	primary	286	
+146	Bos 	taurus	NM_001014890_D83N_A292S_A299S	D83N, A292S, A299S	489	1	COS-7	monoclonal antibody, 1D8	difference	primary	286	
+147	Bos, Sebastolobus	taurus, altivelis	DQ490124.1_1_277-NM_001014890_278_348		492	0	COS1	cell membrane	dark	primary	120	
+148	Bos, Sebastolobus	taurus, altivelis	NM_001014890_1_277-DQ490124.1[S292A]_278_306-NM_001014890_307_348	S292A	501	0	COS1	cell membrane	dark	primary	120	
+149	Bos, Sebastolobus	taurus, altivelis	NM_001014890_1_306-DQ490124.1_307_348		499	0	COS1	cell membrane	dark	primary	120	
+150	Bos, Sebastolobus	taurus, altivelis	DQ490124.1[S292A]_1_306-NM_001014890_307_348	S292A	494	0	COS1	cell membrane	dark	primary	120	
+151	Bos, Sebastolobus	taurus, altivelis	DQ490124.1_1_277-NM_001014890_278_306-DQ490124.1_307_348		491	0	COS1	cell membrane	dark	primary	120	
+152	Bos, Sebastolobus	taurus, altivelis	NM_001014890_1_277-DQ490124.1[S292A]_278_348	S292A	501	0	COS1	cell membrane	dark	primary	120	
+153	Bos, Sebastolobus	taurus, altivelis	DQ490124.1_1_277-NM_001014890[A292S]_278_348	A292S	482	0	COS1	cell membrane	dark	primary	120	
 154	Sebastolobus	altivelis	DQ490124.1_S292A	S292A	494	0	COS1	cell membrane	dark	primary	120	
-155	Bos, Sebastolobus	tarus, altivelis	NM_001014890_1_277-DQ490124.1_278_306-NM_001014890_307_348		488	0	COS1	cell membrane	dark	primary	120	
-156	Bos, Sebastolobus	tarus, altivelis	NM_001014890[A292S]_1_306-DQ490124.1_307_348	A292S	488	0	COS1	cell membrane	dark	primary	120	
-157	Bos, Sebastolobus	tarus, altivelis	DQ490124.1_1_306-NM_001014890_307_348		482	0	COS1	cell membrane	dark	primary	120	
-158	Bos, Sebastolobus	tarus, altivelis	DQ490124.1_1_277-NM_001014890[A292S]_278_306-DQ490124.1_307_348	A292	482	0	COS1	cell membrane	dark	primary	120	
-159	Bos, Sebastolobus	tarus, altivelis	NM_001014890_1_277-DQ490124.1_278_348		490	0	COS1	cell membrane	dark	primary	120	
+155	Bos, Sebastolobus	taurus, altivelis	NM_001014890_1_277-DQ490124.1_278_306-NM_001014890_307_348		488	0	COS1	cell membrane	dark	primary	120	
+156	Bos, Sebastolobus	taurus, altivelis	NM_001014890[A292S]_1_306-DQ490124.1_307_348	A292S	488	0	COS1	cell membrane	dark	primary	120	
+157	Bos, Sebastolobus	taurus, altivelis	DQ490124.1_1_306-NM_001014890_307_348		482	0	COS1	cell membrane	dark	primary	120	
+158	Bos, Sebastolobus	taurus, altivelis	DQ490124.1_1_277-NM_001014890[A292S]_278_306-DQ490124.1_307_348	A292	482	0	COS1	cell membrane	dark	primary	120	
+159	Bos, Sebastolobus	taurus, altivelis	NM_001014890_1_277-DQ490124.1_278_348		490	0	COS1	cell membrane	dark	primary	120	
 160	Gekko	gekko	M92035		467	0.5	COS1	monoclonal antibody 1D4	difference	primary	121	
 161	Anolis	carolinensis 	NM_001291394.1_F49A	F49A	496	0.5	COS1	monoclonal antibody 1D4	difference	primary	121	
 162	Anolis	carolinensis 	NM_001291394.1_L52M	L52M	496	1.8	COS1	monoclonal antibody 1D4	difference	primary	121	
@@ -208,24 +207,24 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 207	Cottus 	 gobio	AJ430489.1_T118G	T118G	452	0	HEK293T	monoclonal antibody 1D4	difference	primary	129	
 208	Cottus 	 gobio	AJ430489.1_P215G	P215G	465	0	HEK293T	monoclonal antibody 1D4	difference	primary	129	
 209	Cottus 	 gobio	AJ430489.1_T269A	T269A	453	0	HEK293T	monoclonal antibody 1D4	difference	primary	129	
-210	Bos	tarus	NM_001014890_E181A	E181A	499	0	COS7	monoclonal antibody 	dark	primary	124	
-211	Bos	tarus	NM_001014890_E181N	E181N	500	0	COS7	monoclonal antibody 	dark	primary	124	
-212	Bos	tarus	NM_001014890_E181D	E181D	497	0	COS7	monoclonal antibody 	dark	primary	124	
-213	Bos	tarus	NM_001014890_E181C	E181C	499	0	COS7	monoclonal antibody 	dark	primary	124	
-214	Bos	tarus	NM_001014890_E181Q	E181Q	508	0	COS7	monoclonal antibody 	dark	primary	124	
-215	Bos	tarus	NM_001014890_E181G	E181G	500	0	COS7	monoclonal antibody 	dark	primary	124	
-216	Bos	tarus	NM_001014890_E181H	E181H	497	0	COS7	monoclonal antibody 	dark	primary	124	
-217	Bos	tarus	NM_001014890_E181I	E181I	501	0	COS7	monoclonal antibody 	dark	primary	124	
-218	Bos	tarus	NM_001014890_E181L	E181L	502	0	COS7	monoclonal antibody 	dark	primary	124	
-219	Bos	tarus	NM_001014890_E181M	E181M	500	0	COS7	monoclonal antibody 	dark	primary	124	
-220	Bos	tarus	NM_001014890_E181F	E181F	501	0	COS7	monoclonal antibody 	dark	primary	124	
-221	Bos	tarus	NM_001014890_E181S	E181S	500	0	COS7	monoclonal antibody 	dark	primary	124	
-222	Bos	tarus	NM_001014890_E181T	E181T	502	0	COS7	monoclonal antibody 	dark	primary	124	
-223	Bos	tarus	NM_001014890_E181W	E181W	502	0	COS7	monoclonal antibody 	dark	primary	124	
-224	Bos	tarus	NM_001014890_E181Y	E181Y	501	0	COS7	monoclonal antibody 	dark	primary	124	
-225	Bos	tarus	NM_001014890_E181V	E181V	498	0	COS7	monoclonal antibody 	dark	primary	124	
-226	Bos	tarus	NM_001014890_E113Q	E113Q	499	0	COS7	monoclonal antibody 	dark	primary	124	
-227	Bos	tarus	NM_001014890_E113Q_E181D	E113Q, E181D	500	0	COS7	monoclonal antibody 	dark	primary	124	
+210	Bos	taurus	NM_001014890_E181A	E181A	499	0	COS7	monoclonal antibody 	dark	primary	124	
+211	Bos	taurus	NM_001014890_E181N	E181N	500	0	COS7	monoclonal antibody 	dark	primary	124	
+212	Bos	taurus	NM_001014890_E181D	E181D	497	0	COS7	monoclonal antibody 	dark	primary	124	
+213	Bos	taurus	NM_001014890_E181C	E181C	499	0	COS7	monoclonal antibody 	dark	primary	124	
+214	Bos	taurus	NM_001014890_E181Q	E181Q	508	0	COS7	monoclonal antibody 	dark	primary	124	
+215	Bos	taurus	NM_001014890_E181G	E181G	500	0	COS7	monoclonal antibody 	dark	primary	124	
+216	Bos	taurus	NM_001014890_E181H	E181H	497	0	COS7	monoclonal antibody 	dark	primary	124	
+217	Bos	taurus	NM_001014890_E181I	E181I	501	0	COS7	monoclonal antibody 	dark	primary	124	
+218	Bos	taurus	NM_001014890_E181L	E181L	502	0	COS7	monoclonal antibody 	dark	primary	124	
+219	Bos	taurus	NM_001014890_E181M	E181M	500	0	COS7	monoclonal antibody 	dark	primary	124	
+220	Bos	taurus	NM_001014890_E181F	E181F	501	0	COS7	monoclonal antibody 	dark	primary	124	
+221	Bos	taurus	NM_001014890_E181S	E181S	500	0	COS7	monoclonal antibody 	dark	primary	124	
+222	Bos	taurus	NM_001014890_E181T	E181T	502	0	COS7	monoclonal antibody 	dark	primary	124	
+223	Bos	taurus	NM_001014890_E181W	E181W	502	0	COS7	monoclonal antibody 	dark	primary	124	
+224	Bos	taurus	NM_001014890_E181Y	E181Y	501	0	COS7	monoclonal antibody 	dark	primary	124	
+225	Bos	taurus	NM_001014890_E181V	E181V	498	0	COS7	monoclonal antibody 	dark	primary	124	
+226	Bos	taurus	NM_001014890_E113Q	E113Q	499	0	COS7	monoclonal antibody 	dark	primary	124	
+227	Bos	taurus	NM_001014890_E113Q_E181D	E113Q, E181D	500	0	COS7	monoclonal antibody 	dark	primary	124	
 228	Carassius	auratus	D85863.1		359	0				secondary	132	
 229	Danio 	rerio	AB087810.1		355	0				secondary	132	
 230	Xenopus 	laevis	U23463.1		423	0				secondary	132	
@@ -287,12 +286,12 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 286	Verasper	variegatus	LC209609.1		485	0	COS-1	cell membrane	dark	primary	346	
 287	Microstomus 	achne	LC209610.1		452	0	COS-1	cell membrane	dark	primary	346	
 288	Paralichthys 	olivaceus	LC209611.1		466	0	COS-1	cell membrane	dark	primary	346	
-289	Bos 	Tarus	NM_001014890.2_A164S	A164S	502	0	COS-1	cell membrane	dfference	primary	349	
-290	Bos 	Tarus	NM_001014890.2_F261Y	F261Y	510	0	COS-1	cell membrane	dfference	primary	349	
-291	Bos 	Tarus	NM_001014890.2_A269T	A269T	514	0	COS-1	cell membrane	dfference	primary	349	
-292	Bos 	Tarus	NM_001014890.2_F261Y_A269T	F261Y, A269T	520	0	COS-1	cell membrane	dfference	primary	349	
-293	Bos 	Tarus	NM_001014890.2_A164S_F261Y	A164S, F216Y	512	0	COS-1	cell membrane	dfference	primary	349	
-294	Bos 	Tarus	NM_001014890.2_A164S_A269T	A164S, A269T	514	0	COS-1	cell membrane	dfference	primary	349	
+289	Bos 	taurus	NM_001014890.2_A164S	A164S	502	0	COS-1	cell membrane	dfference	primary	349	
+290	Bos 	taurus	NM_001014890.2_F261Y	F261Y	510	0	COS-1	cell membrane	dfference	primary	349	
+291	Bos 	taurus	NM_001014890.2_A269T	A269T	514	0	COS-1	cell membrane	dfference	primary	349	
+292	Bos 	taurus	NM_001014890.2_F261Y_A269T	F261Y, A269T	520	0	COS-1	cell membrane	dfference	primary	349	
+293	Bos 	taurus	NM_001014890.2_A164S_F261Y	A164S, F216Y	512	0	COS-1	cell membrane	dfference	primary	349	
+294	Bos 	taurus	NM_001014890.2_A164S_A269T	A164S, A269T	514	0	COS-1	cell membrane	dfference	primary	349	
 295	Lethenteron 	camtschaticum	M63632.1		500	0				secondary 	155	
 296	Carassius 	auratus	L11863.1		492	0				secondary 	155	
 297	Astyanax 	mexicanus	U12328.1		503	0				secondary 	155	
@@ -464,7 +463,7 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 463	Carassius 	auratus	D85863.1_F86Y	F86Y	420	0	HEK293T	monoclonal antibody 1D4	difference	primary	378	
 464	Carassius 	auratus	D85863.1_F86L	F86L	360	0	HEK293T	monoclonal antibody 1D4	difference	primary	378	
 465	Carassius 	auratus	D85863.1_F86M	F86M	360	0	HEK293T	monoclonal antibody 1D4	difference	primary	378	
-466	Bos 	tarus 	U92557.1		435	0	HEK293T	monoclonal antibody 1D4	dark	primary	378	
+466	Bos 	taurus 	U92557.1		435	0	HEK293T	monoclonal antibody 1D4	dark	primary	378	
 467	Limenitis 	a. astyanax	AY918902.2		431	0	HEK293T	monoclonal antibody 1D4	dark	primary	380	
 468	Limenitis 	a. astyanax	AY918902.2_I169F	I169F	430	0	HEK293T	monoclonal antibody 1D4	dark	primary	380	
 469	Limenitis 	a. astyanax	AY918902.2_K201R	K201R	429	0	HEK293T	monoclonal antibody 1D4	dark	primary	380	
@@ -551,11 +550,11 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 550	Carassius 	auratus	L11864.1_S163F	S163F	443	1.2	COS-1	monoclonal antibody 1D4	dark	primary	373	
 551	Carassius 	auratus	L11864.1_G217S	G217S	442	0.4	COS-1	monoclonal antibody 1D4	dark	primary	373	
 552	Carassius 	auratus	L11864.1_S272A	S272A	442	0.4	COS-1	monoclonal antibody 1D4	dark	primary	373	
-553	Bos 	tarus 	NM_001014890.2_G90S	G90S	487	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
-554	Bos 	tarus 	NM_001014890.2_T118A	T118A	484	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
-555	Bos 	tarus 	NM_001014890.2_E122D	E122D	477	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
-556	Bos 	tarus 	NM_001014890.2_A295S	A295S	498	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
-557	Bos 	tarus 	NM_001014890.2_T118A_E122D_A292S	T118A,E122D,A292S	453	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
+553	Bos 	taurus 	NM_001014890.2_G90S	G90S	487	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
+554	Bos 	taurus 	NM_001014890.2_T118A	T118A	484	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
+555	Bos 	taurus 	NM_001014890.2_E122D	E122D	477	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
+556	Bos 	taurus 	NM_001014890.2_A295S	A295S	498	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
+557	Bos 	taurus 	NM_001014890.2_T118A_E122D_A292S	T118A,E122D,A292S	453	0	COS-1	monoclonal antibody 1D4	difference	primary	386	
 558	Danio 	rerio	NM_131253.2		467	0				secondary 	371	
 559	Danio 	rerio	NM_182891.2		476	0				secondary 	371	
 560	Danio 	rerio	NM_182892.2		488	0				secondary 	371	
@@ -751,22 +750,89 @@ hetid	Genus	Species	Accession	Mutations	LambdaMax	error	CellCulture	Purification
 750	Chrysochroa 	rajah	OP722948.1_C122T	C122T	507	0	Dropsophilia 	null	ERG	primary	418	
 751	Chrysochroa 	rajah	OP722948.1_V211C	V211C	511	0	Dropsophilia 	null	ERG	primary	418	
 752	Chrysochroa 	rajah	OP722948.1_C122T_V211C	C122T,V211C	519	0	Dropsophilia 	null	ERG	primary	418	
-753	lwsanc_pigmenta	sp.	lwsanc_pigmenta		563	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-754	lwsanc_pigmentb	sp.	lwsanc_pigmentb		563	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-755	lwsanc_pigmentc	sp.	lwsanc_pigmentc		561	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-756	lwsanc_pigmentd	sp.	lwsanc_pigmentd		558	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-757	lwsanc_pigmente	sp.	lwsanc_pigmente		558	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-758	lwsanc_pigmentf	sp.	lwsanc_pigmentf		536	1	COS1	monoclonal antibody 1D5	difference	primary	414	
-759	lwsanc_pigmentg	sp.	lwsanc_pigmentg		561	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-760	lwsanc_pigmenti	sp.	lwsanc_pigmenti		564	2	COS1	monoclonal antibody 1D5	difference	primary	414	
-761	lwsanc_pigmentx	sp.	lwsanc_pigmentx		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-762	lwsanc_pigmenty 	sp.	lwsanc_pigmenty 		553	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-763	lwsanc_pigmentz	sp.	lwsanc_pigmentz		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-764	lwsanc_pigmentx	sp.	lwsanc_pigmentx_A180S		533	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-765	lwsanc_pigmentx	sp.	lwsanc_pigmentx_A58T_V76A_H294N		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-766	lwsanc_pigmenty 	sp.	lwsanc_pigmenty_I274V		554	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-767	lwsanc_pigmenty 	sp.	lwsanc_pigmenty_I320V		553	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-768	lwsanc_pigmentz	sp.	lwsanc_pigmentz_T58A		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-769	lwsanc_pigmentz	sp.	lwsanc_pigmentzV115I_A180S		534	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-770	lwsanc_pigmentz	sp.	lwsanc_pigmentz_H294N		533	0	COS1	monoclonal antibody 1D5	difference	primary	414	
-771	lwsanc_pigmentz	sp.	lwsanc_pigmentz_V76A		532	0	COS1	monoclonal antibody 1D5	difference	primary	414	
+753	lwsanc_pigmenta	sp.	lwsanc_pigmenta		563	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+754	lwsanc_pigmentb	sp.	lwsanc_pigmentb		563	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+755	lwsanc_pigmentc	sp.	lwsanc_pigmentc		561	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+756	lwsanc_pigmentd	sp.	lwsanc_pigmentd		558	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+757	lwsanc_pigmente	sp.	lwsanc_pigmente		558	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+758	lwsanc_pigmentf	sp.	lwsanc_pigmentf		536	1	COS1	monoclonal antibody 1D4	difference	primary	414	
+759	lwsanc_pigmentg	sp.	lwsanc_pigmentg		561	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+760	lwsanc_pigmenti	sp.	lwsanc_pigmenti		564	2	COS1	monoclonal antibody 1D4	difference	primary	414	
+761	lwsanc_pigmentx	sp.	lwsanc_pigmentx		532	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+762	lwsanc_pigmenty 	sp.	lwsanc_pigmenty 		553	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+763	lwsanc_pigmentz	sp.	lwsanc_pigmentz		532	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+764	lwsanc_pigmentx	sp.	lwsanc_pigmentx_A180S		533	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+765	lwsanc_pigmentx	sp.	lwsanc_pigmentx_A58T_V76A_H294N		532	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+766	lwsanc_pigmenty 	sp.	lwsanc_pigmenty_I274V		554	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+767	lwsanc_pigmenty 	sp.	lwsanc_pigmenty_I320V		553	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+768	lwsanc_pigmentz	sp.	lwsanc_pigmentz_T58A		532	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+769	lwsanc_pigmentz	sp.	lwsanc_pigmentzV115I_A180S		534	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+770	lwsanc_pigmentz	sp.	lwsanc_pigmentz_H294N		533	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+771	lwsanc_pigmentz	sp.	lwsanc_pigmentz_V76A		532	0	COS1	monoclonal antibody 1D4	difference	primary	414	
+772	Bos	taurus	NM_001014890.2_T160A		501.7	1.4	HEK293T	monoclonal antibody 1D4	difference	primary	420	
+773	Bos	taurus	NM_001014890.2_I259M		499	0.1	HEK293T	monoclonal antibody 1D4	difference	primary	420	
+774	Phodopus	sungorus	JQ036217		359	0	HEK293S	monoclonal antibody 1D4	difference	primary	421	
+775	Phodopus	sungorus	JQ036217_F86Y	F86Y	376	0	HEK293S	monoclonal antibody 1D4	difference	primary	421	
+776	Phodopus	sungorus	JQ036217_S90A	S90A	358	0	HEK293S	monoclonal antibody 1D4	difference	primary	421	
+777	Phodopus	sungorus	JQ036217_S90C	S90C	358	0	HEK293S	monoclonal antibody 1D4	difference	primary	421	
+778	Mus	musculus	AF190670.1_F86Y	F86Y	424	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+779	Mus	musculus	AF190670.1_F86Y_T93I_A97T	F86Y_T93I_A97T	430	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+780	Mus	musculus	AF190670.1_E113A	E113A	354	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+781	Mus	musculus	AF190670.1_E113Q	E113Q	351	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+782	Bos	taurus	U92557.1_Y86F	Y86F	367	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+783	Bos	taurus	U92557.1_Y86F_I93T_T97A	Y86F_I93T_T97A	361	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+784	Bos	taurus	U92557.1_S90C	S90C	431	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+785	Chlamydera	nuchalis	CNUCHCUSTOM		403	0	HEK293T	monoclonal antibody 1D4	difference	primary	354	
+786	Chlamydera	nuchalis	CNUCHCUSTOM_S90C	S90C	363	0	HEK293T	monoclonal antibody 1D4	difference	primary	354	
+787	Chlamydera	nuchalis	CNUCHCUSTOM_C86S	C86S	403	0	HEK293T	monoclonal antibody 1D4	difference	primary	354	
+788	Chlamydera	nuchalis	CNUCHCUSTOM_C86F	C86F	365	1.1	HEK293T	monoclonal antibody 1D4	difference	primary	354	
+789	Chlamydera	nuchalis	CNUCHCUSTOM_C86F_S90C	C86F_S90C	363	0.2	HEK293T	monoclonal antibody 1D4	difference	primary	354	
+790	Neogonodactylus	oerstedii	MT112877		539	0	T-REx-293		difference	primary	416	
+791	Neogonodactylus	oerstedii	MT112883		611	0	T-REx-293		difference	primary	416	
+792	Sympetrum	frequens	LC009064		542	0	T-REx-293		difference	primary	416	
+793	Sympetrum	frequens	LC009061		557	0	T-REx-293		difference	primary	416	
+794	Epargyreus	clarus	OK930070.1		577	0	T-REx-293		difference	primary	416	
+795	Macroglossum	stellatarum	KF539444		532	0	T-REx-293		difference	primary	416	
+796	Automeris	io	OK930069.1		532	0	T-REx-293		difference	primary	416	
+797	Anisota	stigma	OK930068.1		537	0	T-REx-293		difference	primary	416	
+798	Callophrys	sheridanii	MN831887.1		518	0	T-REx-293		difference	primary	416	
+799	Bos	taurus	NM_001014890_H195T		500	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+800	Bos	taurus	NM_001014890_H195S		499	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+801	Physeter	catodon	XM_007126220		482	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+802	Physeter	catodon	XM_007126220_T195H		482	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+803	Physeter	catodon	XM_007126220_T195K		482	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+804	Ochotona	princeps	XM_004592516		431	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+805	Ochotona	princeps	XM_004592516_A86F		443	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+806	Ochotona	princeps	XM_004592516_N93T		433	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+807	Ochotona	princeps	XM_004592516_A86F_N93T		363	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+808	Mus	musculus	NM_007538_F86A		370	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+809	Mus	musculus	NM_007538_T93N		365	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+810	Mus	musculus	NM_007538_F86A_T93N		430	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
+811	Mus	musculus	NM_007538_E114Q		353	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+812	Xenopus	laevis	U23463_D114A		353	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+813	Xenopus	laevis	U23463_D114Q		0	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+814	Xenopus	laevis	U23463_D114E		415	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+815	Xenopus	laevis	U23463_D114G		352	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+816	Xenopus	laevis	U23463_D114N		365	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+817	Xenopus	laevis	U23463_D114H		371	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+818	Xenopus	laevis	U23463_D114A_G116D		0	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+819	Xenopus	laevis	U23463_G116A		429	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+820	Xenopus	laevis	U23463_G116D		425	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+821	Sinomicrurus	japonicus boettgeri	LC543598		485	2	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
+822	Laticauda	semifasciata	LC543599		482	2	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
+823	Emydocephalus	ijimae	LC543603		494	1	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
+824	Hydrophis	ornatus	LC543606		490	0	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
+825	Hydrophis	ornatus	LC543597		551	0	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
+826	Aotus	azarai boliviensis	AB081277.2		539	0	COS1	monoclonal antibody 1D4	difference	primary	384	
+827	Saimiri	sciureus	AH006283		532	0.5	COS1	monoclonal antibody 1D4	difference	primary	384	
+828	Saimiri	sciureus	AH006283_I232F	I232F	532	0.4	COS1	monoclonal antibody 1D4	difference	primary	384	
+829	Saimiri	sciureus	AH006283_S236G	S236G	533	0.5	COS1	monoclonal antibody 1D4	difference	primary	384	
+830	Saimiri	sciureus	AH006283_I232F_S236G	I232F,S236G	533	0.6	COS1	monoclonal antibody 1D4	difference	primary	384	
+831	Saimiri	sciureus	AH006282		545	0	COS1	monoclonal antibody 1D4	difference	primary	384	
+832	Saimiri	sciureus	AH006282_I232F	I232F	545	1.8	COS1	monoclonal antibody 1D4	difference	primary	384	
+833	Saimiri	sciureus	AH006282_S236G	S236G	546	0.4	COS1	monoclonal antibody 1D4	difference	primary	384	
+834	Saimiri	sciureus	AH006282_I232F_S236G	I232F,S236G	546	0.9	COS1	monoclonal antibody 1D4	difference	primary	384	
+835	Saimiri	sciureus	AH006281		558	0	COS1	monoclonal antibody 1D4	difference	primary	384	
+836	Saimiri	sciureus	AH006281_F232I	F232I	559	0.4	COS1	monoclonal antibody 1D4	difference	primary	384	
+837	Saimiri	sciureus	AH006281_G236S	G236S	556	0.5	COS1	monoclonal antibody 1D4	difference	primary	384	
+838	Saimiri	sciureus	AH006281_F232I_G236S	F232I,G236S	559	0.4	COS1	monoclonal antibody 1D4	difference	primary	384	
