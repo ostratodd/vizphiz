@@ -21,10 +21,9 @@ mutation = args["mut"]
 accession  = args["target_accession"]
 raccession = args["reference_accession"]
 v = args["verbose"]
-
-def getAcc(accession):
+switch = int(0)
+def getAcc(accession, check):
     #check if these are ancestral pigments from yokoyama, which are not in GenBank
-
     if accession == "pigmenta":
         return("MNGTEGPNFYVPMSNKTGVVRSPFEYPQYYLAEPWKYSALAAYMFFLILVGFPINFLTLYVTIQHKKLRTPLNYILLNLAVADLFMVFGGFTTTMYTSMHGYFVFGPTGCNIEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWIMALACAAPPLFGWSRYIPEGMQCSCGVDYYTLKPEVNNESFVIYMFVVHFTIPLIVIFFCYGRLVCTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLVCWVPYASVAFYIFTHQGSDFGPIFMTVPAFFAKSSAIYNPVIYILMNKQFRNCMITTLCCGKNPFGDEE")
     if accession == "pigmentb":
@@ -64,7 +63,11 @@ def getAcc(accession):
     if accession == "swsanc7":
         return("MSKMSEEEDFYLFKNISSVGPWDGPQYHIAPVWAFYLQAAFMGFVFFVGTPLNAIVLVATLRYKKLRQPLNYILVNVSLGGFLFCIFSVFTVFIASCHGYFVFGRHVCALEAFLGSVAGLVTGWSLAFLAFERYIVICKPFGNFRFSSKHALMVVVATWIIGIGVSIPPFFGWSRFIPEGLQCSCGPDWYTVGTKYRSEYYTWFLFIFCFIVPLSLICFSYSQLLRALRAVAAQQQESATTQKAEREVSHMVVVMVGSFCLCYVPYAALAMYMVNNRNHGLDLRLVTIPAFFSKSSCVYNPIIYCFMNKQFRACIMEMVCGKPMTDESDVSSSAQKTEVSTVSSSQVGPN")
     if accession == "manual":
-        manual = input("Enter Sequence: ")
+
+        if check == 0:
+            manual = input("Enter Target Sequence: ")
+        else:
+            manual = input("Enter Reference Sequence: ")
         return(manual)
     
     handle = Entrez.efetch(db="nucleotide", id=accession, rettype="gb", retmode="text")
@@ -77,8 +80,9 @@ def getAcc(accession):
 
 
 #Fetch sequences to manipulate and align
-wt = Protein(getAcc(accession))
-bovine = Protein(getAcc(raccession))
+wt = Protein(getAcc(accession, switch))
+switch+=1
+bovine = Protein(getAcc(raccession, switch))
 
 
 substitution_matrix = substitution_matrices.load("BLOSUM45")
