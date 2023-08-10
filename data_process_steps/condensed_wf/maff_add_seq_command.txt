@@ -1,1 +1,0 @@
-mafft --add mutant_seqs.fasta --keeplength wds_aligned_db_fmt.fasta > output.fasta
