@@ -1,0 +1,3 @@
+SWS2		Chordata	Craniata	Actinopteri	Danio 	rerio	NCBI	AB087809.1	416
+
+LWS		Chordata	Craniata	Lepidosauria	Anolis	carolinensis	NCBI	U08131	561
