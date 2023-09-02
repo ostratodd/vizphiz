@@ -1,0 +1,151 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+#install.packages('phytools')
+#install.packages('raster')
+```
+```{r}
+library(phytools)
+library(ape)
+library(readr)
+
+```
+```{r}
+treefile <- "ops_phylo.tre"
+
+tree <- ape::read.tree(treefile);phytools::read.newick(treefile)
+```
+
+```{r}
+tree
+```
+```{r}
+tree$tip.label
+```
+
+
+```{r}
+tr <- as.phylo(tree)
+tr
+```
+
+```{r}
+meta<-read.delim("wds_meta.tsv", header = TRUE, row.names = "Seqs")
+
+```
+
+```{r message=TRUE}
+head(meta)
+```
+```{r}
+V <- meta[,c(1)]
+#V <- subset(V, select = -c(Species) )
+V
+
+```
+```{r}
+Z <- row.names(meta)
+#Z
+```
+
+
+```{r}
+X.full<-V
+
+```
+
+```{r}
+X.missing<-X.full
+#X.missing
+
+```
+
+
+```{r message=TRUE, warning=TRUE}
+X.missing[cbind(sample(1:(X.missing),100),
+    sample(2:2,50,replace=TRUE))]<-NA
+X.missing
+```
+
+```{r}
+test <- data.frame(Z,X.missing, row.names = "Z")
+test
+```
+```{r}
+states <- as.matrix(test)
+#states
+```
+
+
+```{r message=TRUE, warning=FALSE}
+X.imputed<-phylo.impute(tr,states)
+X.imputed
+```
+
+```{r}
+missing<-which(is.na(X.missing),arr.ind=TRUE)
+plot(X.full[missing],X.imputed[missing],pch=21,bg="grey",cex=1.5,
+    xlab="true values",ylab="imputed values using phylo.impute",asp=1)
+lines(x=c(min(par()$usr[c(1,3)]),max(par()$usr[c(2,4)])),
+    y=c(min(par()$usr[c(1,3)]),max(par()$usr[c(2,4)])),
+    col=make.transparent("blue",0.5),lwd=2)
+abline(h=0,lty="dotted")
+abline(v=0,lty="dotted")
+```
+
+```{r}
+cor(X.full[missing],X.imputed[missing])
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+#tree<-pbtree(n=26,tip.label=LETTERS,scale=1)
+x<-fastBM(tree)
+```
+
+```{r}
+tree
+```
+
+
+```{r}
+x
+```
+
+
+```{r}
+xp<-sample(x,700)
+
+```
+
+```{r}
+xp
+```
+
+```{r}
+fit<-anc.ML(tree,xp)
+fit
+```
+
+
+
+
+
+
+
+

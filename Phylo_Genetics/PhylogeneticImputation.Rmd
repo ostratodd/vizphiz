@@ -1,0 +1,173 @@
+---
+title: "Imputation"
+author: "RMV"
+date: '2023-05-11'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## The purpose of this code is to take in a phylogeny of chitons, and then perform phylogenetic imputation to predict states for the tips that we don't know states for. 
+```{r}
+#library(ggplot2)
+library(readr)
+library(phytools)
+#library(ape)
+#setwd("C:/Users/remiv/OneDrive/Desktop/20230510_imputation")
+
+#I like to do these extra steps because it prints the list of taxa at the end and that's helpful for inevitable errors of "WAH THEY DON'T MATCH". Also, apparently the person who wrote this decided phylogenies can't have quotes. Like normal goddamn newick files have? Yeah, delete all those. Just do a control find for ' on your phylogeny because they all have to go. The fuck?
+treefile="rods3.tre"
+chitontree<- ape::read.tree(treefile);phytools::read.newick(treefile)
+chitontree$tip.label
+
+#make tree a phylo object
+tr <- as.phylo(chitontree)
+
+```
+
+```{r}
+is.rooted(tr) #[1] FALSE
+
+```
+
+```{r}
+outgroup <- c("Bovine") # I choose this clade
+rooted_tree <- root(tr, outgroup, resolve.root=TRUE)
+tr <- as.phylo(rooted_tree)
+```
+
+
+
+```{r}
+#head(tr)
+```
+
+
+
+```{r}
+#Read the state matrix of known states, where all taxa are listed but unknown states are filled in as NA. Note that you can have 0 as a state, but that's not the same as "we don't know". The first column is taxa in the exact format as the tiplabels of your tree. Down to the last space.
+StateMatrix <- read_csv("rod_meta.csv", col_names = TRUE)
+#make it a data frame
+statesrownames <- data.frame(StateMatrix, row.names = 1)
+#make the data frame a matrix. Yes it's step by step and tedious but then you can check what went wrong.
+states <- as.matrix(statesrownames)
+```
+
+```{r}
+X.full<-states
+
+```
+
+```{r}
+X.full
+```
+
+
+```{r}
+X.missing<-X.full
+#X.missing
+
+```
+
+
+```{r message=TRUE, warning=TRUE}
+X.missing[cbind(sample(2:199,25),
+    sample(1,10,replace=TRUE))]<-NA
+X.missing
+```
+```{r}
+states <- as.matrix(X.missing)
+```
+
+
+```{r}
+#Alright here's the magic command!
+imputed<-phylo.impute(tr,states)
+
+```
+
+```{r}
+imputed
+```
+
+```{r}
+missing<-which(is.na(states),arr.ind=TRUE)
+plot(X.full[missing],imputed[missing],pch=21,bg="grey",cex=1.5,
+    xlab="true values",ylab="imputed values using phylo.impute",asp=1)
+lines(x=c(min(par()$usr[c(1,3)]),max(par()$usr[c(2,4)])),
+    y=c(min(par()$usr[c(1,3)]),max(par()$usr[c(2,4)])),
+    col=make.transparent("blue",0.5),lwd=2)
+abline(h=0,lty="dotted")
+abline(v=0,lty="dotted")
+```
+
+```{r}
+cor(X.full[missing],imputed[missing])
+
+```
+
+```{r}
+missing<-which(is.na(states),arr.ind=TRUE)
+missing
+```
+
+```{r}
+rows <- row.names(missing)
+rows
+```
+
+
+```{r}
+results <- data.frame(X.full[missing],imputed[missing], row.names = rows)
+colnames(results) <- c('Known', 'Imputed')
+results
+```
+
+# ###################################
+
+```{r}
+full.rows <- row.names(X.full)
+full.results <- data.frame(X.full,imputed, row.names = full.rows)
+colnames(full.results) <- c('Known', 'Imputed')
+full.results
+write.csv(full.results, "imputed_ops_rods_test.csv", row.names=TRUE)
+
+```
+
+```{r}
+phylomorphospace(tr, full.results, A=NULL, label="off", node.size=c(0,1.5))
+
+```
+```{r}
+plot(full.results$Known,full.results$Imputed)
+abline(lm(full.results$Imputed~ 0 + full.results$Known), col="grey") # regression line (y~x)
+abline(lm(full.results$Imputed~full.results$Known), col="red") # regression line (y~x)
+```
+
+```{r}
+#PDF time
+pdf(file = "ops_rods_test.pdf", width = 8, height = 8)
+#Create the plot with R code
+
+```
+```{r}
+plot(full.results$Known,full.results$Imputed)
+dev.off()
+
+# Putting fancier stuff on line:
+
+Model<-lm(full.results$Imputed~full.results$Known,data=full.results)
+summary(Model)
+
+```
+```{r}
+plot(full.results$Known,full.results$Imputed)
+abline(lm(full.results$Imputed~ 0 + full.results$Known), col="grey") # regression line (y~x)
+abline(lm(full.results$Imputed~full.results$Known), col="red") #)
+
+abline(lm(full.results$Imputed~full.results$Known,data=full.results))
+```

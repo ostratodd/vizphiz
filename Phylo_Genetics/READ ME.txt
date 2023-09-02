@@ -1,0 +1,1 @@
+MEME_COMMAND = meme het_fasta3.fasta -protein -oc . -nostatus -time 14400 -mod anr -nmotifs 4 -minw 6 -maxw 50 -objfun classic -markov_order 0
