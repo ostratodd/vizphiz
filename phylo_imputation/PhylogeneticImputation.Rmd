@@ -15,12 +15,14 @@ knitr::opts_chunk$set(echo = TRUE, root.dir = "C:/Users/safra/Documents/GitHub/v
 
 ```{r}
 #install.packages("ggplot2")
-#install.packages(readr)
-#install.packages(phytools)
+#install.packages('readr')
+#install.packages('phytools')
+#install.packages('Metrics')
 
 library(ggplot2)
 library(readr)
 library(phytools)
+library(Metrics)
 ```
 
 ```{r}
@@ -74,7 +76,7 @@ X.missing<-X.full
 ```{r message=TRUE, warning=TRUE}
 X.missing[cbind(sample(2:size,n),
     sample(1,5,replace=TRUE))]<-NA
-X.missing
+#X.missing
 ```
 
 ```{r}
@@ -133,6 +135,12 @@ results
 name <- sprintf("./results/imputed_ops_%s_test.csv", ds)
 write.csv(results, name, row.names=TRUE)
 ```
+```{r}
+#calculating the mae for the imputation predictions
+imp_mae <- mae(as.matrix(results['Known']),results(res_df['Imputed']))
+imp_mape <- mape(as.matrix(results['Known']),as.matrix(results['Imputed']))
+metric_print <- sprintf("\nMAE = %f\nMAPE = %f", imp_mae, imp_mape)
+```
 
 ```{r}
 Model<-lm(results$Imputed~results$Known,data=results)
@@ -140,10 +148,11 @@ summary.partial <- summary(Model)
 name <- sprintf("./results/imputed_ops_%s_lm_summary.txt", ds)
 sink(name)
 print(summary.partial)
+print(metric_print)
 sink()  
 ```
 
-# ###################################
+####################################
 
 ```{r}
 full.rows <- row.names(X.full)
@@ -177,18 +186,19 @@ summary
 ```
 
 ```{r}
-#plot(full.results$Known,full.results$Imputed)
-#abline(lm(full.results$Imputed~ 0 + full.results$Known), col="grey") # regression line (y~x)
-#abline(lm(full.results$Imputed~full.results$Known), col="red") #)
+results_file <- read_csv("./results/mws_lws/imputed_ops_mws_test.csv", col_names = TRUE)
+res_df <- data.frame(results_file, row.names = 1)
+res_df
+```
 
-#abline(lm(full.results$Imputed~full.results$Known,data=full.results))
+```{r}
+imp_mae <- mae(as.matrix(res_df['Known']),as.matrix(res_df['Imputed']))
+imp_mape <- mape(as.matrix(res_df['Known']),as.matrix(res_df['Imputed']))
+#imp_mae
+#imp_mape
 ```
 ```{r}
-#plot(full.results$Known,full.results$Imputed)
-#abline(lm(full.results$Imputed~ 0 + full.results$Known), col="grey") # regression line (y~x)
-#test<-abline(lm(full.results$Imputed~full.results$Known), col="red") # regression line (y~x)
-#name <- sprintf("./results/whole_imputed_ops_%s_test.csv", ds)
-#pdf(test,file = "./results/ops_lws_test.pdf", width = 8, height = 8)
-#dev.off()
-
+metric_print <- sprintf("MAE = %f   MAPE = %f", imp_mae, imp_mape)
+print(metric_print)
 ```
+
