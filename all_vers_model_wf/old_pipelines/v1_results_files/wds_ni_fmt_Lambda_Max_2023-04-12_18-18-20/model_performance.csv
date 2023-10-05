@@ -1,0 +1,38 @@
+,Model,R2,MAE,MSE,RMSE,MAPE
+BayesianRidge_with_default_parameters,Bayesian Ridge,0.929,8.5286,258.6348,15.1059,0.0196
+xgb_with_default_parameters,XGBRegressor,0.9253,7.7153,271.6495,15.5374,0.0179
+gbc_with_default_parameters,Gradient Boosting Regressor,0.9224,8.5333,282.5551,15.8518,0.0196
+rf_with_default_parameters,Random Forest Regressor,0.9209,8.1198,288.232,15.9501,0.0188
+lgbm_with_default_parameters,LGBMRegressor,0.9204,8.5635,290.6629,16.0253,0.0198
+rf_max_depth=8_n_estimators=1000,Random Forest Regressor,0.9172,8.762,301.6488,16.3719,0.0202
+rf_max_depth=8_n_estimators=500,Random Forest Regressor,0.9171,8.774,301.929,16.3858,0.0202
+rf_max_depth=6_n_estimators=1000,Random Forest Regressor,0.9099,10.1468,327.63,17.1702,0.0232
+rf_max_depth=6_n_estimators=500,Random Forest Regressor,0.9096,10.1634,328.5919,17.2082,0.0233
+LassoLars_alpha=0.5,Lasso Lars,0.8981,12.3272,365.692,18.4735,0.0283
+Lasso_alpha=0.5,Lasso,0.8981,12.3268,365.6751,18.4731,0.0283
+HubR_with_default_parameters,Huber Regressor,0.8966,10.3255,371.9472,18.5998,0.023
+et_with_default_parameters,Extra Trees Regressor,0.895,8.3801,376.5274,18.5579,0.0192
+dt_with_default_parameters,Decision Tree Regressor,0.893,8.5588,383.7753,18.7882,0.0196
+et_max_depth=8_n_estimators=500,Extra Trees Regressor,0.8923,9.4672,386.4831,18.815,0.0215
+et_max_depth=8_n_estimators=1000,Extra Trees Regressor,0.8921,9.4654,387.2333,18.8262,0.0214
+rf_max_depth=4_n_estimators=500,Random Forest Regressor,0.8915,12.7753,393.348,19.0812,0.0292
+rf_max_depth=4_n_estimators=1000,Random Forest Regressor,0.8913,12.789,393.7458,19.0907,0.0292
+et_max_depth=6_n_estimators=500,Extra Trees Regressor,0.8861,10.8332,410.9356,19.3947,0.0245
+et_max_depth=6_n_estimators=1000,Extra Trees Regressor,0.8859,10.8349,411.5708,19.4091,0.0245
+dt_max_depth=6,Decision Tree Regressor,0.8816,11.0698,428.8272,19.7212,0.025
+dt_max_depth=8,Decision Tree Regressor,0.8752,10.0522,453.2034,19.9624,0.0227
+LassoLars_with_default_parameters,Lasso Lars,0.8711,14.62,461.0979,20.8705,0.0335
+LassoLars_alpha=1,Lasso Lars,0.8711,14.62,461.0979,20.8705,0.0335
+Lasso_with_default_parameters,Lasso,0.8711,14.6197,461.079,20.8702,0.0335
+Lasso_alpha=1,Lasso,0.8711,14.6197,461.079,20.8702,0.0335
+Adaboost_learning_rate=0.01_n_estimators=100,Ada Boost Regressor,0.8668,15.1965,475.3101,21.2993,0.0348
+Adaboost_with_default_parameters,Ada Boost Regressor,0.8648,15.4947,480.3713,21.5179,0.0356
+Adaboost_learning_rate=0.01_n_estimators=50,Ada Boost Regressor,0.8641,15.2678,489.779,21.4612,0.0348
+dt_max_depth=4,Decision Tree Regressor,0.8602,14.0921,501.1987,21.809,0.032
+Adaboost_learning_rate=0.05_n_estimators=50,Ada Boost Regressor,0.8596,15.6832,499.1976,21.8273,0.0359
+et_max_depth=4_n_estimators=500,Extra Trees Regressor,0.8595,14.122,505.5533,21.8147,0.0321
+et_max_depth=4_n_estimators=1000,Extra Trees Regressor,0.8593,14.1302,506.2497,21.8276,0.0321
+Adaboost_learning_rate=0.05_n_estimators=100,Ada Boost Regressor,0.8582,15.674,504.9252,21.8981,0.036
+Lasso_alpha=3,Lasso,0.8077,19.1236,682.8728,25.6597,0.0439
+LassoLars_alpha=3,Lasso Lars,0.8077,19.1234,682.8497,25.6593,0.0439
+lr_with_default_parameters,Linear Regression,-1.1950213653016469e+23,6553106307994.965,4.343366516656369e+26,18533796759291.54,13965904498.2371

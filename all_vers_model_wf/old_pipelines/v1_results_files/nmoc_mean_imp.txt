@@ -1,0 +1,25 @@
+
+MOST IMPORTANT SITES BASED ON MEAN OF IMP_SITES BETWEEN ALL MODELS
+The following sites have been translated to the standard Bovine equivalent...
+Format is before translation --> post translation to bovine equivalent.Site 108 == 38 // In Not in TM Region
+Site 119 == 49 // In TM1 x
+Site 156 == 86 // In TM2 x
+Site 169 == 99 // In Not in TM Region
+Site 373 == 286 // In TM7 
+Site 278 == 205 // In TM5 x
+Site 407 == 320 // In Not in TM Region
+Site 286 == 213 // In TM5 x [low-shift]
+Site 134 == 64 // In TM1 x [low-shift]
+Site 301 == 228 // In TM5
+
+IMP_SITES ONLY FROM THE TOP PERFORMING MODELS
+Site 156 == 86 // In TM2 x
+Site 108 == 38 // In Not in TM Region
+Site 278 == 205 // In TM5 x
+Site 407 == 320 // In Not in TM Region
+Site 229 == 157 // In TM4
+Site 169 == 99 // In Not in TM Region
+Site 170 == 100 // In Not in TM Region // x
+Site 373 == 286 // In TM7 
+Site 241 == 169 // In TM4 x [low-shift]
+
