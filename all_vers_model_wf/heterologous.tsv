@@ -720,8 +720,8 @@
 720	Mus	musculus	NP_031564.1_F46T,F49L,T52F,L81F,F85L,T92P	F46T,F49L,T52F,L81F,F85L,T92P	395	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 721	Mus	musculus	NP_031564.1_F46T,F49L,T52F,L81F,F85L,T92P,A114G,S118T	F46T,F49L,T52F,L81F,F85L,T92P,A114G,S118T	412	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 722	Mus	musculus	NP_031564.1_F46T,F49L,T52F,F85L,T92P,A114G,S118T	F46T,F49L,T52F,F85L,T92P,A114G,S118T	411	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
-723	Mus	musculus	NP_031564.1_E113Q	E113Q	360	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
-724	Mus	musculus	NP_031564.1_F46T,F49L,T52F,F85L,T92P,E113Q,A114G,S118T	F46T,F49L,T52F,F85L,T92P,E113Q,A114G,S118T	359	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
+723	Mus	musculus	NP_031564.1_E113Q	E113Q	352	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
+724	Mus	musculus	NP_031564.1_F46T,F49L,T52F,F85L,T92P,E113Q,A114G,S118T	F46T,F49L,T52F,F85L,T92P,E113Q,A114G,S118T	369	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 725	Homo	sapiens	AH003620.2_T46F,L49F,F52T,L93F,P100T,G114A,T118S	T46F,L49F,F52T,L93F,P100T,G114A,T118S	352	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 726	Homo	sapiens	AH003620.2_T46F,L49F,F52T,F88L,L93F,P100T,G114A,T118S	T46F,L49F,F52T,F88L,L93F,P100T,G114A,T118S	369	0	COS-1	monoclonal antibody 1D5	difference	primary	413	
 727	Loxodonta	africana	AY686752.1_N83D	N83D	498	0	COS-1	monoclonal antibody 1D5	difference	primary	415	
@@ -744,9 +744,9 @@
 744	Chrysochroa 	rajah	OP722948.1		509	0	Dropsophilia 	null	ERG	primary	418	
 745	Chrysochroa	mniszechii	OP722949.1		572	0	Dropsophilia 	null	ERG	primary	418	
 746	Chrysochroa	mniszechii	OP722950.1		507	0	Dropsophilia 	null	ERG	primary	418	
-747	Chrysochroa 	rajah	OP722931.1_Q118A	Q118A	552	0	Dropsophilia 	null	ERG	primary	418	
-748	Chrysochroa 	rajah	OP722931.1_F261Y	F261Y	559	0	Dropsophilia 	null	ERG	primary	418	
-749	Chrysochroa 	rajah	OP722931.1_Q118A_F261Y	Q118A,F261Y	358	0	Dropsophilia 	null	ERG	primary	418	
+747	Chrysochroa 	rajah	OP722931.1_Q186A	Q186A	352	0	Dropsophilia 	null	ERG	primary	418	
+748	Chrysochroa 	rajah	OP722931.1_F261Y	F261Y	359	0	Dropsophilia 	null	ERG	primary	418	
+749	Chrysochroa 	rajah	OP722931.1_Q186A_F261Y	Q118A,F261Y	358	0	Dropsophilia 	null	ERG	primary	418	
 750	Chrysochroa 	rajah	OP722948.1_C122T	C122T	507	0	Dropsophilia 	null	ERG	primary	418	
 751	Chrysochroa 	rajah	OP722948.1_V211C	V211C	511	0	Dropsophilia 	null	ERG	primary	418	
 752	Chrysochroa 	rajah	OP722948.1_C122T_V211C	C122T,V211C	519	0	Dropsophilia 	null	ERG	primary	418	
@@ -778,7 +778,7 @@
 778	Mus	musculus	NP_031564.1_F86Y	031564.1_F86Y	424	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
 779	Mus	musculus	NP_031564.1_F86Y_T93I_A97T	F86Y,T93I,A97T	430	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
 780	Mus	musculus	NP_031564.1_E113A	031564.1_E113A	354	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
-781	Mus	musculus	NP_031564.1_E113Q	031564.1_E113Q	351	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
+781	Mus	musculus	NP_031564.1_E113Q	031564.1_E113Q	352	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
 782	Bos	taurus	U92557.1_Y86F	Y86F	367	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
 783	Bos	taurus	U92557.1_Y86F_I93T_T97A	Y86F,I93T,T97A	361	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
 784	Bos	taurus	U92557.1_S90C	S90C	431	0	COS-1	monoclonal antibody 1D4	difference	primary	409	
@@ -809,15 +809,15 @@
 809	Mus	musculus	NP_031564.1_T93N	T93N	365	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
 810	Mus	musculus	NP_031564.1_F86A_T93N	F86A,T93N	430	0	HEK293T	monoclonal antibody 1D4	difference	primary	419	
 811	Mus	musculus	NP_031564.1_E114Q	E114Q	353	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-812	Xenopus	laevis	U23463_D114A	D114A	353	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-813	Xenopus	laevis	U23463_D114Q	D114Q	0	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-814	Xenopus	laevis	U23463_D114E	D114E	415	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-815	Xenopus	laevis	U23463_D114G	D114G	352	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-816	Xenopus	laevis	U23463_D114N	D114N	365	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-817	Xenopus	laevis	U23463_D114H	D114H	371	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-818	Xenopus	laevis	U23463_D114A_G116D	D114A,G116D	0	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-819	Xenopus	laevis	U23463_G116A	G116A	429	0	COS1	monoclonal antibody 1D4	dark	primary	425	
-820	Xenopus	laevis	U23463_G116D	G116D	425	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+812	Xenopus	laevis	NM_001085652.1_D114A	D114A	353	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+813	Xenopus	laevis	NM_001085652.1_D114Q	D114Q	0	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+814	Xenopus	laevis	NM_001085652.1_D114E	D114E	415	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+815	Xenopus	laevis	NM_001085652.1_D114G	D114G	352	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+816	Xenopus	laevis	NM_001085652.1_D114N	D114N	365	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+817	Xenopus	laevis	NM_001085652.1_D114H	D114H	371	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+818	Xenopus	laevis	NM_001085652.1_D114A_G116D	D114A,G116D	0	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+819	Xenopus	laevis	NM_001085652.1_G116A	G116A	429	0	COS1	monoclonal antibody 1D4	dark	primary	425	
+820	Xenopus	laevis	NM_001085652.1_G116D	G116D	425	0	COS1	monoclonal antibody 1D4	dark	primary	425	
 821	Sinomicrurus	japonicus boettgeri	LC543598		485	2	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
 822	Laticauda	semifasciata	LC543599		482	2	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
 823	Emydocephalus	ijimae	LC543603		494	1	COS-7	anti-FLAG monoclonal antibody	difference	primary	424	
@@ -868,3 +868,33 @@
 868	Columba	livia	AH007799.2_S269A	S269A	448	0	COS1	monoclonal antibody 1D4	difference	primary	426	
 869	Columba	livia	AH007799.2_S269C	S269C	450	0	COS1	monoclonal antibody 1D4	difference	primary	426	
 870	Columba	livia	AH007799.2_S269T	S269T	453	0	COS1	monoclonal antibody 1D4	difference	primary	426	
+871	Anopheles	stephensi	LC710140		430	2	HEK293S	monoclonal antibody rho 1D4	difference	primary	441	
+872	Anopheles	stephensi	AB753162		500	0	HEK293S	monoclonal antibody rho 1D4	difference	primary	442	non-visual opsin
+873	Apis	cerana japonica	AB355816		340	0	HEK293s	monoclonal antibody rho 1D4	difference	primary	472	UV in the dark state
+874	Apis	cerana japonica	AB355817		430	0	HEK293s	monoclonal antibody rho 1D4	difference	primary	472	Blue
+875	Apis	cerana japonica	AB355818		485	0	HEK293s	monoclonal antibody rho 1D4	difference	primary	472	SWS
+876	Drosophila 	melanogaster	NM_079687.3		347	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+877	Drosophila 	melanogaster	NM_079683.3_Y126F	Y126F	486	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+878	Drosophila 	melanogaster	NM_079687.3_F133Y	F133Y	344	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+879	Drosophila 	melanogaster	U67905.1		436	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+880	Drosophila 	melanogaster	U67905.1_H38P_R42L	H38P, R42L	434	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+881	Drosophila 	melanogaster	U67905.1_A53Y	A53Y	435	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+882	Drosophila 	melanogaster	U67905.1_N104K	N104K	377	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+883	Drosophila 	melanogaster	U67905.1_I110Y	I110Y	434	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+884	Drosophila 	melanogaster	U67905.1_D125Q_Y127F	D125Q, Y127F	436	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+885	Drosophila 	melanogaster	U67905.1_F147Y	F147Y	437	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+886	Drosophila 	melanogaster	U67905.1_T173I_W176Y	T173I, W176Y	434	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+887	Drosophila 	melanogaster	U67905.1_R243F	R243F	435	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+888	Drosophila 	melanogaster	U67905.1_S325A	S325A	437	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+889	Drosophila 	melanogaster	NM_079687.3_K110N	K110N	420	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+890	Drosophila 	melanogaster	NM_079687.3_K110E	K110E	421	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+891	Drosophila 	melanogaster	NM_079683.3_Y126E	Y126E	488	0	Drosophila	-	-	primary	483	measured on transferred version on blind white mutant
+892	Drosophila 	melanogaster	AF184224		345	0	Drosophila	-	-	primary	123	measured on transferred version on blind white mutant
+893	Drosophila 	melanogaster	M77281.1		375	0	Drosophila	-	-	primary	123	measured on transferred version on blind white mutant
+894	Apis	mellifera	AF004168		439	0	Drosophila	-	-	primary	498	from bees, measured on transferred version on blind white mutant
+895	Apis	mellifera	AF004169		353	0	Drosophila	-	-	primary	498	from bees, measured on transferred version on blind white mutant
+896	Thermonectus	marmoratus	EU921225		487.3	0	Drosophila	-	-	primary	499	LWS, measured on transferred version on blind white mutant
+897	Thermonectus	marmoratus	EU921227		380	0	Drosophila	-	-	primary	499	UVS, measured on transferred version on blind white mutant
+898	Drosophila	melanogaster	AY060299		350	0	HEK293T	monoclonal antibody rho 1D4	difference	primary	500	
+899	Drosophila	melanogaster	AY060299_K168E	K168E	450	0	HEK293T	monoclonal antibody rho 1D4	difference	primary	500	K90E position after allignment in the original paper, but from the suppliment material, the actual position on the sequence is 168
+900	Limulus	polyphemus	L03782.1		513	0.17	Drosophila	monoclonal antibody rho 1D4		primary	504	measured through ERG of white eye fruitfly mutant
