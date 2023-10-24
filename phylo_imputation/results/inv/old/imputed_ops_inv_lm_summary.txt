@@ -3,17 +3,17 @@ Call:
 lm(formula = results$Imputed ~ results$Known, data = results)
 
 Residuals:
-   Min     1Q Median     3Q    Max 
--57.01 -10.61  -3.73  14.19  37.81 
+    Min      1Q  Median      3Q     Max 
+-73.679  -5.974  12.870  19.905  27.081 
 
 Coefficients:
-              Estimate Std. Error t value Pr(>|t|)   
-(Intercept)   283.5192    73.1987   3.873  0.00192 **
-results$Known   0.4751     0.1398   3.398  0.00476 **
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   118.9190    83.8662   1.418 0.179725    
+results$Known   0.7382     0.1631   4.525 0.000571 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 25.66 on 13 degrees of freedom
-Multiple R-squared:  0.4704,	Adjusted R-squared:  0.4296 
-F-statistic: 11.54 on 1 and 13 DF,  p-value: 0.004763
+Residual standard error: 30.37 on 13 degrees of freedom
+Multiple R-squared:  0.6116,	Adjusted R-squared:  0.5817 
+F-statistic: 20.47 on 1 and 13 DF,  p-value: 0.000571
 
